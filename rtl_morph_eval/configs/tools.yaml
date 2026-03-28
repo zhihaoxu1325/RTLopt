@@ -1,0 +1,6 @@
+yosys_bin: /usr/bin/yosys
+abc_bin: /usr/bin/abc
+iverilog_bin: /usr/bin/iverilog
+vvp_bin: /usr/bin/vvp
+liberty_path: /path/to/standard.lib
+timeout_sec: 300
