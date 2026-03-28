@@ -1,0 +1,8 @@
+num_mutants_per_case: 5
+loc_buckets: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+sample_per_bucket: 100
+prompt_modes: [zero_shot, few_shot, chain_of_thought]
+optimizers: [gpt4, claude37, rtlrewriter]
+run_simulation: true
+run_formal: true
+run_synthesis: true

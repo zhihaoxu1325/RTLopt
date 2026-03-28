@@ -1,0 +1,4 @@
+zero_shot: |
+  You are an expert hardware engineer optimizing RTL code for performance and area.
+  Below is an RTL module. Please optimize it while keeping its functionality unchanged.
+few_shot_examples: {}
