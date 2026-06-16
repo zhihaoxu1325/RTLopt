@@ -1,0 +1,44 @@
+{
+  "branch": "other_systemc-verilog_random_number_generator",
+  "name": "systemc/verilog random number generator",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "LGPL",
+  "prefix": "other",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_systemc-verilog_random_number_generator",
+  "verilog_files": [
+    "rtl/verilog/AC97Controller.v",
+    "rtl/verilog/PSG16.v",
+    "rtl/verilog/PSGBusArb.v",
+    "rtl/verilog/PSGChannelSummer.v",
+    "rtl/verilog/PSGEnvGen.v",
+    "rtl/verilog/PSGEnvGenDec.v",
+    "rtl/verilog/PSGFilter.v",
+    "rtl/verilog/PSGMasterVolumeControl.v",
+    "rtl/verilog/PSGNoteGen.v",
+    "rtl/verilog/PSGNoteOutMux.v",
+    "rtl/verilog/PSGOutputSummer.v",
+    "rtl/verilog/PSGShaper.v",
+    "rtl/verilog/mux4to1.v",
+    "rtl/verilog/rng.v"
+  ],
+  "license_files": [
+    "doc/gpl.txt",
+    "doc/lgpl.txt"
+  ],
+  "top_candidates": [
+    "AC97",
+    "PSG16",
+    "PSGBusArb",
+    "PSGChannelSummer",
+    "PSGEnvGen",
+    "PSGFilter",
+    "PSGMasterVolumeControl",
+    "PSGNoteGen",
+    "PSGNoteOutMux",
+    "PSGOutputSummer",
+    "PSGShaper",
+    "mux4to1",
+    "rng"
+  ]
+}

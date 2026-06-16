@@ -1,0 +1,36 @@
+{
+  "branch": "library_common_design_environment",
+  "name": "common design environment",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Others",
+  "prefix": "library",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/library_common_design_environment",
+  "verilog_files": [
+    "ip/pad/rtl/verilog/pad_in_dig.v",
+    "ip/pad/rtl/verilog/pad_od_dig.v",
+    "ip/pad/rtl/verilog/pad_out_dig.v",
+    "ip/pad/rtl/verilog/pad_se_dig.v",
+    "ip/pad/rtl/verilog/pad_tri_dig.v",
+    "ip/pad/rtl/verilog/syn/pad_od_dig.v",
+    "ip/sram/rtl/verilog/lint/sram_be.v",
+    "ip/sram/rtl/verilog/lint/sram_def.v",
+    "ip/sram/rtl/verilog/lint/sram_dp.v",
+    "ip/sram/rtl/verilog/sram_be.v",
+    "ip/sram/rtl/verilog/sram_def.v",
+    "ip/sram/rtl/verilog/sram_dp.v"
+  ],
+  "license_files": [
+    "license/LICENSE-2.0.txt"
+  ],
+  "top_candidates": [
+    "cde_pad_in_dig",
+    "cde_pad_od_dig",
+    "cde_pad_out_dig",
+    "cde_pad_se_dig",
+    "cde_pad_tri_dig",
+    "cde_sram_be",
+    "cde_sram_def",
+    "cde_sram_dp"
+  ]
+}

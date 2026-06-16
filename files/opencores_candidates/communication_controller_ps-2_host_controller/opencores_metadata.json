@@ -1,0 +1,28 @@
+{
+  "branch": "communication_controller_ps-2_host_controller",
+  "name": "ps/2 host controller",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ps-2_host_controller",
+  "verilog_files": [
+    "hdl/ps2_host.v",
+    "hdl/ps2_host_clk_ctrl.v",
+    "hdl/ps2_host_defines.v",
+    "hdl/ps2_host_rx.v",
+    "hdl/ps2_host_testbench.v",
+    "hdl/ps2_host_tx.v",
+    "hdl/ps2_host_watchdog.v",
+    "hdl/timescale.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "ps2_host",
+    "ps2_host_clk_ctrl",
+    "ps2_host_rx",
+    "ps2_host_testbench",
+    "ps2_host_tx",
+    "ps2_host_watchdog"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "branch": "memory_core_high_performance_dynamic_memory_controller",
+  "name": "high performance dynamic memory controller",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "GPL",
+  "prefix": "memory",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_high_performance_dynamic_memory_controller",
+  "verilog_files": [
+    "hpdmc_ddr32/rtl/hpdmc.v",
+    "hpdmc_ddr32/rtl/hpdmc_banktimer.v",
+    "hpdmc_ddr32/rtl/hpdmc_busif.v",
+    "hpdmc_ddr32/rtl/hpdmc_ctlif.v",
+    "hpdmc_ddr32/rtl/hpdmc_datactl.v",
+    "hpdmc_ddr32/rtl/hpdmc_mgmt.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_ddrio.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_iddr32.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_iobuf32.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_obuft4.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr32.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr4.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "hpdmc",
+    "hpdmc_banktimer",
+    "hpdmc_busif",
+    "hpdmc_ctlif",
+    "hpdmc_datactl",
+    "hpdmc_mgmt",
+    "hpdmc_ddrio",
+    "so",
+    "hpdmc_iddr32",
+    "hpdmc_iobuf32",
+    "hpdmc_obuft4",
+    "hpdmc_oddr32",
+    "hpdmc_oddr4"
+  ]
+}

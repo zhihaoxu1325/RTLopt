@@ -1,0 +1,16 @@
+{
+  "branch": "communication_controller_i2c_repeater",
+  "name": "i2c repeater",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2c_repeater",
+  "verilog_files": [
+    "i2crepeater.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "i2crepeater"
+  ]
+}

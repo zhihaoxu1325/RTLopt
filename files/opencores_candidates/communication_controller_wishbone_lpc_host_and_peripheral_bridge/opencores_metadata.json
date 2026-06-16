@@ -1,0 +1,30 @@
+{
+  "branch": "communication_controller_wishbone_lpc_host_and_peripheral_bridge",
+  "name": "wishbone lpc host and peripheral bridge",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_wishbone_lpc_host_and_peripheral_bridge",
+  "verilog_files": [
+    "rtl/verilog/serirq_defines.v",
+    "rtl/verilog/serirq_host.v",
+    "rtl/verilog/serirq_slave.v",
+    "rtl/verilog/wb_dreq_host.v",
+    "rtl/verilog/wb_dreq_periph.v",
+    "rtl/verilog/wb_lpc_defines.v",
+    "rtl/verilog/wb_lpc_host.v",
+    "rtl/verilog/wb_lpc_periph.v",
+    "rtl/verilog/wb_regfile.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "serirq_host",
+    "serirq_slave",
+    "wb_dreq_host",
+    "wb_dreq_periph",
+    "wb_lpc_host",
+    "wb_lpc_periph",
+    "wb_regfile"
+  ]
+}

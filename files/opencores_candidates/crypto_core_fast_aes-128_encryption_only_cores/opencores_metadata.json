@@ -1,0 +1,30 @@
+{
+  "branch": "crypto_core_fast_aes-128_encryption_only_cores",
+  "name": "fast aes-128 encryption only cores",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Others",
+  "prefix": "crypto",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_fast_aes-128_encryption_only_cores",
+  "verilog_files": [
+    "aes_10cycle_10stage/aes_cipher_top.v",
+    "aes_10cycle_10stage/aes_key_expand_128.v",
+    "aes_10cycle_10stage/aes_rcon.v",
+    "aes_10cycle_10stage/aes_sbox.v",
+    "aes_1cycle_1stage/aes_cipher_top.v",
+    "aes_1cycle_1stage/aes_key_expand_128.v",
+    "aes_1cycle_1stage/aes_rcon.v",
+    "aes_1cycle_1stage/aes_sbox.v",
+    "aes_5cycle_2stage/aes_cipher_top.v",
+    "aes_5cycle_2stage/aes_key_expand_128.v",
+    "aes_5cycle_2stage/aes_rcon.v",
+    "aes_5cycle_2stage/aes_sbox.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "aes_cipher_top",
+    "aes_key_expand_128",
+    "aes_rcon",
+    "aes_sbox"
+  ]
+}

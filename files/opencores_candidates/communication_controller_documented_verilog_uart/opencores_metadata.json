@@ -1,0 +1,19 @@
+{
+  "branch": "communication_controller_documented_verilog_uart",
+  "name": "documented verilog uart",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "Others",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_documented_verilog_uart",
+  "verilog_files": [
+    "uart.v"
+  ],
+  "license_files": [
+    "LICENCE"
+  ],
+  "top_candidates": [
+    "uart",
+    "input"
+  ]
+}

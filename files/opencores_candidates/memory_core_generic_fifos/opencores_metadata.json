@@ -1,0 +1,27 @@
+{
+  "branch": "memory_core_generic_fifos",
+  "name": "generic fifos",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Unknown",
+  "prefix": "memory",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_generic_fifos",
+  "verilog_files": [
+    "rtl/verilog/generic_fifo_dc.v",
+    "rtl/verilog/generic_fifo_dc_gray.v",
+    "rtl/verilog/generic_fifo_lfsr.v",
+    "rtl/verilog/generic_fifo_sc_a.v",
+    "rtl/verilog/generic_fifo_sc_b.v",
+    "rtl/verilog/lfsr.v",
+    "rtl/verilog/timescale.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "generic_fifo_dc",
+    "generic_fifo_dc_gray",
+    "generic_fifo_lfsr",
+    "generic_fifo_sc_a",
+    "generic_fifo_sc_b",
+    "lfsr"
+  ]
+}

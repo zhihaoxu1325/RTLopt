@@ -1,0 +1,34 @@
+{
+  "branch": "communication_controller_ethernet_smii",
+  "name": "ethernet smii",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "Unknown",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ethernet_smii",
+  "verilog_files": [
+    "rtl/verilog/copyright.v",
+    "rtl/verilog/generic_buffers.v",
+    "rtl/verilog/generic_gbuf.v",
+    "rtl/verilog/smii.v",
+    "rtl/verilog/smii_ACTEL.v",
+    "rtl/verilog/smii_module_inst.v",
+    "rtl/verilog/smii_module_inst_1.v",
+    "rtl/verilog/smii_module_inst_2.v",
+    "rtl/verilog/smii_module_inst_3.v",
+    "rtl/verilog/smii_module_inst_4.v",
+    "rtl/verilog/smii_module_inst_8.v",
+    "rtl/verilog/smii_sync.v",
+    "rtl/verilog/smii_txrx.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "obufdff",
+    "ibufdff",
+    "iobuftri",
+    "obuf",
+    "gbuf",
+    "smii_sync",
+    "smii_txrx"
+  ]
+}

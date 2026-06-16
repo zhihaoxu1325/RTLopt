@@ -1,0 +1,27 @@
+{
+  "branch": "communication_controller_cheap_ethernet_interface",
+  "name": "cheap ethernet interface",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_cheap_ethernet_interface",
+  "verilog_files": [
+    "Ethernet_test/DCMMAIN.v",
+    "Ethernet_test/EthernetRX.v",
+    "Ethernet_test/EthernetTX.v",
+    "Ethernet_test/TENBASET_RxD.v",
+    "Ethernet_test/TENBASET_TxD.v",
+    "Ethernet_test/ipcore_dir/DCMMAIN.v",
+    "Ethernet_test/ipcore_dir/FIFORX.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "DCMMAIN",
+    "EthernetRX",
+    "EthernetTX",
+    "TENBASET_RxD",
+    "TENBASET_TxD",
+    "FIFORX"
+  ]
+}

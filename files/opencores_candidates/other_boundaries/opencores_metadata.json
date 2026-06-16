@@ -1,0 +1,34 @@
+{
+  "branch": "other_boundaries",
+  "name": "boundaries",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Unknown",
+  "prefix": "other",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_boundaries",
+  "verilog_files": [
+    "rtl/verilog/arbiter.v",
+    "rtl/verilog/bc_fifo_basic.v",
+    "rtl/verilog/clock_detect.v",
+    "rtl/verilog/clock_switch2_basic.v",
+    "rtl/verilog/clock_switch3_basic.v",
+    "rtl/verilog/clock_switch4_basic.v",
+    "rtl/verilog/clock_switch8_basic.v",
+    "rtl/verilog/debouncer.v",
+    "rtl/verilog/oc_fifo_basic.v",
+    "rtl/verilog/random_ff.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "arbiter",
+    "bc_fifo_basic",
+    "clock_detect",
+    "clock_switch2_basic",
+    "clock_switch3_basic",
+    "clock_switch4_basic",
+    "clock_switch8_basic",
+    "debouncer",
+    "oc_fifo_basic",
+    "random_ff"
+  ]
+}

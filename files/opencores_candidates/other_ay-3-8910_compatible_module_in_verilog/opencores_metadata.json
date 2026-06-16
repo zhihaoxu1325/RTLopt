@@ -1,0 +1,42 @@
+{
+  "branch": "other_ay-3-8910_compatible_module_in_verilog",
+  "name": "ay-3-8910 compatible module in verilog",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "GPL",
+  "prefix": "other",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_ay-3-8910_compatible_module_in_verilog",
+  "verilog_files": [
+    "1942/1942.v",
+    "1942/computer_1942.v",
+    "sqm/sq_pg.v",
+    "sqm/sqm_amp.v",
+    "sqm/sqm_pwm.v",
+    "sqm/sqmusic.v",
+    "ver/sin_pow.v",
+    "ver/sq_opn_basic.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "Dump",
+    "sound1942",
+    "computer_1942",
+    "is",
+    "fake_ay",
+    "RAM",
+    "ROM",
+    "SOUND_LATCH",
+    "sq_slot",
+    "sq_pg",
+    "sq_sin",
+    "sq_pow",
+    "sq_opn_eg",
+    "SQM_AMP",
+    "SQM_LOG",
+    "SQM_PWM",
+    "SQM_PWM_1",
+    "SQM_PWM_LOG",
+    "AY_3_8910_capcom",
+    "SQMUSIC"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "branch": "memory_core_wishbone_flash_interface_for_parallel_flash",
+  "name": "wishbone flash interface for parallel flash",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "LGPL",
+  "prefix": "memory",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_wishbone_flash_interface_for_parallel_flash",
+  "verilog_files": [
+    "rtl/verilog/wb_flash.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "wb_flash"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "branch": "communication_controller_bitwise_addressable_gpio",
+  "name": "bitwise addressable gpio",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_bitwise_addressable_gpio",
+  "verilog_files": [
+    "sopc/hdl/gpio.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "gpio"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "branch": "communication_controller_spigpio",
+  "name": "spigpio",
+  "language": "Verilog",
+  "status": "Alpha",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spigpio",
+  "verilog_files": [
+    "rtl/verilog/spigpio.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "spigpio"
+  ]
+}

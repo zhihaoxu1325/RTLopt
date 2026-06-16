@@ -1,0 +1,22 @@
+{
+  "branch": "communication_controller_rtfsimpleuart",
+  "name": "rtfsimpleuart",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "BSD",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_rtfsimpleuart",
+  "verilog_files": [
+    "rtl/verilog/edge_det.v",
+    "rtl/verilog/rtfSimpleUart.v",
+    "rtl/verilog/rtfSimpleUartRx.v",
+    "rtl/verilog/rtfSimpleUartTx.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "edge_det",
+    "rtfSimpleUart",
+    "rtfSimpleUartRx",
+    "rtfSimpleUartTx"
+  ]
+}

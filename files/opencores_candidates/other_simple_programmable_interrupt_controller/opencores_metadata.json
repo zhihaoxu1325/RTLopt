@@ -1,0 +1,16 @@
+{
+  "branch": "other_simple_programmable_interrupt_controller",
+  "name": "simple programmable interrupt controller",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Unknown",
+  "prefix": "other",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_simple_programmable_interrupt_controller",
+  "verilog_files": [
+    "rtl/simple_pic.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "simple_pic"
+  ]
+}

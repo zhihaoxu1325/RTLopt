@@ -1,0 +1,20 @@
+{
+  "branch": "crypto_core_sha_cores",
+  "name": "sha cores",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "crypto",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_sha_cores",
+  "verilog_files": [
+    "rtl/sha1.v",
+    "rtl/sha256.v",
+    "rtl/sha512.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "sha1",
+    "sha256",
+    "sha512"
+  ]
+}

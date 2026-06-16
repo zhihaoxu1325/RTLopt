@@ -1,0 +1,20 @@
+{
+  "branch": "memory_core_wb_size_bridge",
+  "name": "wb_size_bridge",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Unknown",
+  "prefix": "memory",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_wb_size_bridge",
+  "verilog_files": [
+    "src/asram_if.v",
+    "src/async_mem_if.v",
+    "src/wb_size_bridge.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "asram_if",
+    "async_mem_if",
+    "wb_size_bridge"
+  ]
+}
