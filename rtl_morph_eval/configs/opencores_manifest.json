@@ -7,7 +7,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_2d_fht",
-    "destination": "files/opencores_candidates/arithmetic_core_2d_fht",
+    "destination": "files/arithmetic_core_2d_fht",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -62,7 +62,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_aes128",
-    "destination": "files/opencores_candidates/arithmetic_core_aes128",
+    "destination": "files/arithmetic_core_aes128",
     "verilog_files": [
       "rtl/aes_core.v",
       "rtl/aes_ip.v",
@@ -99,7 +99,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_anti-logarithm_square-root_base-2_single-cycle",
-    "destination": "files/opencores_candidates/arithmetic_core_anti-logarithm_square-root_base-2_single-cycle",
+    "destination": "files/arithmetic_core_anti-logarithm_square-root_base-2_single-cycle",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -154,7 +154,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_cavlc_decoder",
-    "destination": "files/opencores_candidates/arithmetic_core_cavlc_decoder",
+    "destination": "files/arithmetic_core_cavlc_decoder",
     "verilog_files": [
       "rtl/cavlc_fsm.v",
       "rtl/cavlc_len_gen.v",
@@ -185,7 +185,7 @@
     "license": "BSD",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_cellular_automata_prng",
-    "destination": "files/opencores_candidates/arithmetic_core_cellular_automata_prng",
+    "destination": "files/arithmetic_core_cellular_automata_prng",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -243,7 +243,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_configurable_crc_core",
-    "destination": "files/opencores_candidates/arithmetic_core_configurable_crc_core",
+    "destination": "files/arithmetic_core_configurable_crc_core",
     "verilog_files": [
       "rtl/cfg_crc.v",
       "rtl/verilog/AC97Controller.v",
@@ -300,7 +300,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_cr_div-cached_reciprocal_divider",
-    "destination": "files/opencores_candidates/arithmetic_core_cr_div-cached_reciprocal_divider",
+    "destination": "files/arithmetic_core_cr_div-cached_reciprocal_divider",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -358,7 +358,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_crcahb",
-    "destination": "files/opencores_candidates/arithmetic_core_crcahb",
+    "destination": "files/arithmetic_core_crcahb",
     "verilog_files": [
       "rtl/bit_reversal.v",
       "rtl/crc_comb.v",
@@ -424,7 +424,7 @@
     "license": "Unknown",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_double_fpu_verilog",
-    "destination": "files/opencores_candidates/arithmetic_core_double_fpu_verilog",
+    "destination": "files/arithmetic_core_double_fpu_verilog",
     "verilog_files": [
       "fpu_add.v",
       "fpu_div.v",
@@ -456,7 +456,7 @@
     "license": "GPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_ecpu_alu",
-    "destination": "files/opencores_candidates/arithmetic_core_ecpu_alu",
+    "destination": "files/arithmetic_core_ecpu_alu",
     "verilog_files": [
       "alu/rtl/verilog/alu.v",
       "alu/rtl/verilog/alu_barrel_shifter.v",
@@ -519,7 +519,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_elliptic_curve_group",
-    "destination": "files/opencores_candidates/arithmetic_core_elliptic_curve_group",
+    "destination": "files/arithmetic_core_elliptic_curve_group",
     "verilog_files": [
       "rtl/ecg.v",
       "rtl/f3.v",
@@ -584,7 +584,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_fixed_point_arithmetic_modules",
-    "destination": "files/opencores_candidates/arithmetic_core_fixed_point_arithmetic_modules",
+    "destination": "files/arithmetic_core_fixed_point_arithmetic_modules",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -639,7 +639,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_fixed_point_math_library_for_verilog",
-    "destination": "files/opencores_candidates/arithmetic_core_fixed_point_math_library_for_verilog",
+    "destination": "files/arithmetic_core_fixed_point_math_library_for_verilog",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -695,7 +695,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_fpga-based_median_filter",
-    "destination": "files/opencores_candidates/arithmetic_core_fpga-based_median_filter",
+    "destination": "files/arithmetic_core_fpga-based_median_filter",
     "verilog_files": [
       "rtl/common_network.v",
       "rtl/dff_3_pipe.v",
@@ -724,7 +724,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_ft816float-floating_point_accelerator",
-    "destination": "files/opencores_candidates/arithmetic_core_ft816float-floating_point_accelerator",
+    "destination": "files/arithmetic_core_ft816float-floating_point_accelerator",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/FT816Float.v",
@@ -781,7 +781,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_gaussian_noise_generator",
-    "destination": "files/opencores_candidates/arithmetic_core_gaussian_noise_generator",
+    "destination": "files/arithmetic_core_gaussian_noise_generator",
     "verilog_files": [
       "rtl/gng.v",
       "rtl/gng_coef.v",
@@ -847,7 +847,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_hardware_implementation_of_binary_fully_digital_ph",
-    "destination": "files/opencores_candidates/arithmetic_core_hardware_implementation_of_binary_fully_digital_ph",
+    "destination": "files/arithmetic_core_hardware_implementation_of_binary_fully_digital_ph",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -902,7 +902,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_logarithm_function_base-2_single-cycle",
-    "destination": "files/opencores_candidates/arithmetic_core_logarithm_function_base-2_single-cycle",
+    "destination": "files/arithmetic_core_logarithm_function_base-2_single-cycle",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -957,7 +957,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_mesi_coherency_intersection_controller",
-    "destination": "files/opencores_candidates/arithmetic_core_mesi_coherency_intersection_controller",
+    "destination": "files/arithmetic_core_mesi_coherency_intersection_controller",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -1022,7 +1022,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_mod3_calc",
-    "destination": "files/opencores_candidates/arithmetic_core_mod3_calc",
+    "destination": "files/arithmetic_core_mod3_calc",
     "verilog_files": [
       "rtl/mod3.v",
       "rtl/verilog/AC97Controller.v",
@@ -1081,7 +1081,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_numbert_sort_device_on",
-    "destination": "files/opencores_candidates/arithmetic_core_numbert_sort_device_on",
+    "destination": "files/arithmetic_core_numbert_sort_device_on",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -1136,7 +1136,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_orsoc_graphics_accelerator",
-    "destination": "files/opencores_candidates/arithmetic_core_orsoc_graphics_accelerator",
+    "destination": "files/arithmetic_core_orsoc_graphics_accelerator",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -1217,7 +1217,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_signed_integer_divider",
-    "destination": "files/opencores_candidates/arithmetic_core_signed_integer_divider",
+    "destination": "files/arithmetic_core_signed_integer_divider",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -1272,7 +1272,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_tate_bilinear_pairing",
-    "destination": "files/opencores_candidates/arithmetic_core_tate_bilinear_pairing",
+    "destination": "files/arithmetic_core_tate_bilinear_pairing",
     "verilog_files": [
       "rtl/f3.v",
       "rtl/f32m.v",
@@ -1340,7 +1340,7 @@
     "license": "Others",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_tiny_tate_bilinear_pairing",
-    "destination": "files/opencores_candidates/arithmetic_core_tiny_tate_bilinear_pairing",
+    "destination": "files/arithmetic_core_tiny_tate_bilinear_pairing",
     "verilog_files": [
       "group_size_is_151_bits/rtl/const.v",
       "group_size_is_151_bits/rtl/cubic.v",
@@ -1423,7 +1423,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_trigonometric_functions_degrees_in_double_fpu",
-    "destination": "files/opencores_candidates/arithmetic_core_trigonometric_functions_degrees_in_double_fpu",
+    "destination": "files/arithmetic_core_trigonometric_functions_degrees_in_double_fpu",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -1478,7 +1478,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_versatile_counter",
-    "destination": "files/opencores_candidates/arithmetic_core_versatile_counter",
+    "destination": "files/arithmetic_core_versatile_counter",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -1538,7 +1538,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_viterbi_tx_rx",
-    "destination": "files/opencores_candidates/arithmetic_core_viterbi_tx_rx",
+    "destination": "files/arithmetic_core_viterbi_tx_rx",
     "verilog_files": [
       "rtl/ACS.v",
       "rtl/backup/decoder_20120201_1.v",
@@ -1611,7 +1611,7 @@
     "license": "LGPL",
     "prefix": "arithmetic",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_wishbone_protocol_to_axi4_protocol",
-    "destination": "files/opencores_candidates/arithmetic_core_wishbone_protocol_to_axi4_protocol",
+    "destination": "files/arithmetic_core_wishbone_protocol_to_axi4_protocol",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -1666,7 +1666,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_100_mb-s_ethernet_mac_layer_switch",
-    "destination": "files/opencores_candidates/communication_controller_100_mb-s_ethernet_mac_layer_switch",
+    "destination": "files/communication_controller_100_mb-s_ethernet_mac_layer_switch",
     "verilog_files": [
       "rtl/verilog/dcp_modules.v",
       "rtl/verilog/dpq_modules.v",
@@ -1735,7 +1735,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_10_100_1000_mbps_tri-mode_ethernet_mac",
-    "destination": "files/opencores_candidates/communication_controller_10_100_1000_mbps_tri-mode_ethernet_mac",
+    "destination": "files/communication_controller_10_100_1000_mbps_tri-mode_ethernet_mac",
     "verilog_files": [
       "rtl/verilog/Clk_ctrl.v",
       "rtl/verilog/MAC_rx/Broadcast_filter.v",
@@ -1807,7 +1807,7 @@
     "license": "Unknown",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_10g_ethernet_mac",
-    "destination": "files/opencores_candidates/communication_controller_10g_ethernet_mac",
+    "destination": "files/communication_controller_10g_ethernet_mac",
     "verilog_files": [
       "rtl/verilog/mgmt/manage_registers.v",
       "rtl/verilog/mgmt/management_top.v",
@@ -1869,7 +1869,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_apb_to_i2c",
-    "destination": "files/opencores_candidates/communication_controller_apb_to_i2c",
+    "destination": "files/communication_controller_apb_to_i2c",
     "verilog_files": [
       "rtl/apb.v",
       "rtl/fifo.v",
@@ -1893,7 +1893,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_bitwise_addressable_gpio",
-    "destination": "files/opencores_candidates/communication_controller_bitwise_addressable_gpio",
+    "destination": "files/communication_controller_bitwise_addressable_gpio",
     "verilog_files": [
       "sopc/hdl/gpio.v"
     ],
@@ -1910,7 +1910,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_cheap_ethernet_interface",
-    "destination": "files/opencores_candidates/communication_controller_cheap_ethernet_interface",
+    "destination": "files/communication_controller_cheap_ethernet_interface",
     "verilog_files": [
       "Ethernet_test/DCMMAIN.v",
       "Ethernet_test/EthernetRX.v",
@@ -1938,7 +1938,7 @@
     "license": "Others",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_documented_verilog_uart",
-    "destination": "files/opencores_candidates/communication_controller_documented_verilog_uart",
+    "destination": "files/communication_controller_documented_verilog_uart",
     "verilog_files": [
       "uart.v"
     ],
@@ -1958,7 +1958,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ethernet_10ge_low_latency_mac",
-    "destination": "files/opencores_candidates/communication_controller_ethernet_10ge_low_latency_mac",
+    "destination": "files/communication_controller_ethernet_10ge_low_latency_mac",
     "verilog_files": [
       "rtl/oc_mac.v",
       "rtl/rx_control.v",
@@ -1983,7 +1983,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ethernet_10ge_mac",
-    "destination": "files/opencores_candidates/communication_controller_ethernet_10ge_mac",
+    "destination": "files/communication_controller_ethernet_10ge_mac",
     "verilog_files": [
       "rtl/include/CRC32_D64.v",
       "rtl/include/CRC32_D8.v",
@@ -2047,7 +2047,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ethernet_mac_10-100_mbps",
-    "destination": "files/opencores_candidates/communication_controller_ethernet_mac_10-100_mbps",
+    "destination": "files/communication_controller_ethernet_mac_10-100_mbps",
     "verilog_files": [
       "rtl/verilog/eth_clockgen.v",
       "rtl/verilog/eth_cop.v",
@@ -2110,7 +2110,7 @@
     "license": "Unknown",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ethernet_smii",
-    "destination": "files/opencores_candidates/communication_controller_ethernet_smii",
+    "destination": "files/communication_controller_ethernet_smii",
     "verilog_files": [
       "rtl/verilog/copyright.v",
       "rtl/verilog/generic_buffers.v",
@@ -2145,7 +2145,7 @@
     "license": "GPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ezusb_communication_core",
-    "destination": "files/opencores_candidates/communication_controller_ezusb_communication_core",
+    "destination": "files/communication_controller_ezusb_communication_core",
     "verilog_files": [
       "ezusb_io.v"
     ],
@@ -2162,7 +2162,7 @@
     "license": "BSD",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_fpga_communication_framework",
-    "destination": "files/opencores_candidates/communication_controller_fpga_communication_framework",
+    "destination": "files/communication_controller_fpga_communication_framework",
     "verilog_files": [
       "hdl/PATLPP/alunit/alunit.v",
       "hdl/PATLPP/checksum/checksum.v",
@@ -2268,7 +2268,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_hardware_assisted_ieee_1588_ip_core",
-    "destination": "files/opencores_candidates/communication_controller_hardware_assisted_ieee_1588_ip_core",
+    "destination": "files/communication_controller_hardware_assisted_ieee_1588_ip_core",
     "verilog_files": [
       "rtl/bus/qsys/ha1588_avl.v",
       "rtl/bus/wishbone/ha1588_wb.v",
@@ -2303,7 +2303,7 @@
     "license": "BSD",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2c_controller_core",
-    "destination": "files/opencores_candidates/communication_controller_i2c_controller_core",
+    "destination": "files/communication_controller_i2c_controller_core",
     "verilog_files": [
       "rtl/verilog/i2c_master_bit_ctrl.v",
       "rtl/verilog/i2c_master_byte_ctrl.v",
@@ -2327,7 +2327,7 @@
     "license": "Unknown",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2c_master-slave_core",
-    "destination": "files/opencores_candidates/communication_controller_i2c_master-slave_core",
+    "destination": "files/communication_controller_i2c_master-slave_core",
     "verilog_files": [
       "i2c_master_slave_core/i2c_master_slave_core/verilog/rtl/controller_interface.v",
       "i2c_master_slave_core/i2c_master_slave_core/verilog/rtl/counter.v",
@@ -2358,7 +2358,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2c_repeater",
-    "destination": "files/opencores_candidates/communication_controller_i2c_repeater",
+    "destination": "files/communication_controller_i2c_repeater",
     "verilog_files": [
       "i2crepeater.v"
     ],
@@ -2375,7 +2375,7 @@
     "license": "GPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2c_slave",
-    "destination": "files/opencores_candidates/communication_controller_i2c_slave",
+    "destination": "files/communication_controller_i2c_slave",
     "verilog_files": [
       "rtl/i2cSlave.v",
       "rtl/i2cSlaveTop.v",
@@ -2401,7 +2401,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2c_to_wb",
-    "destination": "files/opencores_candidates/communication_controller_i2c_to_wb",
+    "destination": "files/communication_controller_i2c_to_wb",
     "verilog_files": [
       "src/glitch_filter.v",
       "src/i2c_to_wb_config.v",
@@ -2427,7 +2427,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2cgpio",
-    "destination": "files/opencores_candidates/communication_controller_i2cgpio",
+    "destination": "files/communication_controller_i2cgpio",
     "verilog_files": [
       "rtl/verilog/i2cgpio.v"
     ],
@@ -2444,7 +2444,7 @@
     "license": "BSD",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_iso7816_3_master",
-    "destination": "files/opencores_candidates/communication_controller_iso7816_3_master",
+    "destination": "files/communication_controller_iso7816_3_master",
     "verilog_files": [
       "sources/ClkDivider.v",
       "sources/Counter.v",
@@ -2477,7 +2477,7 @@
     "license": "GPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_opb-compatible_onewire_master",
-    "destination": "files/opencores_candidates/communication_controller_opb-compatible_onewire_master",
+    "destination": "files/communication_controller_opb-compatible_onewire_master",
     "verilog_files": [
       "s3e_onewire_master_v1_00_a/hdl/verilog/user_logic.v"
     ],
@@ -2494,7 +2494,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ps-2_host_controller",
-    "destination": "files/opencores_candidates/communication_controller_ps-2_host_controller",
+    "destination": "files/communication_controller_ps-2_host_controller",
     "verilog_files": [
       "hdl/ps2_host.v",
       "hdl/ps2_host_clk_ctrl.v",
@@ -2523,7 +2523,7 @@
     "license": "GPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_quad_spi_flash_controller",
-    "destination": "files/opencores_candidates/communication_controller_quad_spi_flash_controller",
+    "destination": "files/communication_controller_quad_spi_flash_controller",
     "verilog_files": [
       "rtl/llqspi.v",
       "rtl/wbqspiflash.v"
@@ -2545,7 +2545,7 @@
     "license": "BSD",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_rtfsimpleuart",
-    "destination": "files/opencores_candidates/communication_controller_rtfsimpleuart",
+    "destination": "files/communication_controller_rtfsimpleuart",
     "verilog_files": [
       "rtl/verilog/edge_det.v",
       "rtl/verilog/rtfSimpleUart.v",
@@ -2568,7 +2568,7 @@
     "license": "Others",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_sata_controller",
-    "destination": "files/opencores_candidates/communication_controller_sata_controller",
+    "destination": "files/communication_controller_sata_controller",
     "verilog_files": [
       "rtl/command/sata_command_layer.v",
       "rtl/generic/blk_mem.v",
@@ -2619,7 +2619,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_sata_phy",
-    "destination": "files/opencores_candidates/communication_controller_sata_phy",
+    "destination": "files/communication_controller_sata_phy",
     "verilog_files": [
       "hdl/axis_fifo_36W_16D.v",
       "hdl/axis_fifo_40W_16D.v",
@@ -2655,7 +2655,7 @@
     "license": "BSD",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_scan_based_serial_communication",
-    "destination": "files/opencores_candidates/communication_controller_scan_based_serial_communication",
+    "destination": "files/communication_controller_scan_based_serial_communication",
     "verilog_files": [
       "scan.perl.v",
       "scan_testbench.perl.v"
@@ -2674,7 +2674,7 @@
     "license": "GPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_sd-mmc_controller",
-    "destination": "files/opencores_candidates/communication_controller_sd-mmc_controller",
+    "destination": "files/communication_controller_sd-mmc_controller",
     "verilog_files": [
       "RTL/ctrlStsRegBI.v",
       "RTL/initSD.v",
@@ -2721,7 +2721,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_sd_card_controller",
-    "destination": "files/opencores_candidates/communication_controller_sd_card_controller",
+    "destination": "files/communication_controller_sd_card_controller",
     "verilog_files": [
       "rtl/sdc_dma/verilog/sd_bd.v",
       "rtl/sdc_dma/verilog/sd_clock_divider.v",
@@ -2783,7 +2783,7 @@
     "license": "GPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6",
-    "destination": "files/opencores_candidates/communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6",
+    "destination": "files/communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6",
     "verilog_files": [
       "sata2_bus_v1_00_a/base_system/__xps/DDR3_SDRAM_ctrl_path_params.v",
       "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v",
@@ -2829,7 +2829,7 @@
     "license": "GPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_sgmii",
-    "destination": "files/opencores_candidates/communication_controller_sgmii",
+    "destination": "files/communication_controller_sgmii",
     "verilog_files": [
       "build/OpenCore_MAC/Broadcast_filter.v",
       "build/OpenCore_MAC/CLK_DIV2.v",
@@ -2956,7 +2956,7 @@
     "license": "Unknown",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_simple_asynchronous_serial_controller",
-    "destination": "files/opencores_candidates/communication_controller_simple_asynchronous_serial_controller",
+    "destination": "files/communication_controller_simple_asynchronous_serial_controller",
     "verilog_files": [
       "rtl/verilog/sasc_brg.v",
       "rtl/verilog/sasc_fifo4.v",
@@ -2978,7 +2978,7 @@
     "license": "Unknown",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_single_slot_pcm_interface",
-    "destination": "files/opencores_candidates/communication_controller_single_slot_pcm_interface",
+    "destination": "files/communication_controller_single_slot_pcm_interface",
     "verilog_files": [
       "rtl/verilog/pcm_slv_top.v",
       "rtl/verilog/timescale.v"
@@ -2996,7 +2996,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spi_controller_for_ad-da_chips_on_s3e-a-an_starter",
-    "destination": "files/opencores_candidates/communication_controller_spi_controller_for_ad-da_chips_on_s3e-a-an_starter",
+    "destination": "files/communication_controller_spi_controller_for_ad-da_chips_on_s3e-a-an_starter",
     "verilog_files": [
       "rtl/verilog/adc.v",
       "rtl/verilog/amp.v",
@@ -3029,7 +3029,7 @@
     "license": "Unknown",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spi_core",
-    "destination": "files/opencores_candidates/communication_controller_spi_core",
+    "destination": "files/communication_controller_spi_core",
     "verilog_files": [
       "rtl/verilog/fifo4.v",
       "rtl/verilog/simple_spi_top.v"
@@ -3048,7 +3048,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spigpio",
-    "destination": "files/opencores_candidates/communication_controller_spigpio",
+    "destination": "files/communication_controller_spigpio",
     "verilog_files": [
       "rtl/verilog/spigpio.v"
     ],
@@ -3065,7 +3065,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spislave",
-    "destination": "files/opencores_candidates/communication_controller_spislave",
+    "destination": "files/communication_controller_spislave",
     "verilog_files": [
       "spislave/rtl/verilog/spigpio.v"
     ],
@@ -3084,7 +3084,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spixif",
-    "destination": "files/opencores_candidates/communication_controller_spixif",
+    "destination": "files/communication_controller_spixif",
     "verilog_files": [
       "RTL/SPIxIF.v"
     ],
@@ -3109,7 +3109,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ssp_slv",
-    "destination": "files/opencores_candidates/communication_controller_ssp_slv",
+    "destination": "files/communication_controller_ssp_slv",
     "verilog_files": [
       "RTL/SSPx_Slv.v"
     ],
@@ -3128,7 +3128,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ssp_uart",
-    "destination": "files/opencores_candidates/communication_controller_ssp_uart",
+    "destination": "files/communication_controller_ssp_uart",
     "verilog_files": [
       "RTL/DPSFnmCE.v",
       "RTL/SSP_UART.v",
@@ -3172,7 +3172,7 @@
     "license": "Others",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_tcp-ip_socket",
-    "destination": "files/opencores_candidates/communication_controller_tcp-ip_socket",
+    "destination": "files/communication_controller_tcp-ip_socket",
     "verilog_files": [
       "chips2/test_suite/arbiter.v",
       "chips2/test_suite/main.v",
@@ -3198,7 +3198,7 @@
     "license": "Unknown",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_time_slot_interchange_digital_switch",
-    "destination": "files/opencores_candidates/communication_controller_time_slot_interchange_digital_switch",
+    "destination": "files/communication_controller_time_slot_interchange_digital_switch",
     "verilog_files": [
       "web_uploads/tdm_switch_b.v",
       "web_uploads/tdm_switch_top.v",
@@ -3219,7 +3219,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_tiny_spi",
-    "destination": "files/opencores_candidates/communication_controller_tiny_spi",
+    "destination": "files/communication_controller_tiny_spi",
     "verilog_files": [
       "rtl/verilog/tiny_spi.v"
     ],
@@ -3236,7 +3236,7 @@
     "license": "BSD",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_uart_to_bus",
-    "destination": "files/opencores_candidates/communication_controller_uart_to_bus",
+    "destination": "files/communication_controller_uart_to_bus",
     "verilog_files": [
       "verilog/rtl/baud_gen.v",
       "verilog/rtl/uart2bus_top.v",
@@ -3267,7 +3267,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_uart_to_spi",
-    "destination": "files/opencores_candidates/communication_controller_uart_to_spi",
+    "destination": "files/communication_controller_uart_to_spi",
     "verilog_files": [
       "rtl/lib/registers.v",
       "rtl/msg_hand/uart_msg_handler.v",
@@ -3308,7 +3308,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_usb_device_core",
-    "destination": "files/opencores_candidates/communication_controller_usb_device_core",
+    "destination": "files/communication_controller_usb_device_core",
     "verilog_files": [
       "rtl/phy/usb_phy.v",
       "rtl/phy/usb_rx_phy.v",
@@ -3337,7 +3337,7 @@
     "license": "Others",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_vspi",
-    "destination": "files/opencores_candidates/communication_controller_vspi",
+    "destination": "files/communication_controller_vspi",
     "verilog_files": [
       "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/buffermem.v",
       "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/spiloopmem.v",
@@ -3368,7 +3368,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_wishbone_lpc_host_and_peripheral_bridge",
-    "destination": "files/opencores_candidates/communication_controller_wishbone_lpc_host_and_peripheral_bridge",
+    "destination": "files/communication_controller_wishbone_lpc_host_and_peripheral_bridge",
     "verilog_files": [
       "rtl/verilog/serirq_defines.v",
       "rtl/verilog/serirq_host.v",
@@ -3399,7 +3399,7 @@
     "license": "LGPL",
     "prefix": "communication",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_wishbone_sd_card_controller",
-    "destination": "files/opencores_candidates/communication_controller_wishbone_sd_card_controller",
+    "destination": "files/communication_controller_wishbone_sd_card_controller",
     "verilog_files": [
       "rtl/verilog/bistable_domain_cross.v",
       "rtl/verilog/edge_detect.v",
@@ -3448,7 +3448,7 @@
     "license": "Unknown",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_128-192_aes",
-    "destination": "files/opencores_candidates/crypto_core_128-192_aes",
+    "destination": "files/crypto_core_128-192_aes",
     "verilog_files": [
       "rtl/verilog/aes128lowarea/aes.v",
       "rtl/verilog/aes128lowarea/byte_mixcolum.v",
@@ -3492,7 +3492,7 @@
     "license": "Others",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_aes",
-    "destination": "files/opencores_candidates/crypto_core_aes",
+    "destination": "files/crypto_core_aes",
     "verilog_files": [
       "rtl/aes_128.v",
       "rtl/aes_192.v",
@@ -3531,7 +3531,7 @@
     "license": "LGPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_aes-128_encryption",
-    "destination": "files/opencores_candidates/crypto_core_aes-128_encryption",
+    "destination": "files/crypto_core_aes-128_encryption",
     "verilog_files": [
       "rtl/AddRoundKey.v",
       "rtl/KeyExpantion.v",
@@ -3569,7 +3569,7 @@
     "license": "LGPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_aes_decryption_core_for_fpga",
-    "destination": "files/opencores_candidates/crypto_core_aes_decryption_core_for_fpga",
+    "destination": "files/crypto_core_aes_decryption_core_for_fpga",
     "verilog_files": [
       "rtl/verilog/generic/generic_muxfx.v"
     ],
@@ -3587,7 +3587,7 @@
     "license": "Unknown",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_aes_rijndael_ip_core",
-    "destination": "files/opencores_candidates/crypto_core_aes_rijndael_ip_core",
+    "destination": "files/crypto_core_aes_rijndael_ip_core",
     "verilog_files": [
       "rtl/verilog/aes_cipher_top.v",
       "rtl/verilog/aes_inv_cipher_top.v",
@@ -3615,7 +3615,7 @@
     "license": "GPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_btcminer-open_source_bitcoin_miner",
-    "destination": "files/opencores_candidates/crypto_core_btcminer-open_source_bitcoin_miner",
+    "destination": "files/crypto_core_btcminer-open_source_bitcoin_miner",
     "verilog_files": [
       "fpga/miner130.v",
       "fpga/miner253.v",
@@ -3651,7 +3651,7 @@
     "license": "Unknown",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_csa",
-    "destination": "files/opencores_candidates/crypto_core_csa",
+    "destination": "files/crypto_core_csa",
     "verilog_files": [
       "rtl/block_decypher.v",
       "rtl/block_perm.v",
@@ -3708,7 +3708,7 @@
     "license": "Unknown",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_des-triple_des_ip_cores",
-    "destination": "files/opencores_candidates/crypto_core_des-triple_des_ip_cores",
+    "destination": "files/crypto_core_des-triple_des_ip_cores",
     "verilog_files": [
       "rtl/verilog/area_opt/des.v",
       "rtl/verilog/area_opt/des3.v",
@@ -3753,7 +3753,7 @@
     "license": "Others",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_fast_aes-128_encryption_only_cores",
-    "destination": "files/opencores_candidates/crypto_core_fast_aes-128_encryption_only_cores",
+    "destination": "files/crypto_core_fast_aes-128_encryption_only_cores",
     "verilog_files": [
       "aes_10cycle_10stage/aes_cipher_top.v",
       "aes_10cycle_10stage/aes_key_expand_128.v",
@@ -3784,7 +3784,7 @@
     "license": "Others",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_galois_counter_mode_advanced_encryption_standard_g",
-    "destination": "files/opencores_candidates/crypto_core_galois_counter_mode_advanced_encryption_standard_g",
+    "destination": "files/crypto_core_galois_counter_mode_advanced_encryption_standard_g",
     "verilog_files": [
       "rtl/aes_cipher_top.v",
       "rtl/aes_key_expand_128.v",
@@ -3811,7 +3811,7 @@
     "license": "BSD",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_gost28147-89",
-    "destination": "files/opencores_candidates/crypto_core_gost28147-89",
+    "destination": "files/crypto_core_gost28147-89",
     "verilog_files": [
       "rtl/gost89_cfb.v",
       "rtl/gost89_ecb.v",
@@ -3845,7 +3845,7 @@
     "license": "LGPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_high_throughput_and_low_area_aes_core",
-    "destination": "files/opencores_candidates/crypto_core_high_throughput_and_low_area_aes_core",
+    "destination": "files/crypto_core_high_throughput_and_low_area_aes_core",
     "verilog_files": [
       "verilog/rtl/aes.v",
       "verilog/rtl/aes_top_example.v",
@@ -3889,7 +3889,7 @@
     "license": "LGPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_md5_pipelined",
-    "destination": "files/opencores_candidates/crypto_core_md5_pipelined",
+    "destination": "files/crypto_core_md5_pipelined",
     "verilog_files": [
       "Md5Core.v",
       "Md5CoreTest.v",
@@ -3913,7 +3913,7 @@
     "license": "LGPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_present_cipher_encryption_core",
-    "destination": "files/opencores_candidates/crypto_core_present_cipher_encryption_core",
+    "destination": "files/crypto_core_present_cipher_encryption_core",
     "verilog_files": [
       "rtl/verilog/key_update.v",
       "rtl/verilog/permutation.v",
@@ -3943,7 +3943,7 @@
     "license": "LGPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_rc4_pseudo-random_stream_generator",
-    "destination": "files/opencores_candidates/crypto_core_rc4_pseudo-random_stream_generator",
+    "destination": "files/crypto_core_rc4_pseudo-random_stream_generator",
     "verilog_files": [
       "rc4.v"
     ],
@@ -3963,7 +3963,7 @@
     "license": "Others",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_sha3_keccak",
-    "destination": "files/opencores_candidates/crypto_core_sha3_keccak",
+    "destination": "files/crypto_core_sha3_keccak",
     "verilog_files": [
       "high_throughput_core/rtl/f_permutation.v",
       "high_throughput_core/rtl/keccak.v",
@@ -4000,7 +4000,7 @@
     "license": "LGPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_sha_cores",
-    "destination": "files/opencores_candidates/crypto_core_sha_cores",
+    "destination": "files/crypto_core_sha_cores",
     "verilog_files": [
       "rtl/sha1.v",
       "rtl/sha256.v",
@@ -4021,7 +4021,7 @@
     "license": "LGPL",
     "prefix": "crypto",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_xtea_crypto_core",
-    "destination": "files/opencores_candidates/crypto_core_xtea_crypto_core",
+    "destination": "files/crypto_core_xtea_crypto_core",
     "verilog_files": [
       "testbench.v",
       "xtea.v"
@@ -4042,7 +4042,7 @@
     "license": "LGPL",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_cascaded_fir_filter",
-    "destination": "files/opencores_candidates/dsp_core_cascaded_fir_filter",
+    "destination": "files/dsp_core_cascaded_fir_filter",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -4097,7 +4097,7 @@
     "license": "GPL",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_configurable_high_speed_viterbi_decoder",
-    "destination": "files/opencores_candidates/dsp_core_configurable_high_speed_viterbi_decoder",
+    "destination": "files/dsp_core_configurable_high_speed_viterbi_decoder",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -4152,7 +4152,7 @@
     "license": "GPL",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_double_clocked_fft_core",
-    "destination": "files/opencores_candidates/dsp_core_double_clocked_fft_core",
+    "destination": "files/dsp_core_double_clocked_fft_core",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -4209,7 +4209,7 @@
     "license": "Unknown",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_fast_hadamhard_transforms",
-    "destination": "files/opencores_candidates/dsp_core_fast_hadamhard_transforms",
+    "destination": "files/dsp_core_fast_hadamhard_transforms",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -4264,7 +4264,7 @@
     "license": "LGPL",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_generic_fir_filter_1",
-    "destination": "files/opencores_candidates/dsp_core_generic_fir_filter_1",
+    "destination": "files/dsp_core_generic_fir_filter_1",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -4319,7 +4319,7 @@
     "license": "BSD",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_ima_adpcm_encdoer_and_decoder",
-    "destination": "files/opencores_candidates/dsp_core_ima_adpcm_encdoer_and_decoder",
+    "destination": "files/dsp_core_ima_adpcm_encdoer_and_decoder",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -4379,7 +4379,7 @@
     "license": "LGPL",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_pid_controller",
-    "destination": "files/opencores_candidates/dsp_core_pid_controller",
+    "destination": "files/dsp_core_pid_controller",
     "verilog_files": [
       "RTL/16x16bit_multiplier_pipelined.v",
       "RTL/CLA_fixed.v",
@@ -4442,7 +4442,7 @@
     "license": "LGPL",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_pipelined_fft-ifft_128_points_processor",
-    "destination": "files/opencores_candidates/dsp_core_pipelined_fft-ifft_128_points_processor",
+    "destination": "files/dsp_core_pipelined_fft-ifft_128_points_processor",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -4497,7 +4497,7 @@
     "license": "LGPL",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_pipelined_fft-ifft_256_points_processor",
-    "destination": "files/opencores_candidates/dsp_core_pipelined_fft-ifft_256_points_processor",
+    "destination": "files/dsp_core_pipelined_fft-ifft_256_points_processor",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -4552,7 +4552,7 @@
     "license": "LGPL",
     "prefix": "dsp",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/dsp_core_pipelined_fft-ifft_64_points_processor",
-    "destination": "files/opencores_candidates/dsp_core_pipelined_fft-ifft_64_points_processor",
+    "destination": "files/dsp_core_pipelined_fft-ifft_64_points_processor",
     "verilog_files": [
       "RTL/WROM64.v",
       "RTL/bufram64c1.v",
@@ -4619,7 +4619,7 @@
     "license": "LGPL",
     "prefix": "ecc",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_configurable_bch_encoder_and_decoder",
-    "destination": "files/opencores_candidates/ecc_core_configurable_bch_encoder_and_decoder",
+    "destination": "files/ecc_core_configurable_bch_encoder_and_decoder",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -4689,7 +4689,7 @@
     "license": "LGPL",
     "prefix": "ecc",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_double_error_correcting_dec_bch_encoder-decoder",
-    "destination": "files/opencores_candidates/ecc_core_double_error_correcting_dec_bch_encoder-decoder",
+    "destination": "files/ecc_core_double_error_correcting_dec_bch_encoder-decoder",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -4759,7 +4759,7 @@
     "license": "Unknown",
     "prefix": "ecc",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_pci_express_16_bit_crc_verilog_file",
-    "destination": "files/opencores_candidates/ecc_core_pci_express_16_bit_crc_verilog_file",
+    "destination": "files/ecc_core_pci_express_16_bit_crc_verilog_file",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -4829,7 +4829,7 @@
     "license": "LGPL",
     "prefix": "ecc",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_reed-solomon_codec_generator",
-    "destination": "files/opencores_candidates/ecc_core_reed-solomon_codec_generator",
+    "destination": "files/ecc_core_reed-solomon_codec_generator",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -4912,7 +4912,7 @@
     "license": "Unknown",
     "prefix": "ecc",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_reed-solomon_decoder_31_19_6",
-    "destination": "files/opencores_candidates/ecc_core_reed-solomon_decoder_31_19_6",
+    "destination": "files/ecc_core_reed-solomon_decoder_31_19_6",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -4982,7 +4982,7 @@
     "license": "GPL",
     "prefix": "ecc",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_reed_solomon_decoder_204188",
-    "destination": "files/opencores_candidates/ecc_core_reed_solomon_decoder_204188",
+    "destination": "files/ecc_core_reed_solomon_decoder_204188",
     "verilog_files": [
       "RTL/BM_lamda.v",
       "RTL/DP_RAM.v",
@@ -5064,7 +5064,7 @@
     "license": "Unknown",
     "prefix": "ecc",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_reed_solomon_encoder",
-    "destination": "files/opencores_candidates/ecc_core_reed_solomon_encoder",
+    "destination": "files/ecc_core_reed_solomon_encoder",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -5134,7 +5134,7 @@
     "license": "LGPL",
     "prefix": "ecc",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_reed_solomon_encoder-decoder",
-    "destination": "files/opencores_candidates/ecc_core_reed_solomon_encoder-decoder",
+    "destination": "files/ecc_core_reed_solomon_encoder-decoder",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -5204,7 +5204,7 @@
     "license": "Others",
     "prefix": "library",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/library_common_design_environment",
-    "destination": "files/opencores_candidates/library_common_design_environment",
+    "destination": "files/library_common_design_environment",
     "verilog_files": [
       "ip/pad/rtl/verilog/pad_in_dig.v",
       "ip/pad/rtl/verilog/pad_od_dig.v",
@@ -5241,7 +5241,7 @@
     "license": "GPL",
     "prefix": "library",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/library_real-time_clock",
-    "destination": "files/opencores_candidates/library_real-time_clock",
+    "destination": "files/library_real-time_clock",
     "verilog_files": [
       "rtl/hexmap.v",
       "rtl/rtcclock.v"
@@ -5263,7 +5263,7 @@
     "license": "Others",
     "prefix": "library",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/library_srdy-drdy_library",
-    "destination": "files/opencores_candidates/library_srdy-drdy_library",
+    "destination": "files/library_srdy-drdy_library",
     "verilog_files": [
       "examples/bridge/rtl/allocator.v",
       "examples/bridge/rtl/basic_hashfunc.v",
@@ -5341,7 +5341,7 @@
     "license": "LGPL",
     "prefix": "library",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/library_versatile_library",
-    "destination": "files/opencores_candidates/library_versatile_library",
+    "destination": "files/library_versatile_library",
     "verilog_files": [
       "rtl/verilog/arith.v",
       "rtl/verilog/clk_and_reset.v",
@@ -5391,7 +5391,7 @@
     "license": "GPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_8-16-32_bit_sdram_controller",
-    "destination": "files/opencores_candidates/memory_core_8-16-32_bit_sdram_controller",
+    "destination": "files/memory_core_8-16-32_bit_sdram_controller",
     "verilog_files": [
       "rtl/core/sdrc_bank_ctl.v",
       "rtl/core/sdrc_bank_fsm.v",
@@ -5432,7 +5432,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_brsfmnce",
-    "destination": "files/opencores_candidates/memory_core_brsfmnce",
+    "destination": "files/memory_core_brsfmnce",
     "verilog_files": [
       "RTL/BRSFmnCE.v"
     ],
@@ -5452,7 +5452,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_cfi_flash_controller",
-    "destination": "files/opencores_candidates/memory_core_cfi_flash_controller",
+    "destination": "files/memory_core_cfi_flash_controller",
     "verilog_files": [
       "rtl/verilog/cfi_ctrl.v",
       "rtl/verilog/cfi_ctrl_engine.v"
@@ -5472,7 +5472,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_ddr2_mem_controller_for_digilent_genesys_board",
-    "destination": "files/opencores_candidates/memory_core_ddr2_mem_controller_for_digilent_genesys_board",
+    "destination": "files/memory_core_ddr2_mem_controller_for_digilent_genesys_board",
     "verilog_files": [
       "rtl/DDR2_Mem.v",
       "rtl/DDR2_mem_wb_if.v",
@@ -5533,7 +5533,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_ddr3_synthesizable_bfm",
-    "destination": "files/opencores_candidates/memory_core_ddr3_synthesizable_bfm",
+    "destination": "files/memory_core_ddr3_synthesizable_bfm",
     "verilog_files": [
       "rtl/ddr3_simple4.v",
       "rtl/ddr3_sr36.v",
@@ -5560,7 +5560,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_directmappedcachecontroller",
-    "destination": "files/opencores_candidates/memory_core_directmappedcachecontroller",
+    "destination": "files/memory_core_directmappedcachecontroller",
     "verilog_files": [
       "rtl/verilog/RAMB16_S8.v",
       "rtl/verilog/bufif0_8bit.v",
@@ -5587,7 +5587,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_dpsfmnce",
-    "destination": "files/opencores_candidates/memory_core_dpsfmnce",
+    "destination": "files/memory_core_dpsfmnce",
     "verilog_files": [
       "RTL/DPSFnmCE.v"
     ],
@@ -5606,7 +5606,7 @@
     "license": "Unknown",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_generic_fifos",
-    "destination": "files/opencores_candidates/memory_core_generic_fifos",
+    "destination": "files/memory_core_generic_fifos",
     "verilog_files": [
       "rtl/verilog/generic_fifo_dc.v",
       "rtl/verilog/generic_fifo_dc_gray.v",
@@ -5634,7 +5634,7 @@
     "license": "GPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_high_performance_dynamic_memory_controller",
-    "destination": "files/opencores_candidates/memory_core_high_performance_dynamic_memory_controller",
+    "destination": "files/memory_core_high_performance_dynamic_memory_controller",
     "verilog_files": [
       "hpdmc_ddr32/rtl/hpdmc.v",
       "hpdmc_ddr32/rtl/hpdmc_banktimer.v",
@@ -5674,7 +5674,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_open_freelist",
-    "destination": "files/opencores_candidates/memory_core_open_freelist",
+    "destination": "files/memory_core_open_freelist",
     "verilog_files": [
       "hdl/open_free_list.v"
     ],
@@ -5691,7 +5691,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_openhmc",
-    "destination": "files/opencores_candidates/memory_core_openhmc",
+    "destination": "files/memory_core_openhmc",
     "verilog_files": [
       "openHMC/rtl/building_blocks/counter/counter48.v",
       "openHMC/rtl/building_blocks/fifos/async/openhmc_async_fifo.v",
@@ -5746,7 +5746,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_ram_wb",
-    "destination": "files/opencores_candidates/memory_core_ram_wb",
+    "destination": "files/memory_core_ram_wb",
     "verilog_files": [
       "rtl/verilog/ram_wb.v",
       "rtl/verilog/ram_wb_defines.v",
@@ -5770,7 +5770,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_synchronous_reset_fifo_with_testbench",
-    "destination": "files/opencores_candidates/memory_core_synchronous_reset_fifo_with_testbench",
+    "destination": "files/memory_core_synchronous_reset_fifo_with_testbench",
     "verilog_files": [
       "rtl/fifo.v"
     ],
@@ -5787,7 +5787,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_versatile_fifo",
-    "destination": "files/opencores_candidates/memory_core_versatile_fifo",
+    "destination": "files/memory_core_versatile_fifo",
     "verilog_files": [
       "rtl/verilog/async_fifo_dw_simplex_actel.v",
       "rtl/verilog/async_fifo_dw_simplex_top.v",
@@ -5830,7 +5830,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_wb_async_mem_bridge",
-    "destination": "files/opencores_candidates/memory_core_wb_async_mem_bridge",
+    "destination": "files/memory_core_wb_async_mem_bridge",
     "verilog_files": [
       "src/soc_ram.v",
       "src/sync.v",
@@ -5858,7 +5858,7 @@
     "license": "Unknown",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_wb_size_bridge",
-    "destination": "files/opencores_candidates/memory_core_wb_size_bridge",
+    "destination": "files/memory_core_wb_size_bridge",
     "verilog_files": [
       "src/asram_if.v",
       "src/async_mem_if.v",
@@ -5879,7 +5879,7 @@
     "license": "LGPL",
     "prefix": "memory",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_wishbone_flash_interface_for_parallel_flash",
-    "destination": "files/opencores_candidates/memory_core_wishbone_flash_interface_for_parallel_flash",
+    "destination": "files/memory_core_wishbone_flash_interface_for_parallel_flash",
     "verilog_files": [
       "rtl/verilog/wb_flash.v"
     ],
@@ -5896,7 +5896,7 @@
     "license": "Unknown",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_8051_slave_to_wishbone_master_interface",
-    "destination": "files/opencores_candidates/other_8051_slave_to_wishbone_master_interface",
+    "destination": "files/other_8051_slave_to_wishbone_master_interface",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -5953,7 +5953,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_adjustable_frequency_divider",
-    "destination": "files/opencores_candidates/other_adjustable_frequency_divider",
+    "destination": "files/other_adjustable_frequency_divider",
     "verilog_files": [
       "rtl/defines.v",
       "rtl/divider.v",
@@ -6003,7 +6003,7 @@
     "license": "Unknown",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_an_alternative_oscilloscope",
-    "destination": "files/opencores_candidates/other_an_alternative_oscilloscope",
+    "destination": "files/other_an_alternative_oscilloscope",
     "verilog_files": [
       "AdcDriver/d_Driver_ADC.v",
       "AdcDriver/d_Driver_ADCRamBuffer.v",
@@ -6044,7 +6044,7 @@
     "license": "GPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_ay-3-8910_compatible_module_in_verilog",
-    "destination": "files/opencores_candidates/other_ay-3-8910_compatible_module_in_verilog",
+    "destination": "files/other_ay-3-8910_compatible_module_in_verilog",
     "verilog_files": [
       "1942/1942.v",
       "1942/computer_1942.v",
@@ -6087,7 +6087,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_backtracking_sudoku_solver",
-    "destination": "files/opencores_candidates/other_backtracking_sudoku_solver",
+    "destination": "files/other_backtracking_sudoku_solver",
     "verilog_files": [
       "rtl/minPiece.v",
       "rtl/piece.v",
@@ -6121,7 +6121,7 @@
     "license": "Unknown",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_boundaries",
-    "destination": "files/opencores_candidates/other_boundaries",
+    "destination": "files/other_boundaries",
     "verilog_files": [
       "rtl/verilog/arbiter.v",
       "rtl/verilog/bc_fifo_basic.v",
@@ -6156,7 +6156,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_bubblesortmodule",
-    "destination": "files/opencores_candidates/other_bubblesortmodule",
+    "destination": "files/other_bubblesortmodule",
     "verilog_files": [
       "rtl/verilog/bitsplit.v",
       "rtl/verilog/bublesort.v",
@@ -6182,7 +6182,7 @@
     "license": "BSD",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_cdc_micro_fifo",
-    "destination": "files/opencores_candidates/other_cdc_micro_fifo",
+    "destination": "files/other_cdc_micro_fifo",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6237,7 +6237,7 @@
     "license": "BSD",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_computer_operating_properly",
-    "destination": "files/opencores_candidates/other_computer_operating_properly",
+    "destination": "files/other_computer_operating_properly",
     "verilog_files": [
       "rtl/verilog/cop_count.v",
       "rtl/verilog/cop_regs.v",
@@ -6263,7 +6263,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_dna_sequence_alignment_accelerator",
-    "destination": "files/opencores_candidates/other_dna_sequence_alignment_accelerator",
+    "destination": "files/other_dna_sequence_alignment_accelerator",
     "verilog_files": [
       "sw_gen_affine.v",
       "sw_gen_testbench.v",
@@ -6285,7 +6285,7 @@
     "license": "Unknown",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_dragonball-68k_wishbone_interface",
-    "destination": "files/opencores_candidates/other_dragonball-68k_wishbone_interface",
+    "destination": "files/other_dragonball-68k_wishbone_interface",
     "verilog_files": [
       "rtl/verilog/dragonball_wbmaster.v"
     ],
@@ -6302,7 +6302,7 @@
     "license": "Others",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_groundhog_2009-benchmark_suite_for_mobile_applicat",
-    "destination": "files/opencores_candidates/other_groundhog_2009-benchmark_suite_for_mobile_applicat",
+    "destination": "files/other_groundhog_2009-benchmark_suite_for_mobile_applicat",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6357,7 +6357,7 @@
     "license": "GPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_gsc",
-    "destination": "files/opencores_candidates/other_gsc",
+    "destination": "files/other_gsc",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6400,7 +6400,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_interrupt_controller_68k",
-    "destination": "files/opencores_candidates/other_interrupt_controller_68k",
+    "destination": "files/other_interrupt_controller_68k",
     "verilog_files": [
       "rtl/int_contr.v"
     ],
@@ -6417,7 +6417,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_oscilloscope",
-    "destination": "files/opencores_candidates/other_oscilloscope",
+    "destination": "files/other_oscilloscope",
     "verilog_files": [
       "adc.v"
     ],
@@ -6440,7 +6440,7 @@
     "license": "BSD",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_programmable_interval_timer",
-    "destination": "files/opencores_candidates/other_programmable_interval_timer",
+    "destination": "files/other_programmable_interval_timer",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6503,7 +6503,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_pwm",
-    "destination": "files/opencores_candidates/other_pwm",
+    "destination": "files/other_pwm",
     "verilog_files": [
       "RTL/PWM.v",
       "RTL/down_clocking_even.v",
@@ -6552,7 +6552,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_random_pulse_generator",
-    "destination": "files/opencores_candidates/other_random_pulse_generator",
+    "destination": "files/other_random_pulse_generator",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6595,7 +6595,7 @@
     "license": "GPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_round_robin_arbiter",
-    "destination": "files/opencores_candidates/other_round_robin_arbiter",
+    "destination": "files/other_round_robin_arbiter",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6638,7 +6638,7 @@
     "license": "BSD",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_scalable_arbiter",
-    "destination": "files/opencores_candidates/other_scalable_arbiter",
+    "destination": "files/other_scalable_arbiter",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6705,7 +6705,7 @@
     "license": "GPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_simple_ac97_controller",
-    "destination": "files/opencores_candidates/other_simple_ac97_controller",
+    "destination": "files/other_simple_ac97_controller",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6748,7 +6748,7 @@
     "license": "Unknown",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_simple_general_purpose_io",
-    "destination": "files/opencores_candidates/other_simple_general_purpose_io",
+    "destination": "files/other_simple_general_purpose_io",
     "verilog_files": [
       "rtl/simple_gpio.v",
       "rtl/verilog/AC97Controller.v",
@@ -6805,7 +6805,7 @@
     "license": "Unknown",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_simple_programmable_interrupt_controller",
-    "destination": "files/opencores_candidates/other_simple_programmable_interrupt_controller",
+    "destination": "files/other_simple_programmable_interrupt_controller",
     "verilog_files": [
       "rtl/simple_pic.v"
     ],
@@ -6822,7 +6822,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_status_led",
-    "destination": "files/opencores_candidates/other_status_led",
+    "destination": "files/other_status_led",
     "verilog_files": [
       "rtl/statled.v",
       "rtl/statled_par.v"
@@ -6840,7 +6840,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_systemc-verilog_random_number_generator",
-    "destination": "files/opencores_candidates/other_systemc-verilog_random_number_generator",
+    "destination": "files/other_systemc-verilog_random_number_generator",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6885,7 +6885,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_unconfuser",
-    "destination": "files/opencores_candidates/other_unconfuser",
+    "destination": "files/other_unconfuser",
     "verilog_files": [
       "ctb.v",
       "fifoOneFlag.v",
@@ -6912,7 +6912,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_veristruct",
-    "destination": "files/opencores_candidates/other_veristruct",
+    "destination": "files/other_veristruct",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -6955,7 +6955,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_virtual_rs232_terminal_with_lvds_lcd_controller",
-    "destination": "files/opencores_candidates/other_virtual_rs232_terminal_with_lvds_lcd_controller",
+    "destination": "files/other_virtual_rs232_terminal_with_lvds_lcd_controller",
     "verilog_files": [
       "rtl/PS2.v",
       "rtl/ipcore_dir/LogoROM.v",
@@ -7022,7 +7022,7 @@
     "license": "LGPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_wb_to_amba",
-    "destination": "files/opencores_candidates/other_wb_to_amba",
+    "destination": "files/other_wb_to_amba",
     "verilog_files": [
       "src/wb_arm_phase_fsm.v",
       "src/wb_arm_slave_top.v"
@@ -7041,7 +7041,7 @@
     "license": "GPL",
     "prefix": "other",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_xilinx_configuration_port_icape2_via_wishbone",
-    "destination": "files/opencores_candidates/other_xilinx_configuration_port_icape2_via_wishbone",
+    "destination": "files/other_xilinx_configuration_port_icape2_via_wishbone",
     "verilog_files": [
       "rtl/wbicapetwo.v"
     ],
@@ -7062,7 +7062,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_16-bit_cpu_based_loosely_on_caxton_fosters_blue_ar",
-    "destination": "files/opencores_candidates/processor_16-bit_cpu_based_loosely_on_caxton_fosters_blue_ar",
+    "destination": "files/processor_16-bit_cpu_based_loosely_on_caxton_fosters_blue_ar",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -7119,7 +7119,7 @@
     "license": "Others",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_4004_cpu_and_mcs-4_family_chips",
-    "destination": "files/opencores_candidates/processor_4004_cpu_and_mcs-4_family_chips",
+    "destination": "files/processor_4004_cpu_and_mcs-4_family_chips",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -7186,7 +7186,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_6809_and_6309_compatible_core",
-    "destination": "files/opencores_candidates/processor_6809_and_6309_compatible_core",
+    "destination": "files/processor_6809_and_6309_compatible_core",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/MC6809_cpu.v",
@@ -7250,7 +7250,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_8080_compatible_cpu",
-    "destination": "files/opencores_candidates/processor_8080_compatible_cpu",
+    "destination": "files/processor_8080_compatible_cpu",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -7306,7 +7306,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_a-z80_cpu",
-    "destination": "files/opencores_candidates/processor_a-z80_cpu",
+    "destination": "files/processor_a-z80_cpu",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -7362,7 +7362,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_ae18",
-    "destination": "files/opencores_candidates/processor_ae18",
+    "destination": "files/processor_ae18",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -7420,7 +7420,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_aemb",
-    "destination": "files/opencores_candidates/processor_aemb",
+    "destination": "files/processor_aemb",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -7517,7 +7517,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_ag_6502_soft_core_with_phase-level_accuracy",
-    "destination": "files/opencores_candidates/processor_ag_6502_soft_core_with_phase-level_accuracy",
+    "destination": "files/processor_ag_6502_soft_core_with_phase-level_accuracy",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -7587,7 +7587,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_altor32-alternative_lightweight_openrisc_cpu",
-    "destination": "files/opencores_candidates/processor_altor32-alternative_lightweight_openrisc_cpu",
+    "destination": "files/processor_altor32-alternative_lightweight_openrisc_cpu",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -7695,7 +7695,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_amber_arm-compatible_core",
-    "destination": "files/opencores_candidates/processor_amber_arm-compatible_core",
+    "destination": "files/processor_amber_arm-compatible_core",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -7765,7 +7765,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_ao486",
-    "destination": "files/opencores_candidates/processor_ao486",
+    "destination": "files/processor_ao486",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -7952,7 +7952,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_ao68000-wishbone_68000_core",
-    "destination": "files/opencores_candidates/processor_ao68000-wishbone_68000_core",
+    "destination": "files/processor_ao68000-wishbone_68000_core",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -8023,7 +8023,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_aor3000",
-    "destination": "files/opencores_candidates/processor_aor3000",
+    "destination": "files/processor_aor3000",
     "verilog_files": [
       "rtl/aoR3000.v",
       "rtl/block/block_cp0.v",
@@ -8101,7 +8101,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_brainfuck_cpu",
-    "destination": "files/opencores_candidates/processor_brainfuck_cpu",
+    "destination": "files/processor_brainfuck_cpu",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -8173,7 +8173,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_edge_processor_mips",
-    "destination": "files/opencores_candidates/processor_edge_processor_mips",
+    "destination": "files/processor_edge_processor_mips",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -8228,7 +8228,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_educational_16-bit_mips_processor",
-    "destination": "files/opencores_candidates/processor_educational_16-bit_mips_processor",
+    "destination": "files/processor_educational_16-bit_mips_processor",
     "verilog_files": [
       "rtl/EX_stage.v",
       "rtl/ID_stage.v",
@@ -8298,7 +8298,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_educational_risc_processor",
-    "destination": "files/opencores_candidates/processor_educational_risc_processor",
+    "destination": "files/processor_educational_risc_processor",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -8353,7 +8353,7 @@
     "license": "Others",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_elm_embedded_processor",
-    "destination": "files/opencores_candidates/processor_elm_embedded_processor",
+    "destination": "files/processor_elm_embedded_processor",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -8423,7 +8423,7 @@
     "license": "Others",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_hive-a_32_bit_8_thread_4_register-stack_hybrid_pip",
-    "destination": "files/opencores_candidates/processor_hive-a_32_bit_8_thread_4_register-stack_hybrid_pip",
+    "destination": "files/processor_hive-a_32_bit_8_thread_4_register-stack_hybrid_pip",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -8493,7 +8493,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_k68",
-    "destination": "files/opencores_candidates/processor_k68",
+    "destination": "files/processor_k68",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -8578,7 +8578,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_lightweight_8080_compatible_core",
-    "destination": "files/opencores_candidates/processor_lightweight_8080_compatible_core",
+    "destination": "files/processor_lightweight_8080_compatible_core",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -8643,7 +8643,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_m1_core",
-    "destination": "files/opencores_candidates/processor_m1_core",
+    "destination": "files/processor_m1_core",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -8743,7 +8743,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_m65c02",
-    "destination": "files/opencores_candidates/processor_m65c02",
+    "destination": "files/processor_m65c02",
     "verilog_files": [
       "Src/RTL/M65C02.v",
       "Src/RTL/M65C02_ALU.v",
@@ -8815,7 +8815,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_mini-risc_core",
-    "destination": "files/opencores_candidates/processor_mini-risc_core",
+    "destination": "files/processor_mini-risc_core",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -8885,7 +8885,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_mips32_release_1",
-    "destination": "files/opencores_candidates/processor_mips32_release_1",
+    "destination": "files/processor_mips32_release_1",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -8955,7 +8955,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_mips789",
-    "destination": "files/opencores_candidates/processor_mips789",
+    "destination": "files/processor_mips789",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -9025,7 +9025,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_mips_enhanced",
-    "destination": "files/opencores_candidates/processor_mips_enhanced",
+    "destination": "files/processor_mips_enhanced",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -9105,7 +9105,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_mmu_for_z80_and_ez80",
-    "destination": "files/opencores_candidates/processor_mmu_for_z80_and_ez80",
+    "destination": "files/processor_mmu_for_z80_and_ez80",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -9160,7 +9160,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_mpx_32-bit_cpu",
-    "destination": "files/opencores_candidates/processor_mpx_32-bit_cpu",
+    "destination": "files/processor_mpx_32-bit_cpu",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -9212,7 +9212,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_natalius_8_bit_risc",
-    "destination": "files/opencores_candidates/processor_natalius_8_bit_risc",
+    "destination": "files/processor_natalius_8_bit_risc",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -9282,7 +9282,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_navr_avr_clone_8-bit_risc",
-    "destination": "files/opencores_candidates/processor_navr_avr_clone_8-bit_risc",
+    "destination": "files/processor_navr_avr_clone_8-bit_risc",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -9352,7 +9352,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_ncore",
-    "destination": "files/opencores_candidates/processor_ncore",
+    "destination": "files/processor_ncore",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -9422,7 +9422,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_next_80186_processor",
-    "destination": "files/opencores_candidates/processor_next_80186_processor",
+    "destination": "files/processor_next_80186_processor",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -9492,7 +9492,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_nextz80",
-    "destination": "files/opencores_candidates/processor_nextz80",
+    "destination": "files/processor_nextz80",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -9562,7 +9562,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_oks8",
-    "destination": "files/opencores_candidates/processor_oks8",
+    "destination": "files/processor_oks8",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -9627,7 +9627,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_openfire_processor_core",
-    "destination": "files/opencores_candidates/processor_openfire_processor_core",
+    "destination": "files/processor_openfire_processor_core",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -9697,7 +9697,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_openmsp430",
-    "destination": "files/opencores_candidates/processor_openmsp430",
+    "destination": "files/processor_openmsp430",
     "verilog_files": [
       "core/rtl/verilog/omsp_alu.v",
       "core/rtl/verilog/omsp_and_gate.v",
@@ -9934,7 +9934,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_openrisc_1200_hp_hyper_pipelined_or1200_core",
-    "destination": "files/opencores_candidates/processor_openrisc_1200_hp_hyper_pipelined_or1200_core",
+    "destination": "files/processor_openrisc_1200_hp_hyper_pipelined_or1200_core",
     "verilog_files": [
       "rtl/or1200_defines.v",
       "rtl/rtl_cm2/verilog/or1200_alu.v",
@@ -10229,7 +10229,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_p16c5x",
-    "destination": "files/opencores_candidates/processor_p16c5x",
+    "destination": "files/processor_p16c5x",
     "verilog_files": [
       "RTL/P16C5x.v",
       "RTL/P16C5x_ALU.v",
@@ -10290,7 +10290,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_qrisc32_wishbone_compatible_risc_core",
-    "destination": "files/opencores_candidates/processor_qrisc32_wishbone_compatible_risc_core",
+    "destination": "files/processor_qrisc32_wishbone_compatible_risc_core",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -10345,7 +10345,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_r2000_soc",
-    "destination": "files/opencores_candidates/processor_r2000_soc",
+    "destination": "files/processor_r2000_soc",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -10415,7 +10415,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_reduced_avr_core_for_cpld",
-    "destination": "files/opencores_candidates/processor_reduced_avr_core_for_cpld",
+    "destination": "files/processor_reduced_avr_core_for_cpld",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -10486,7 +10486,7 @@
     "license": "Others",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_risc16f84",
-    "destination": "files/opencores_candidates/processor_risc16f84",
+    "destination": "files/processor_risc16f84",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -10542,7 +10542,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_rtf65002",
-    "destination": "files/opencores_candidates/processor_rtf65002",
+    "destination": "files/processor_rtf65002",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -10648,7 +10648,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_s1_core",
-    "destination": "files/opencores_candidates/processor_s1_core",
+    "destination": "files/processor_s1_core",
     "verilog_files": [
       "hdl/rtl/s1_top/int_ctrl.v",
       "hdl/rtl/s1_top/rst_ctrl.v",
@@ -10839,7 +10839,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_sayeh_educational_processor",
-    "destination": "files/opencores_candidates/processor_sayeh_educational_processor",
+    "destination": "files/processor_sayeh_educational_processor",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -10894,7 +10894,7 @@
     "license": "Others",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_small_stack_based_computer_compiler",
-    "destination": "files/opencores_candidates/processor_small_stack_based_computer_compiler",
+    "destination": "files/processor_small_stack_based_computer_compiler",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -10950,7 +10950,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_small_x86_subset_core",
-    "destination": "files/opencores_candidates/processor_small_x86_subset_core",
+    "destination": "files/processor_small_x86_subset_core",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -11005,7 +11005,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_t6507lp",
-    "destination": "files/opencores_candidates/processor_t6507lp",
+    "destination": "files/processor_t6507lp",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -11089,7 +11089,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_theia_ray_graphic_processing_unit",
-    "destination": "files/opencores_candidates/processor_theia_ray_graphic_processing_unit",
+    "destination": "files/processor_theia_ray_graphic_processing_unit",
     "verilog_files": [
       "RTL/Collaterals.v",
       "RTL/Module_ArithmeticComparison.v",
@@ -11191,7 +11191,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_totalcpu",
-    "destination": "files/opencores_candidates/processor_totalcpu",
+    "destination": "files/processor_totalcpu",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -11243,7 +11243,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_turbo_8051",
-    "destination": "files/opencores_candidates/processor_turbo_8051",
+    "destination": "files/processor_turbo_8051",
     "verilog_files": [
       "benchmark8051/rtl/oc8051_acc.v",
       "benchmark8051/rtl/oc8051_alu.v",
@@ -11403,7 +11403,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_tv80",
-    "destination": "files/opencores_candidates/processor_tv80",
+    "destination": "files/processor_tv80",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -11491,7 +11491,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_ucore",
-    "destination": "files/opencores_candidates/processor_ucore",
+    "destination": "files/processor_ucore",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -11546,7 +11546,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_v586",
-    "destination": "files/opencores_candidates/processor_v586",
+    "destination": "files/processor_v586",
     "verilog_files": [
       "rtl/TOP_SYS.v",
       "rtl/asram_core.v",
@@ -11629,7 +11629,7 @@
     "license": "LGPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_vtach-bell_labs_cardiac_reimagined_in_verilog",
-    "destination": "files/opencores_candidates/processor_vtach-bell_labs_cardiac_reimagined_in_verilog",
+    "destination": "files/processor_vtach-bell_labs_cardiac_reimagined_in_verilog",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -11679,7 +11679,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_wishbone_high_performance_z80",
-    "destination": "files/opencores_candidates/processor_wishbone_high_performance_z80",
+    "destination": "files/processor_wishbone_high_performance_z80",
     "verilog_files": [
       "rtl/opcodes.v",
       "rtl/verilog/AC97Controller.v",
@@ -11744,7 +11744,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_y80e-z80-z180_compatible_processor_extended_by_ez8",
-    "destination": "files/opencores_candidates/processor_y80e-z80-z180_compatible_processor_extended_by_ez8",
+    "destination": "files/processor_y80e-z80-z180_compatible_processor_extended_by_ez8",
     "verilog_files": [
       "rtl/alu_log.v",
       "rtl/alu_math.v",
@@ -11817,7 +11817,7 @@
     "license": "Unknown",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_yacc-yet_another_cpu_cpu",
-    "destination": "files/opencores_candidates/processor_yacc-yet_another_cpu_cpu",
+    "destination": "files/processor_yacc-yet_another_cpu_cpu",
     "verilog_files": [
       "RTL/altera/fifo512_cyclone.v",
       "RTL/altera/fifo512_cyclone_bb.v",
@@ -11916,7 +11916,7 @@
     "license": "BSD",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_z3-the_zork_cpu",
-    "destination": "files/opencores_candidates/processor_z3-the_zork_cpu",
+    "destination": "files/processor_z3-the_zork_cpu",
     "verilog_files": [
       "rtl/verilog/AC97Controller.v",
       "rtl/verilog/PSG16.v",
@@ -11972,7 +11972,7 @@
     "license": "GPL",
     "prefix": "processor",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_zet-the_x86_ia-32_open_implementation",
-    "destination": "files/opencores_candidates/processor_zet-the_x86_ia-32_open_implementation",
+    "destination": "files/processor_zet-the_x86_ia-32_open_implementation",
     "verilog_files": [
       "RTL/altera/ram128x8.v",
       "RTL/altera/rom1024x12.v",
@@ -12062,7 +12062,7 @@
     "license": "Unknown",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_ac_97_controller_ip_core",
-    "destination": "files/opencores_candidates/system_controller_ac_97_controller_ip_core",
+    "destination": "files/system_controller_ac_97_controller_ip_core",
     "verilog_files": [
       "rtl/verilog/ac97_cra.v",
       "rtl/verilog/ac97_defines.v",
@@ -12108,7 +12108,7 @@
     "license": "Unknown",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_memory_controller_ip_core",
-    "destination": "files/opencores_candidates/system_controller_memory_controller_ip_core",
+    "destination": "files/system_controller_memory_controller_ip_core",
     "verilog_files": [
       "rtl/verilog/mc_adr_sel.v",
       "rtl/verilog/mc_cs_rf.v",
@@ -12152,7 +12152,7 @@
     "license": "Unknown",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_pci_bridge",
-    "destination": "files/opencores_candidates/system_controller_pci_bridge",
+    "destination": "files/system_controller_pci_bridge",
     "verilog_files": [
       "apps/crt/rtl/verilog/crtc_iob.v",
       "apps/crt/rtl/verilog/pci_user_constants.v",
@@ -12256,7 +12256,7 @@
     "license": "LGPL",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_pci_mini",
-    "destination": "files/opencores_candidates/system_controller_pci_mini",
+    "destination": "files/system_controller_pci_mini",
     "verilog_files": [
       "pci-32.v",
       "pci-33.v",
@@ -12276,7 +12276,7 @@
     "license": "LGPL",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_pcie_ds_dma",
-    "destination": "files/opencores_candidates/system_controller_pcie_ds_dma",
+    "destination": "files/system_controller_pcie_ds_dma",
     "verilog_files": [
       "core/ds_dma64/pcie_src/components/rtl/core64_pb_wishbone_ctrl.v"
     ],
@@ -12293,7 +12293,7 @@
     "license": "LGPL",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_rs232_system_controller",
-    "destination": "files/opencores_candidates/system_controller_rs232_system_controller",
+    "destination": "files/system_controller_rs232_system_controller",
     "verilog_files": [
       "rs232_syscon.v"
     ],
@@ -12317,7 +12317,7 @@
     "license": "Unknown",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_scsi_chip",
-    "destination": "files/opencores_candidates/system_controller_scsi_chip",
+    "destination": "files/system_controller_scsi_chip",
     "verilog_files": [
       "web_uploads/Address_translate.v",
       "web_uploads/Data_buffer.v",
@@ -12340,7 +12340,7 @@
     "license": "LGPL",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_wb_lcd_character_display_controller",
-    "destination": "files/opencores_candidates/system_controller_wb_lcd_character_display_controller",
+    "destination": "files/system_controller_wb_lcd_character_display_controller",
     "verilog_files": [
       "myhdl/wb_lcd_workspace/boards/s3esk-mm_lcd/rtl/glbl.v",
       "myhdl/wb_lcd_workspace/boards/s3esk-mm_lcd/rtl/rotary.v",
@@ -12400,7 +12400,7 @@
     "license": "LGPL",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_on_chip_ahb_dma_32-64_bits",
-    "destination": "files/opencores_candidates/system_on_chip_ahb_dma_32-64_bits",
+    "destination": "files/system_on_chip_ahb_dma_32-64_bits",
     "verilog_files": [
       "src/dma_ahb32/dma_ahb32.v",
       "src/dma_ahb32/dma_ahb32_apb_mux.v",
@@ -12532,7 +12532,7 @@
     "license": "Unknown",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_on_chip_ahb_to_wishbone_bridge",
-    "destination": "files/opencores_candidates/system_on_chip_ahb_to_wishbone_bridge",
+    "destination": "files/system_on_chip_ahb_to_wishbone_bridge",
     "verilog_files": [
       "src/ahb2wb.v"
     ],
@@ -12549,7 +12549,7 @@
     "license": "BSD",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_on_chip_aoocs-wishbone_amiga_ocs_soc",
-    "destination": "files/opencores_candidates/system_on_chip_aoocs-wishbone_amiga_ocs_soc",
+    "destination": "files/system_on_chip_aoocs-wishbone_amiga_ocs_soc",
     "verilog_files": [
       "rtl/ao68000.v",
       "rtl/bus_syscon.v",
@@ -12606,7 +12606,7 @@
     "license": "LGPL",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_on_chip_async-sdm-noc",
-    "destination": "files/opencores_candidates/system_on_chip_async-sdm-noc",
+    "destination": "files/system_on_chip_async-sdm-noc",
     "verilog_files": [
       "common/src/cell_lib.v",
       "common/src/comp4.v",
@@ -12679,7 +12679,7 @@
     "license": "LGPL",
     "prefix": "system",
     "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_on_chip_axi_dma_32-64_bits",
-    "destination": "files/opencores_candidates/system_on_chip_axi_dma_32-64_bits",
+    "destination": "files/system_on_chip_axi_dma_32-64_bits",
     "verilog_files": [
       "src/dma_axi32/dma_axi32.v",
       "src/dma_axi32/dma_axi32_apb_mux.v",
