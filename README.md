@@ -3,34 +3,32 @@
 This repository contains the evaluation framework and benchmark artifacts for
 "Rethinking LLM-aided RTL Code Optimization Via Timing Logic Metamorphosis".
 
-## Benchmark Artifacts
+## Artifacts
 
-The paper benchmark contains 233 RTL programs assembled from RTLLM,
-VerilogEval, public GitHub repositories, and OpenCores. This repository includes
-the core evaluation framework, representative examples, and an expanded
-OpenCores-derived candidate pool.
+This repository includes the core evaluation framework and public RTL examples
+for inspecting and extending the evaluation workflow.
 
-The expanded candidate pool has been flattened directly under:
+RTL examples are stored directly under:
 
 ```text
 files/
 ```
 
-It also adds some Verilog-oriented OpenCores candidates imported from the
-`fabriziotappero/ip-cores` branch index. These candidates are provided as a
-backup and inspection set for building or extending benchmark releases. They are
-not all claimed to be manually validated final benchmark cases: some upstream
+The paper benchmark contains 233 RTL programs assembled from RTLLM,
+VerilogEval, public GitHub repositories, and OpenCores. The public `files/`
+directory is not a one-to-one manifest of those 233 experimental programs.
+Instead, it contains representative examples plus additional OpenCores-derived
+RTL candidates for inspection and future benchmark extension. Some upstream
 projects have incomplete metadata, non-uniform directory layouts, mixed
 testbench/model files, platform-specific path issues, or licenses that require
-case-by-case review before redistribution as part of a final artifact package.
+case-by-case review before they can be treated as final benchmark cases.
 
-The generated manifests record source URLs, declared language/status/license,
-copied Verilog files, copied license files when present, and detected module
-names:
+For provenance, the generated JSON manifest records source URLs, declared
+language/status/license, copied Verilog files, copied license files when
+present, and detected module names:
 
 ```text
 rtl_morph_eval/configs/opencores_manifest.json
-rtl_morph_eval/configs/opencores_manifest.csv
 ```
 
 To refresh or reproduce the import:
@@ -39,9 +37,7 @@ To refresh or reproduce the import:
 cd rtl_morph_eval
 python scripts/import_opencores.py --apply \
   --licenses BSD,LGPL,GPL,Others,Unknown \
-  --prefixes arithmetic,communication,crypto,dsp,ecc,library,memory,other,processor,system,video \
-  --limit 280 \
-  --target-imported 240
+  --prefixes arithmetic,communication,crypto,dsp,ecc,library,memory,other,processor,system,video
 ```
 
 ## Framework
