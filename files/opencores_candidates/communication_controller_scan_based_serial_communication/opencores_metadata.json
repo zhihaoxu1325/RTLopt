@@ -1,0 +1,18 @@
+{
+  "branch": "communication_controller_scan_based_serial_communication",
+  "name": "scan based serial communication",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "BSD",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_scan_based_serial_communication",
+  "verilog_files": [
+    "scan.perl.v",
+    "scan_testbench.perl.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "scan",
+    "tbench"
+  ]
+}

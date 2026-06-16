@@ -1,0 +1,32 @@
+{
+  "branch": "communication_controller_iso7816_3_master",
+  "name": "iso7816_3_master",
+  "language": "Verilog",
+  "status": "Alpha",
+  "license": "BSD",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_iso7816_3_master",
+  "verilog_files": [
+    "sources/ClkDivider.v",
+    "sources/Counter.v",
+    "sources/HalfDuplexUartIf.v",
+    "sources/Iso7816_3_Master.v",
+    "sources/RxCore.v",
+    "sources/RxCoreSelfContained.v",
+    "sources/RxCoreSpec.v",
+    "sources/TxCore.v",
+    "sources/Uart.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "ClkDivider",
+    "Counter",
+    "HalfDuplexUartIf",
+    "Iso7816_3_Master",
+    "RxCore",
+    "RxCoreSelfContained",
+    "RxCoreSpec",
+    "TxCore",
+    "BasicHalfDuplexUart"
+  ]
+}

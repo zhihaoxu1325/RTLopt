@@ -1,0 +1,16 @@
+{
+  "branch": "memory_core_open_freelist",
+  "name": "open freelist",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "memory",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_open_freelist",
+  "verilog_files": [
+    "hdl/open_free_list.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "open_free_list"
+  ]
+}

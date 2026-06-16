@@ -1,0 +1,40 @@
+{
+  "branch": "memory_core_8-16-32_bit_sdram_controller",
+  "name": "8/16/32 bit sdram controller",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "GPL",
+  "prefix": "memory",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_8-16-32_bit_sdram_controller",
+  "verilog_files": [
+    "rtl/core/sdrc_bank_ctl.v",
+    "rtl/core/sdrc_bank_fsm.v",
+    "rtl/core/sdrc_bs_convert.v",
+    "rtl/core/sdrc_core.v",
+    "rtl/core/sdrc_define.v",
+    "rtl/core/sdrc_req_gen.v",
+    "rtl/core/sdrc_xfr_ctl.v",
+    "rtl/lib/async_fifo.v",
+    "rtl/lib/sync_fifo.v",
+    "rtl/top/sdrc_top.v",
+    "rtl/wb2sdrc/wb2sdrc.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "takes",
+    "sdrc_bank_ctl",
+    "sdrc_bank_fsm",
+    "does",
+    "sdrc_bs_convert",
+    "sdrc_core",
+    "sdrc_req_gen",
+    "and",
+    "sdrc_xfr_ctl",
+    "async_fifo",
+    "sync_fifo",
+    "transalate",
+    "sdrc_top",
+    "translate",
+    "wb2sdrc"
+  ]
+}

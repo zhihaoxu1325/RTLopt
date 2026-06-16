@@ -1,0 +1,26 @@
+{
+  "branch": "memory_core_ddr3_synthesizable_bfm",
+  "name": "ddr3 synthesizable bfm",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "memory",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_ddr3_synthesizable_bfm",
+  "verilog_files": [
+    "rtl/ddr3_simple4.v",
+    "rtl/ddr3_sr36.v",
+    "rtl/ddr3_sr4.v",
+    "rtl/dport_ram.v",
+    "rtl/my_iddrx8.v",
+    "rtl/my_oddrx8.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "ddr3_simple4",
+    "ddr3_sr36",
+    "ddr3_sr4",
+    "dport_ram",
+    "my_iddrx8",
+    "my_oddrx8"
+  ]
+}

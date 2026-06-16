@@ -1,0 +1,32 @@
+{
+  "branch": "communication_controller_spi_controller_for_ad-da_chips_on_s3e-a-an_starter",
+  "name": "spi controller for ad/da chips on s3e/a/an starter",
+  "language": "Verilog",
+  "status": "Alpha",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spi_controller_for_ad-da_chips_on_s3e-a-an_starter",
+  "verilog_files": [
+    "rtl/verilog/adc.v",
+    "rtl/verilog/amp.v",
+    "rtl/verilog/dac.v",
+    "rtl/verilog/spi_clgen.v",
+    "rtl/verilog/spi_defines.v",
+    "rtl/verilog/spi_shift_in.v",
+    "rtl/verilog/spi_shift_out.v",
+    "rtl/verilog/spi_top.v",
+    "rtl/verilog/spi_top_tb2.v",
+    "rtl/verilog/timescale.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "adc",
+    "amp",
+    "dac",
+    "spi_clgen",
+    "spi_shift_in",
+    "spi_shift_out",
+    "spi_top",
+    "spi_top_tb2"
+  ]
+}

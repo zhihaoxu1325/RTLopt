@@ -1,0 +1,43 @@
+{
+  "branch": "crypto_core_128-192_aes",
+  "name": "128/192 aes",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Unknown",
+  "prefix": "crypto",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_128-192_aes",
+  "verilog_files": [
+    "rtl/verilog/aes128lowarea/aes.v",
+    "rtl/verilog/aes128lowarea/byte_mixcolum.v",
+    "rtl/verilog/aes128lowarea/keysched.v",
+    "rtl/verilog/aes128lowarea/mixcolum.v",
+    "rtl/verilog/aes128lowarea/sbox.v",
+    "rtl/verilog/aes128lowarea/subbytes.v",
+    "rtl/verilog/aes128lowarea/timescale.v",
+    "rtl/verilog/aes128lowarea/wb_aescontroller.v",
+    "rtl/verilog/aes128lowarea/word_mixcolum.v",
+    "rtl/verilog/aes192lowarea/aes192.v",
+    "rtl/verilog/aes192lowarea/byte_mixcolum.v",
+    "rtl/verilog/aes192lowarea/keysched192.v",
+    "rtl/verilog/aes192lowarea/mixcolum.v",
+    "rtl/verilog/aes192lowarea/sbox.v",
+    "rtl/verilog/aes192lowarea/subbytes.v",
+    "rtl/verilog/aes192lowarea/timescale.v",
+    "rtl/verilog/aes192lowarea/word_mixcolum.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "aes",
+    "next_first_round_reg",
+    "byte_mixcolum",
+    "keysched",
+    "implementation",
+    "mixcolum",
+    "sbox",
+    "subbytes",
+    "wb_aes_controller",
+    "word_mixcolum",
+    "aes192",
+    "keysched192"
+  ]
+}

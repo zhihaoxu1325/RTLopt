@@ -1,0 +1,18 @@
+{
+  "branch": "communication_controller_spi_core",
+  "name": "spi core",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Unknown",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spi_core",
+  "verilog_files": [
+    "rtl/verilog/fifo4.v",
+    "rtl/verilog/simple_spi_top.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "fifo4",
+    "simple_spi_top"
+  ]
+}

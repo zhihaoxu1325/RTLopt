@@ -1,0 +1,28 @@
+{
+  "branch": "communication_controller_usb_device_core",
+  "name": "usb device core",
+  "language": "Verilog",
+  "status": "Alpha",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_usb_device_core",
+  "verilog_files": [
+    "rtl/phy/usb_phy.v",
+    "rtl/phy/usb_rx_phy.v",
+    "rtl/phy/usb_tx_phy.v",
+    "rtl/usbf_crc16.v",
+    "rtl/usbf_device.v",
+    "rtl/usbf_fifo.v",
+    "rtl/usbf_sie.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "usb_phy",
+    "usb_rx_phy",
+    "usb_tx_phy",
+    "usbf_crc16",
+    "usbf_device",
+    "usbf_fifo",
+    "usbf_sie"
+  ]
+}

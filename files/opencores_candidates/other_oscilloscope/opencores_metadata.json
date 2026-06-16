@@ -1,0 +1,22 @@
+{
+  "branch": "other_oscilloscope",
+  "name": "oscilloscope",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "other",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_oscilloscope",
+  "verilog_files": [
+    "adc.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "adc",
+    "clk_div",
+    "my_clk_div",
+    "video_counters",
+    "rot_driver",
+    "btn_driver",
+    "main"
+  ]
+}

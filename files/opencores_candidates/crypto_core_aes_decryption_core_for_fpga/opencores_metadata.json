@@ -1,0 +1,17 @@
+{
+  "branch": "crypto_core_aes_decryption_core_for_fpga",
+  "name": "aes decryption core for fpga",
+  "language": "Verilog",
+  "status": "Beta",
+  "license": "LGPL",
+  "prefix": "crypto",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_aes_decryption_core_for_fpga",
+  "verilog_files": [
+    "rtl/verilog/generic/generic_muxfx.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "MUXF7",
+    "MUXF8"
+  ]
+}

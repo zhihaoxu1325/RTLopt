@@ -1,0 +1,20 @@
+{
+  "branch": "communication_controller_time_slot_interchange_digital_switch",
+  "name": "time slot interchange digital switch",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Unknown",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_time_slot_interchange_digital_switch",
+  "verilog_files": [
+    "web_uploads/tdm_switch_b.v",
+    "web_uploads/tdm_switch_top.v",
+    "web_uploads/tdm_switch_top_timesim.v",
+    "web_uploads/testbench_top.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "tdm_switch_top",
+    "testbench"
+  ]
+}

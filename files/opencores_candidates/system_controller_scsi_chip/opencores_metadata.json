@@ -1,0 +1,22 @@
+{
+  "branch": "system_controller_scsi_chip",
+  "name": "scsi_chip",
+  "language": "Verilog",
+  "status": "Alpha",
+  "license": "Unknown",
+  "prefix": "system",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_controller_scsi_chip",
+  "verilog_files": [
+    "web_uploads/Address_translate.v",
+    "web_uploads/Data_buffer.v",
+    "web_uploads/SRAM_controler.v",
+    "web_uploads/registers_complex.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "Address_translate",
+    "Data_buffer",
+    "SRAM_controler",
+    "Registers_file"
+  ]
+}

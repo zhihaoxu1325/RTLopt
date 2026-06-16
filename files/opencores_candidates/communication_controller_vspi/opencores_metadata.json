@@ -1,0 +1,30 @@
+{
+  "branch": "communication_controller_vspi",
+  "name": "vspi",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "Others",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_vspi",
+  "verilog_files": [
+    "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/buffermem.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/spiloopmem.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/buffermem.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/spiifc.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/user_logic.v",
+    "src/spi_base/spiifc.v",
+    "src/spi_base/spiifc_twoclock.v",
+    "src/spi_base/spiloop.v",
+    "src/spi_base/spiwrap.v",
+    "src/ublaze_ifc/user_logic.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "buffermem",
+    "spiloopmem",
+    "spiifc",
+    "user_logic",
+    "spiloop",
+    "spiwrap"
+  ]
+}

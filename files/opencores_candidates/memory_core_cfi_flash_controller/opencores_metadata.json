@@ -1,0 +1,19 @@
+{
+  "branch": "memory_core_cfi_flash_controller",
+  "name": "cfi flash controller",
+  "language": "Verilog",
+  "status": "Alpha",
+  "license": "LGPL",
+  "prefix": "memory",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_cfi_flash_controller",
+  "verilog_files": [
+    "rtl/verilog/cfi_ctrl.v",
+    "rtl/verilog/cfi_ctrl_engine.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "has",
+    "cfi_ctrl",
+    "cfi_ctrl_engine"
+  ]
+}

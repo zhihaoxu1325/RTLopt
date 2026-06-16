@@ -1,0 +1,16 @@
+{
+  "branch": "system_on_chip_ahb_to_wishbone_bridge",
+  "name": "ahb to wishbone bridge",
+  "language": "Verilog",
+  "status": "Mature",
+  "license": "Unknown",
+  "prefix": "system",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_on_chip_ahb_to_wishbone_bridge",
+  "verilog_files": [
+    "src/ahb2wb.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "ahb2wb"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "branch": "other_bubblesortmodule",
+  "name": "bubblesortmodule",
+  "language": "Verilog",
+  "status": "Stable",
+  "license": "LGPL",
+  "prefix": "other",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_bubblesortmodule",
+  "verilog_files": [
+    "rtl/verilog/bitsplit.v",
+    "rtl/verilog/bublesort.v",
+    "rtl/verilog/intgenerator.v",
+    "rtl/verilog/rungenerator.v",
+    "rtl/verilog/stageen.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "bitsplit",
+    "in",
+    "bublesort",
+    "intgenerator",
+    "rungenerator",
+    "stageen"
+  ]
+}

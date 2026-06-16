@@ -1,0 +1,16 @@
+{
+  "branch": "communication_controller_i2cgpio",
+  "name": "i2cgpio",
+  "language": "Verilog",
+  "status": "Alpha",
+  "license": "LGPL",
+  "prefix": "communication",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2cgpio",
+  "verilog_files": [
+    "rtl/verilog/i2cgpio.v"
+  ],
+  "license_files": [],
+  "top_candidates": [
+    "i2c_gpio"
+  ]
+}
