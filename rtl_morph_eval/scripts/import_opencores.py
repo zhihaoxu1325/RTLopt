@@ -315,7 +315,7 @@ def main() -> int:
     parser.add_argument("--refresh-index", action="store_true", help="Re-download the index HTML.")
     parser.add_argument("--refresh-clones", action="store_true", help="Re-clone branches already present in the cache.")
     parser.add_argument("--cache-dir", type=Path, default=repo_root() / "work" / "opencores_cache")
-    parser.add_argument("--output-dir", type=Path, default=repo_root() / "files" / "opencores_candidates")
+    parser.add_argument("--output-dir", type=Path, default=repo_root() / "files")
     parser.add_argument("--manifest", type=Path, default=repo_root() / "rtl_morph_eval" / "configs" / "opencores_manifest.json")
     args = parser.parse_args()
 
