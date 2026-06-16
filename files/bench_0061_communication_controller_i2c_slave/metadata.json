@@ -1,0 +1,29 @@
+{
+  "case_id": "bench_0061_communication_controller_i2c_slave",
+  "category": "data_path",
+  "top_module": "i2cSlaveTop",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_i2c_slave",
+  "source_name": "i2c slave",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2c_slave",
+  "source_status": "Stable",
+  "source_license": "GPL",
+  "source_prefix": "communication",
+  "included_files": [
+    "rtl/i2cSlave_define.v",
+    "rtl/i2cSlaveTop.v",
+    "rtl/i2cSlave.v",
+    "rtl/registerInterface.v",
+    "rtl/serialInterface.v"
+  ],
+  "dependency_modules": [
+    "i2cSlaveTop",
+    "i2cSlave",
+    "registerInterface",
+    "serialInterface"
+  ],
+  "loc": 864,
+  "module_count": 4,
+  "file_count": 5,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

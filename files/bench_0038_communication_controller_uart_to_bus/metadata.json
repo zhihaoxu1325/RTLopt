@@ -1,0 +1,28 @@
+{
+  "case_id": "bench_0038_communication_controller_uart_to_bus",
+  "category": "data_path",
+  "top_module": "uart_top",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_uart_to_bus",
+  "source_name": "uart to bus",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_uart_to_bus",
+  "source_status": "Mature",
+  "source_license": "BSD",
+  "source_prefix": "communication",
+  "included_files": [
+    "verilog/rtl/uart_top.v",
+    "verilog/rtl/baud_gen.v",
+    "verilog/rtl/uart_rx.v",
+    "verilog/rtl/uart_tx.v"
+  ],
+  "dependency_modules": [
+    "uart_top",
+    "baud_gen",
+    "uart_rx",
+    "uart_tx"
+  ],
+  "loc": 354,
+  "module_count": 4,
+  "file_count": 4,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

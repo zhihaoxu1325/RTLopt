@@ -1,0 +1,50 @@
+{
+  "case_id": "bench_0225_ecc_core_reed_solomon_decoder_204188",
+  "category": "data_path",
+  "top_module": "RS_dec",
+  "llm_input": "design.v",
+  "source_project": "ecc_core_reed_solomon_decoder_204188",
+  "source_name": "reed solomon decoder 204188",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/ecc_core_reed_solomon_decoder_204188",
+  "source_status": "Stable",
+  "source_license": "GPL",
+  "source_prefix": "ecc",
+  "included_files": [
+    "RTL/verilog/mmc_boot_defines.v",
+    "RTL/verilog/virtex_bitstream_const.v",
+    "RTL/RS_dec.v",
+    "RTL/BM_lamda.v",
+    "RTL/DP_RAM.v",
+    "RTL/GF_matrix_ascending_binary.v",
+    "RTL/GF_matrix_dec.v",
+    "RTL/GF_mult_add_syndromes.v",
+    "RTL/Omega_Phy.v",
+    "RTL/error_correction.v",
+    "RTL/input_syndromes.v",
+    "RTL/lamda_roots.v",
+    "RTL/out_stage.v",
+    "RTL/transport_in2out.v"
+  ],
+  "dependency_modules": [
+    "RS_dec",
+    "BM_lamda",
+    "DP_RAM",
+    "GF_matrix_ascending_binary",
+    "GF_matrix_dec",
+    "Omega_Phy",
+    "error_correction",
+    "input_syndromes",
+    "GF_mult_add_syndromes",
+    "lamda_roots",
+    "out_stage",
+    "transport_in2out"
+  ],
+  "loc": 4522,
+  "module_count": 12,
+  "file_count": 14,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "doc/gpl.txt",
+    "doc/lgpl.txt"
+  ]
+}

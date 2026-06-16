@@ -1,0 +1,40 @@
+{
+  "case_id": "bench_0210_communication_controller_ssp_uart",
+  "category": "clock_domain",
+  "top_module": "SSP_UART",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_ssp_uart",
+  "source_name": "ssp_uart",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ssp_uart",
+  "source_status": "Mature",
+  "source_license": "LGPL",
+  "source_prefix": "communication",
+  "included_files": [
+    "RTL/SSP_UART.v",
+    "RTL/DPSFnmCE.v",
+    "RTL/UART_BRG.v",
+    "RTL/UART_INT.v",
+    "RTL/UART_RTO.v",
+    "RTL/UART_RXSM.v",
+    "RTL/UART_TXSM.v",
+    "RTL/fedet.v",
+    "RTL/re1ce.v",
+    "RTL/redet.v"
+  ],
+  "dependency_modules": [
+    "SSP_UART",
+    "DPSFnmCE",
+    "UART_BRG",
+    "UART_INT",
+    "fedet",
+    "redet",
+    "UART_RTO",
+    "UART_RXSM",
+    "UART_TXSM",
+    "re1ce"
+  ],
+  "loc": 2920,
+  "module_count": 10,
+  "file_count": 10,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

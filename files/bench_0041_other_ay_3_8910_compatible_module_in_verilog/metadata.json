@@ -1,0 +1,31 @@
+{
+  "case_id": "bench_0041_other_ay_3_8910_compatible_module_in_verilog",
+  "category": "data_path",
+  "top_module": "computer_1942",
+  "llm_input": "design.v",
+  "source_project": "other_ay-3-8910_compatible_module_in_verilog",
+  "source_name": "ay-3-8910 compatible module in verilog",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_ay-3-8910_compatible_module_in_verilog",
+  "source_status": "Beta",
+  "source_license": "GPL",
+  "source_prefix": "other",
+  "included_files": [
+    "1942/computer_1942.v",
+    "sqm/sqmusic.v"
+  ],
+  "dependency_modules": [
+    "computer_1942",
+    "AY_3_8910_capcom",
+    "SQMUSIC",
+    "SQM_CLK_DIVIDER",
+    "SQM_ENVELOPE",
+    "SQM_NOISE",
+    "RAM",
+    "ROM",
+    "SOUND_LATCH"
+  ],
+  "loc": 445,
+  "module_count": 9,
+  "file_count": 2,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

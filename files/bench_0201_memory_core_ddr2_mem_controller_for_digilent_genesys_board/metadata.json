@@ -1,0 +1,41 @@
+{
+  "case_id": "bench_0201_memory_core_ddr2_mem_controller_for_digilent_genesys_board",
+  "category": "data_path",
+  "top_module": "MEMCtrl",
+  "llm_input": "design.v",
+  "source_project": "memory_core_ddr2_mem_controller_for_digilent_genesys_board",
+  "source_name": "ddr2 mem controller for digilent genesys board",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_ddr2_mem_controller_for_digilent_genesys_board",
+  "source_status": "Beta",
+  "source_license": "LGPL",
+  "source_prefix": "memory",
+  "included_files": [
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/MEMCtrl.v",
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/ddr2_chipscope.v",
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/ddr2_idelay_ctrl.v",
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/ddr2_mem_if_top.v",
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/ddr2_phy_top.v",
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/ddr2_top.v",
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/ddr2_usr_addr_fifo.v",
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/ddr2_usr_top.v",
+    "rtl/ipcore_dir/MEMCtrl/user_design/rtl/ddr2_usr_wr.v"
+  ],
+  "dependency_modules": [
+    "MEMCtrl",
+    "ddr2_idelay_ctrl",
+    "ddr2_top",
+    "ddr2_mem_if_top",
+    "ddr2_phy_top",
+    "ddr2_usr_top",
+    "ddr2_usr_addr_fifo",
+    "ddr2_usr_wr",
+    "vio_async_in100",
+    "vio_async_in192",
+    "vio_async_in96",
+    "vio_sync_out32"
+  ],
+  "loc": 2545,
+  "module_count": 12,
+  "file_count": 9,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

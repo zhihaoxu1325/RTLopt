@@ -1,0 +1,34 @@
+{
+  "case_id": "bench_0215_communication_controller_usb_device_core",
+  "category": "timing_control_flow",
+  "top_module": "usbf_device",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_usb_device_core",
+  "source_name": "usb device core",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_usb_device_core",
+  "source_status": "Alpha",
+  "source_license": "LGPL",
+  "source_prefix": "communication",
+  "included_files": [
+    "rtl/usbf_device.v",
+    "rtl/phy/usb_phy.v",
+    "rtl/phy/usb_rx_phy.v",
+    "rtl/phy/usb_tx_phy.v",
+    "rtl/usbf_crc16.v",
+    "rtl/usbf_fifo.v",
+    "rtl/usbf_sie.v"
+  ],
+  "dependency_modules": [
+    "usbf_device",
+    "usb_phy",
+    "usb_rx_phy",
+    "usb_tx_phy",
+    "usbf_sie",
+    "usbf_crc16",
+    "usbf_fifo"
+  ],
+  "loc": 3348,
+  "module_count": 7,
+  "file_count": 7,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

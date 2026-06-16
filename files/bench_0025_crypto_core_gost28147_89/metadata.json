@@ -1,0 +1,29 @@
+{
+  "case_id": "bench_0025_crypto_core_gost28147_89",
+  "category": "data_path",
+  "top_module": "gost89_pipelined_ecb_encrypt",
+  "llm_input": "design.v",
+  "source_project": "crypto_core_gost28147-89",
+  "source_name": "gost28147-89",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_gost28147-89",
+  "source_status": "Stable",
+  "source_license": "BSD",
+  "source_prefix": "crypto",
+  "included_files": [
+    "rtl/gost89_pipelined_ecb.v",
+    "rtl/gost89_round.v",
+    "rtl/gost89_sbox.v"
+  ],
+  "dependency_modules": [
+    "gost89_pipelined_ecb_encrypt",
+    "gost89_round",
+    "gost89_sbox"
+  ],
+  "loc": 236,
+  "module_count": 3,
+  "file_count": 3,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "LICENSE"
+  ]
+}

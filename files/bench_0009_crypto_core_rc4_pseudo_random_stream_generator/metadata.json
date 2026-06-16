@@ -1,0 +1,25 @@
+{
+  "case_id": "bench_0009_crypto_core_rc4_pseudo_random_stream_generator",
+  "category": "data_path",
+  "top_module": "rc4",
+  "llm_input": "design.v",
+  "source_project": "crypto_core_rc4_pseudo-random_stream_generator",
+  "source_name": "rc4 pseudo-random stream generator",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_rc4_pseudo-random_stream_generator",
+  "source_status": "Stable",
+  "source_license": "LGPL",
+  "source_prefix": "crypto",
+  "included_files": [
+    "rc4.v"
+  ],
+  "dependency_modules": [
+    "rc4"
+  ],
+  "loc": 164,
+  "module_count": 1,
+  "file_count": 1,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "LICENSE"
+  ]
+}

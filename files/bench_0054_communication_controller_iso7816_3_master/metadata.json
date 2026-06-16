@@ -1,0 +1,28 @@
+{
+  "case_id": "bench_0054_communication_controller_iso7816_3_master",
+  "category": "data_path",
+  "top_module": "RxCoreSelfContained",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_iso7816_3_master",
+  "source_name": "iso7816_3_master",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_iso7816_3_master",
+  "source_status": "Alpha",
+  "source_license": "BSD",
+  "source_prefix": "communication",
+  "included_files": [
+    "sources/RxCoreSelfContained.v",
+    "sources/ClkDivider.v",
+    "sources/Counter.v",
+    "sources/RxCore.v"
+  ],
+  "dependency_modules": [
+    "RxCoreSelfContained",
+    "Counter",
+    "ClkDivider",
+    "RxCore"
+  ],
+  "loc": 603,
+  "module_count": 4,
+  "file_count": 4,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

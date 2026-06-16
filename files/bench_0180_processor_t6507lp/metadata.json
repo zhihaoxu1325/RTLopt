@@ -1,0 +1,49 @@
+{
+  "case_id": "bench_0180_processor_t6507lp",
+  "category": "clock_domain",
+  "top_module": "PSG16",
+  "llm_input": "design.v",
+  "source_project": "processor_t6507lp",
+  "source_name": "t6507lp",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_t6507lp",
+  "source_status": "Beta",
+  "source_license": "GPL",
+  "source_prefix": "processor",
+  "included_files": [
+    "RTL/verilog/mmc_boot_defines.v",
+    "RTL/verilog/virtex_bitstream_const.v",
+    "RTL/verilog/PSG16.v",
+    "RTL/verilog/PSGBusArb.v",
+    "RTL/verilog/PSGChannelSummer.v",
+    "RTL/verilog/PSGEnvGen.v",
+    "RTL/verilog/PSGEnvGenDec.v",
+    "RTL/verilog/PSGFilter.v",
+    "RTL/verilog/PSGMasterVolumeControl.v",
+    "RTL/verilog/PSGNoteGen.v",
+    "RTL/verilog/PSGNoteOutMux.v",
+    "RTL/verilog/PSGOutputSummer.v",
+    "RTL/verilog/PSGShaper.v",
+    "RTL/verilog/mux4to1.v"
+  ],
+  "dependency_modules": [
+    "PSG16",
+    "PSGBusArb",
+    "PSGChannelSummer",
+    "PSGEnvGen",
+    "mux4to1",
+    "PSGFilter",
+    "PSGMasterVolumeControl",
+    "PSGNoteGen",
+    "PSGNoteOutMux",
+    "PSGOutputSummer",
+    "PSGShaper"
+  ],
+  "loc": 2277,
+  "module_count": 11,
+  "file_count": 14,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "doc/gpl.txt",
+    "doc/lgpl.txt"
+  ]
+}

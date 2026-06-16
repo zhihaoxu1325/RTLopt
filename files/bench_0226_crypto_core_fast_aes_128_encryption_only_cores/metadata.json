@@ -1,0 +1,36 @@
+{
+  "case_id": "bench_0226_crypto_core_fast_aes_128_encryption_only_cores",
+  "category": "data_path",
+  "top_module": "aes_cipher_top",
+  "llm_input": "design.v",
+  "source_project": "crypto_core_fast_aes-128_encryption_only_cores",
+  "source_name": "fast aes-128 encryption only cores",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_fast_aes-128_encryption_only_cores",
+  "source_status": "Stable",
+  "source_license": "Others",
+  "source_prefix": "crypto",
+  "included_files": [
+    "aes_10cycle_10stage/aes_cipher_top.v",
+    "aes_10cycle_10stage/aes_key_expand_128.v",
+    "aes_10cycle_10stage/aes_rcon.v",
+    "aes_10cycle_10stage/aes_sbox.v",
+    "aes_1cycle_1stage/aes_cipher_top.v",
+    "aes_1cycle_1stage/aes_key_expand_128.v",
+    "aes_1cycle_1stage/aes_rcon.v",
+    "aes_1cycle_1stage/aes_sbox.v",
+    "aes_5cycle_2stage/aes_cipher_top.v",
+    "aes_5cycle_2stage/aes_key_expand_128.v",
+    "aes_5cycle_2stage/aes_rcon.v",
+    "aes_5cycle_2stage/aes_sbox.v"
+  ],
+  "dependency_modules": [
+    "aes_cipher_top",
+    "aes_key_expand_128",
+    "aes_rcon",
+    "aes_sbox"
+  ],
+  "loc": 4644,
+  "module_count": 4,
+  "file_count": 12,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

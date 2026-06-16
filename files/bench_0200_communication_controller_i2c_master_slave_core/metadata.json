@@ -1,0 +1,29 @@
+{
+  "case_id": "bench_0200_communication_controller_i2c_master_slave_core",
+  "category": "data_path",
+  "top_module": "core",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_i2c_master-slave_core",
+  "source_name": "i2c master/slave core",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_i2c_master-slave_core",
+  "source_status": "Stable",
+  "source_license": "Unknown",
+  "source_prefix": "communication",
+  "included_files": [
+    "i2c_master_slave_core/verilog/rtl/ms_core.v",
+    "i2c_master_slave_core/i2c_master_slave_core/verilog/rtl/counter.v",
+    "i2c_master_slave_core/i2c_master_slave_core/verilog/rtl/ms_core.v",
+    "i2c_master_slave_core/i2c_master_slave_core/verilog/rtl/shift.v",
+    "i2c_master_slave_core/verilog/rtl/counter.v",
+    "i2c_master_slave_core/verilog/rtl/shift.v"
+  ],
+  "dependency_modules": [
+    "core",
+    "counter",
+    "shift"
+  ],
+  "loc": 2530,
+  "module_count": 3,
+  "file_count": 6,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

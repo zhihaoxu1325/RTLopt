@@ -1,0 +1,24 @@
+{
+  "case_id": "bench_0044_communication_controller_spi_core",
+  "category": "clock_domain",
+  "top_module": "simple_spi_top",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_spi_core",
+  "source_name": "spi core",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spi_core",
+  "source_status": "Stable",
+  "source_license": "Unknown",
+  "source_prefix": "communication",
+  "included_files": [
+    "rtl/verilog/simple_spi_top.v",
+    "rtl/verilog/fifo4.v"
+  ],
+  "dependency_modules": [
+    "simple_spi_top",
+    "fifo4"
+  ],
+  "loc": 470,
+  "module_count": 2,
+  "file_count": 2,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

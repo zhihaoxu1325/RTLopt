@@ -10,20 +10,37 @@ This repository implements an engineering MVP of the method described in
 - Verification + synthesis flow abstractions
 - Normalization, failure analysis, JSON/CSV report generation
 
-## Quick start
+## Quick Start
+
+Benchmark cases live under `../files/bench_*/`. Each case uses one
+`design.v` as the optimization input; adjacent metadata records the selected
+top module and provenance.
+
+Run one benchmark case:
+
 ```bash
 cd rtl_morph_eval
-PYTHONPATH=src python3 -m src.main path/to/design.v
+PYTHONPATH=src python3 -m src.main ../files/bench_0001_library_common_design_environment/design.v
 ```
 
-For a local smoke test:
+Run the full public benchmark:
+
+```bash
+cd rtl_morph_eval
+PYTHONPATH=src python3 -m src.main ../files/bench_*/design.v
+```
+
+For a local smoke test independent of the benchmark files:
+
 ```bash
 cd rtl_morph_eval
 PYTHONPATH=src python3 -m src.main tests/fixtures/simple_logic.v
 ```
 
-Reports are written under:
+Generated mutants and reports are written under:
+
 ```text
+data/mutants/
 data/reports/
 ```
 

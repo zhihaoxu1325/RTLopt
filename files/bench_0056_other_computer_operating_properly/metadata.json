@@ -1,0 +1,28 @@
+{
+  "case_id": "bench_0056_other_computer_operating_properly",
+  "category": "data_path",
+  "top_module": "cop_top",
+  "llm_input": "design.v",
+  "source_project": "other_computer_operating_properly",
+  "source_name": "computer operating properly",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_computer_operating_properly",
+  "source_status": "Beta",
+  "source_license": "BSD",
+  "source_prefix": "other",
+  "included_files": [
+    "rtl/verilog/cop_top.v",
+    "rtl/verilog/cop_count.v",
+    "rtl/verilog/cop_regs.v",
+    "rtl/verilog/cop_wb_bus.v"
+  ],
+  "dependency_modules": [
+    "cop_top",
+    "cop_count",
+    "cop_regs",
+    "cop_wb_bus"
+  ],
+  "loc": 675,
+  "module_count": 4,
+  "file_count": 4,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

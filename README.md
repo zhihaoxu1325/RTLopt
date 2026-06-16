@@ -3,51 +3,52 @@
 This repository contains the evaluation framework and benchmark artifacts for
 "Rethinking LLM-aided RTL Code Optimization Via Timing Logic Metamorphosis".
 
-## Artifacts
+## Benchmark
 
-This repository includes the core evaluation framework and public RTL examples
-for inspecting and extending the evaluation workflow.
-
-RTL examples are stored directly under:
+The public RTL artifacts are organized as benchmark cases under `files/`.
+Each case is self-contained:
 
 ```text
 files/
+  bench_0001_.../
+    design.v        # single RTL input used for LLM optimization
+    metadata.json   # case id, category, top module, source, license, and file provenance
+    licenses/       # optional copied license texts for third-party provenance
 ```
 
-The paper benchmark contains 233 RTL programs assembled from RTLLM,
-VerilogEval, public GitHub repositories, and OpenCores. The public `files/`
-directory is not a one-to-one manifest of those 233 experimental programs.
-Instead, it contains representative examples plus additional OpenCores-derived
-RTL candidates for inspection and future benchmark extension. Some upstream
-projects have incomplete metadata, non-uniform directory layouts, mixed
-testbench/model files, platform-specific path issues, or licenses that require
-case-by-case review before they can be treated as final benchmark cases.
-
-For provenance, the generated JSON manifest records source URLs, declared
-language/status/license, copied Verilog files, copied license files when
-present, and detected module names:
+The repository contains 233 curated case directories. `design.v` is the only
+file that should be passed to the optimization flow for a case; the metadata
+records how it was derived from the source project and which module is treated
+as the top module. The full benchmark manifest is:
 
 ```text
-rtl_morph_eval/configs/opencores_manifest.json
+rtl_morph_eval/configs/benchmark_manifest.json
 ```
+
+Some cases are derived from third-party open RTL projects. Their metadata keeps
+source and license provenance so cases can be reviewed before being used in a
+final redistribution package.
 
 ## Run
 
-```bash
-cd rtl_morph_eval
-PYTHONPATH=src python3 -m src.main tests/fixtures/simple_logic.v
-```
-
-For a custom Verilog input:
+Run one benchmark case:
 
 ```bash
 cd rtl_morph_eval
-PYTHONPATH=src python3 -m src.main path/to/design.v
+PYTHONPATH=src python3 -m src.main ../files/bench_0001_library_common_design_environment/design.v
 ```
 
-The command writes reports under:
+Run the full public benchmark:
+
+```bash
+cd rtl_morph_eval
+PYTHONPATH=src python3 -m src.main ../files/bench_*/design.v
+```
+
+The command writes generated mutants and reports under:
 
 ```text
+rtl_morph_eval/data/mutants/
 rtl_morph_eval/data/reports/
 ```
 

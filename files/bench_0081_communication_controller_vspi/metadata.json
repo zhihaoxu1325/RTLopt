@@ -1,0 +1,29 @@
+{
+  "case_id": "bench_0081_communication_controller_vspi",
+  "category": "clock_domain",
+  "top_module": "spiwrap",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_vspi",
+  "source_name": "vspi",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_vspi",
+  "source_status": "Stable",
+  "source_license": "Others",
+  "source_prefix": "communication",
+  "included_files": [
+    "src/spi_base/spiwrap.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/buffermem.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/buffermem.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/spiifc.v",
+    "src/spi_base/spiifc.v",
+    "src/spi_base/spiifc_twoclock.v"
+  ],
+  "dependency_modules": [
+    "spiwrap",
+    "buffermem",
+    "spiifc"
+  ],
+  "loc": 1333,
+  "module_count": 3,
+  "file_count": 6,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "bench_0088_arithmetic_core_double_fpu_verilog",
+  "category": "data_path",
+  "top_module": "fpu",
+  "llm_input": "design.v",
+  "source_project": "arithmetic_core_double_fpu_verilog",
+  "source_name": "double_fpu_verilog",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_double_fpu_verilog",
+  "source_status": "Alpha",
+  "source_license": "Unknown",
+  "source_prefix": "arithmetic",
+  "included_files": [
+    "fpu_double.v",
+    "fpu_add.v",
+    "fpu_div.v",
+    "fpu_exceptions.v",
+    "fpu_mul.v",
+    "fpu_round.v",
+    "fpu_sub.v",
+    "pipeline/fpu_mul.v"
+  ],
+  "dependency_modules": [
+    "fpu",
+    "fpu_add",
+    "fpu_div",
+    "fpu_exceptions",
+    "fpu_mul",
+    "fpu_round",
+    "fpu_sub"
+  ],
+  "loc": 2018,
+  "module_count": 7,
+  "file_count": 8,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

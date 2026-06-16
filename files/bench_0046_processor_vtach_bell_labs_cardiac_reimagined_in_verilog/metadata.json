@@ -1,0 +1,32 @@
+{
+  "case_id": "bench_0046_processor_vtach_bell_labs_cardiac_reimagined_in_verilog",
+  "category": "data_path",
+  "top_module": "devices_box",
+  "llm_input": "design.v",
+  "source_project": "processor_vtach-bell_labs_cardiac_reimagined_in_verilog",
+  "source_name": "vtach-bell labs cardiac reimagined in verilog",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/processor_vtach-bell_labs_cardiac_reimagined_in_verilog",
+  "source_status": "Mature",
+  "source_license": "LGPL",
+  "source_prefix": "processor",
+  "included_files": [
+    "RTL/device_box.v"
+  ],
+  "dependency_modules": [
+    "devices_box",
+    "beep_interface",
+    "key_interface",
+    "key_fsm",
+    "led_interface",
+    "second_gen",
+    "sw_interface"
+  ],
+  "loc": 482,
+  "module_count": 7,
+  "file_count": 1,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "doc/gpl.txt",
+    "doc/lgpl.txt"
+  ]
+}

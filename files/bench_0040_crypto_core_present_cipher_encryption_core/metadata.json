@@ -1,0 +1,32 @@
+{
+  "case_id": "bench_0040_crypto_core_present_cipher_encryption_core",
+  "category": "data_path",
+  "top_module": "present_encryptor_top",
+  "llm_input": "design.v",
+  "source_project": "crypto_core_present_cipher_encryption_core",
+  "source_name": "present cipher encryption core",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_present_cipher_encryption_core",
+  "source_status": "Stable",
+  "source_license": "LGPL",
+  "source_prefix": "crypto",
+  "included_files": [
+    "rtl/verilog/present_encryptor_top.v",
+    "rtl/verilog/key_update.v",
+    "rtl/verilog/permutation.v",
+    "rtl/verilog/sbox.v",
+    "rtl/verilog/sub_per.v",
+    "rtl/verilog/substitution.v"
+  ],
+  "dependency_modules": [
+    "present_encryptor_top",
+    "key_update",
+    "sbox",
+    "sub_per",
+    "permutation",
+    "substitution"
+  ],
+  "loc": 451,
+  "module_count": 6,
+  "file_count": 6,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

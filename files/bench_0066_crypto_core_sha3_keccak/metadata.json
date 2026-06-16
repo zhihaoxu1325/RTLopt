@@ -1,0 +1,39 @@
+{
+  "case_id": "bench_0066_crypto_core_sha3_keccak",
+  "category": "data_path",
+  "top_module": "keccak",
+  "llm_input": "design.v",
+  "source_project": "crypto_core_sha3_keccak",
+  "source_name": "sha3 keccak",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_sha3_keccak",
+  "source_status": "Stable",
+  "source_license": "Others",
+  "source_prefix": "crypto",
+  "included_files": [
+    "high_throughput_core/rtl/keccak.v",
+    "high_throughput_core/rtl/f_permutation.v",
+    "high_throughput_core/rtl/padder.v",
+    "high_throughput_core/rtl/padder1.v",
+    "high_throughput_core/rtl/rconst2in1.v",
+    "high_throughput_core/rtl/round2in1.v",
+    "low_throughput_core/rtl/f_permutation.v",
+    "low_throughput_core/rtl/keccak.v",
+    "low_throughput_core/rtl/padder.v",
+    "low_throughput_core/rtl/padder1.v"
+  ],
+  "dependency_modules": [
+    "keccak",
+    "f_permutation",
+    "rconst2in1",
+    "round2in1",
+    "padder",
+    "padder1"
+  ],
+  "loc": 958,
+  "module_count": 6,
+  "file_count": 10,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "LICENSE"
+  ]
+}

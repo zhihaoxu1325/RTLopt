@@ -1,0 +1,26 @@
+{
+  "case_id": "bench_0221_communication_controller_tcp_ip_socket",
+  "category": "data_path",
+  "top_module": "server",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_tcp-ip_socket",
+  "source_name": "tcp/ip socket",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_tcp-ip_socket",
+  "source_status": "Alpha",
+  "source_license": "Others",
+  "source_prefix": "communication",
+  "included_files": [
+    "precompiled/server.v"
+  ],
+  "dependency_modules": [
+    "server"
+  ],
+  "loc": 3985,
+  "module_count": 1,
+  "file_count": 1,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "COPYING.txt",
+    "chips2/COPYING.txt"
+  ]
+}

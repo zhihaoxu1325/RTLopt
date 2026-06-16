@@ -1,0 +1,32 @@
+{
+  "case_id": "bench_0065_memory_core_ddr3_synthesizable_bfm",
+  "category": "clock_domain",
+  "top_module": "ddr3_simple4",
+  "llm_input": "design.v",
+  "source_project": "memory_core_ddr3_synthesizable_bfm",
+  "source_name": "ddr3 synthesizable bfm",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_ddr3_synthesizable_bfm",
+  "source_status": "Beta",
+  "source_license": "LGPL",
+  "source_prefix": "memory",
+  "included_files": [
+    "rtl/ddr3_simple4.v",
+    "rtl/ddr3_sr36.v",
+    "rtl/ddr3_sr4.v",
+    "rtl/dport_ram.v",
+    "rtl/my_iddrx8.v",
+    "rtl/my_oddrx8.v"
+  ],
+  "dependency_modules": [
+    "ddr3_simple4",
+    "ddr3_sr36",
+    "ddr3_sr4",
+    "dport_ram",
+    "my_iddrx8",
+    "my_oddrx8"
+  ],
+  "loc": 914,
+  "module_count": 6,
+  "file_count": 6,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

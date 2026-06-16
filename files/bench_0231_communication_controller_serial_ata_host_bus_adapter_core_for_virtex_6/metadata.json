@@ -1,0 +1,46 @@
+{
+  "case_id": "bench_0231_communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6",
+  "category": "clock_domain",
+  "top_module": "sata_phy",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6",
+  "source_name": "serial ata host bus adapter core for virtex 6",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6",
+  "source_status": "Beta",
+  "source_license": "GPL",
+  "source_prefix": "communication",
+  "included_files": [
+    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_phy.v",
+    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v",
+    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mux_21.v",
+    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mux_41.v",
+    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/oob_control.v",
+    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_gtx.v",
+    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_gtx_dual.v",
+    "sata2_fifo_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v",
+    "sata2_fifo_v1_00_a/hdl/verilog/mux_21.v",
+    "sata2_fifo_v1_00_a/hdl/verilog/mux_41.v",
+    "sata2_fifo_v1_00_a/hdl/verilog/oob_control.v",
+    "sata2_fifo_v1_00_a/hdl/verilog/sata_gtx.v",
+    "sata2_fifo_v1_00_a/hdl/verilog/sata_gtx_dual.v",
+    "sata2_fifo_v1_00_a/hdl/verilog/sata_phy.v"
+  ],
+  "dependency_modules": [
+    "sata_phy",
+    "MGT_USRCLK_SOURCE_MMCM",
+    "OOB_control",
+    "mux_21",
+    "mux_41",
+    "oob_control_ila",
+    "SATA_GTX_DUAL",
+    "SATA_GTX",
+    "sata_phy_ila"
+  ],
+  "loc": 5262,
+  "module_count": 9,
+  "file_count": 14,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "sata2_fifo_v1_00_a/COPYING3"
+  ]
+}

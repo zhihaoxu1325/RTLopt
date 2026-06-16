@@ -1,0 +1,25 @@
+{
+  "case_id": "bench_0001_library_common_design_environment",
+  "category": "data_path",
+  "top_module": "cde_pad_se_dig",
+  "llm_input": "design.v",
+  "source_project": "library_common_design_environment",
+  "source_name": "common design environment",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/library_common_design_environment",
+  "source_status": "Stable",
+  "source_license": "Others",
+  "source_prefix": "library",
+  "included_files": [
+    "ip/pad/rtl/verilog/pad_se_dig.v"
+  ],
+  "dependency_modules": [
+    "cde_pad_se_dig"
+  ],
+  "loc": 51,
+  "module_count": 1,
+  "file_count": 1,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "license/LICENSE-2.0.txt"
+  ]
+}

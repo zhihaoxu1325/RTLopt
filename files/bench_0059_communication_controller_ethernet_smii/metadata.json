@@ -1,0 +1,26 @@
+{
+  "case_id": "bench_0059_communication_controller_ethernet_smii",
+  "category": "data_path",
+  "top_module": "smii_txrx",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_ethernet_smii",
+  "source_name": "ethernet smii",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_ethernet_smii",
+  "source_status": "Beta",
+  "source_license": "Unknown",
+  "source_prefix": "communication",
+  "included_files": [
+    "rtl/verilog/smii_ACTEL.v",
+    "rtl/verilog/generic_gbuf.v",
+    "rtl/verilog/smii.v",
+    "rtl/verilog/smii_txrx.v"
+  ],
+  "dependency_modules": [
+    "smii_txrx",
+    "gbuf"
+  ],
+  "loc": 815,
+  "module_count": 2,
+  "file_count": 4,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

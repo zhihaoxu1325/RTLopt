@@ -1,0 +1,32 @@
+{
+  "case_id": "bench_0058_memory_core_versatile_fifo",
+  "category": "data_path",
+  "top_module": "async_fifo_dw_simplex_top",
+  "llm_input": "design.v",
+  "source_project": "memory_core_versatile_fifo",
+  "source_name": "versatile fifo",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_versatile_fifo",
+  "source_status": "Stable",
+  "source_license": "LGPL",
+  "source_prefix": "memory",
+  "included_files": [
+    "rtl/verilog/sd_counter_defines.v",
+    "rtl/verilog/gray_counter_defines.v",
+    "rtl/verilog/async_fifo_dw_simplex_actel.v",
+    "rtl/verilog/async_fifo_dw_simplex_top.v",
+    "rtl/verilog/dff_sr.v",
+    "rtl/verilog/versatile_fifo_async_cmp.v",
+    "rtl/verilog/versatile_fifo_dual_port_ram_dc_dw.v"
+  ],
+  "dependency_modules": [
+    "async_fifo_dw_simplex_top",
+    "adr_gen",
+    "versatile_fifo_async_cmp",
+    "dff_sr",
+    "vfifo_dual_port_ram_dc_dw"
+  ],
+  "loc": 796,
+  "module_count": 5,
+  "file_count": 7,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

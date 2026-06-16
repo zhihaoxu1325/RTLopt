@@ -1,0 +1,24 @@
+{
+  "case_id": "bench_0034_other_dna_sequence_alignment_accelerator",
+  "category": "data_path",
+  "top_module": "sw_gen_affine",
+  "llm_input": "design.v",
+  "source_project": "other_dna_sequence_alignment_accelerator",
+  "source_name": "dna sequence alignment accelerator",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_dna_sequence_alignment_accelerator",
+  "source_status": "Alpha",
+  "source_license": "LGPL",
+  "source_prefix": "other",
+  "included_files": [
+    "sw_gen_affine.v",
+    "sw_pe_affine.v"
+  ],
+  "dependency_modules": [
+    "sw_gen_affine",
+    "sw_pe_affine"
+  ],
+  "loc": 293,
+  "module_count": 2,
+  "file_count": 2,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

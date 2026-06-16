@@ -1,0 +1,30 @@
+{
+  "case_id": "bench_0048_other_bubblesortmodule",
+  "category": "data_path",
+  "top_module": "bublesort",
+  "llm_input": "design.v",
+  "source_project": "other_bubblesortmodule",
+  "source_name": "bubblesortmodule",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/other_bubblesortmodule",
+  "source_status": "Stable",
+  "source_license": "LGPL",
+  "source_prefix": "other",
+  "included_files": [
+    "rtl/verilog/bublesort.v",
+    "rtl/verilog/bitsplit.v",
+    "rtl/verilog/intgenerator.v",
+    "rtl/verilog/rungenerator.v",
+    "rtl/verilog/stageen.v"
+  ],
+  "dependency_modules": [
+    "bublesort",
+    "intgenerator",
+    "rungenerator",
+    "stageen",
+    "bitsplit"
+  ],
+  "loc": 501,
+  "module_count": 5,
+  "file_count": 5,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

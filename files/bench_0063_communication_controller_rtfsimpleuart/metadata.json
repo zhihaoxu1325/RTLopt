@@ -1,0 +1,28 @@
+{
+  "case_id": "bench_0063_communication_controller_rtfsimpleuart",
+  "category": "clock_domain",
+  "top_module": "rtfSimpleUart",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_rtfsimpleuart",
+  "source_name": "rtfsimpleuart",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_rtfsimpleuart",
+  "source_status": "Beta",
+  "source_license": "BSD",
+  "source_prefix": "communication",
+  "included_files": [
+    "rtl/verilog/rtfSimpleUart.v",
+    "rtl/verilog/edge_det.v",
+    "rtl/verilog/rtfSimpleUartRx.v",
+    "rtl/verilog/rtfSimpleUartTx.v"
+  ],
+  "dependency_modules": [
+    "rtfSimpleUart",
+    "edge_det",
+    "rtfSimpleUartRx",
+    "rtfSimpleUartTx"
+  ],
+  "loc": 885,
+  "module_count": 4,
+  "file_count": 4,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

@@ -1,0 +1,37 @@
+{
+  "case_id": "bench_0082_communication_controller_spi_controller_for_ad_da_chips_on_s3e_a_an_starter",
+  "category": "data_path",
+  "top_module": "spi_top_tb2",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_spi_controller_for_ad-da_chips_on_s3e-a-an_starter",
+  "source_name": "spi controller for ad/da chips on s3e/a/an starter",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_spi_controller_for_ad-da_chips_on_s3e-a-an_starter",
+  "source_status": "Alpha",
+  "source_license": "LGPL",
+  "source_prefix": "communication",
+  "included_files": [
+    "rtl/verilog/spi_defines.v",
+    "rtl/verilog/spi_top_tb2.v",
+    "rtl/verilog/adc.v",
+    "rtl/verilog/amp.v",
+    "rtl/verilog/dac.v",
+    "rtl/verilog/spi_clgen.v",
+    "rtl/verilog/spi_shift_in.v",
+    "rtl/verilog/spi_shift_out.v",
+    "rtl/verilog/spi_top.v"
+  ],
+  "dependency_modules": [
+    "spi_top_tb2",
+    "adc",
+    "amp",
+    "dac",
+    "spi_top",
+    "spi_clgen",
+    "spi_shift_in",
+    "spi_shift_out"
+  ],
+  "loc": 1386,
+  "module_count": 8,
+  "file_count": 9,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

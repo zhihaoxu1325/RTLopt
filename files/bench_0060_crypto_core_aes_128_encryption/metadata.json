@@ -1,0 +1,38 @@
+{
+  "case_id": "bench_0060_crypto_core_aes_128_encryption",
+  "category": "data_path",
+  "top_module": "Top_PipelinedCipher",
+  "llm_input": "design.v",
+  "source_project": "crypto_core_aes-128_encryption",
+  "source_name": "aes-128 encryption",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/crypto_core_aes-128_encryption",
+  "source_status": "Stable",
+  "source_license": "LGPL",
+  "source_prefix": "crypto",
+  "included_files": [
+    "rtl/Top_PipelinedCipher.v",
+    "rtl/AddRoundKey.v",
+    "rtl/KeyExpantion.v",
+    "rtl/MixColumns.v",
+    "rtl/Round.v",
+    "rtl/RoundKeyGen.v",
+    "rtl/SBox.v",
+    "rtl/ShiftRows.v",
+    "rtl/SubBytes.v"
+  ],
+  "dependency_modules": [
+    "Top_PipelinedCipher",
+    "AddRoundKey",
+    "KeyExpantion",
+    "RoundKeyGen",
+    "SubBytes",
+    "SBox",
+    "Round",
+    "MixColumns",
+    "ShiftRows"
+  ],
+  "loc": 877,
+  "module_count": 9,
+  "file_count": 9,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "bench_0069_system_on_chip_async_sdm_noc",
+  "category": "data_path",
+  "top_module": "inpbuf",
+  "llm_input": "design.v",
+  "source_project": "system_on_chip_async-sdm-noc",
+  "source_name": "async-sdm-noc",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/system_on_chip_async-sdm-noc",
+  "source_status": "Stable",
+  "source_license": "LGPL",
+  "source_prefix": "system",
+  "included_files": [
+    "sdm/define.v",
+    "vc/src/inpbuf.v",
+    "common/src/cell_lib.v",
+    "common/src/comp4.v",
+    "common/src/ctree.v",
+    "common/src/pipe4.v",
+    "common/src/pipen.v",
+    "vc/src/ddmux.v",
+    "vc/src/rtu.v",
+    "vc/src/vcdmux.v"
+  ],
+  "dependency_modules": [
+    "inpbuf",
+    "c2",
+    "ctree",
+    "dc2",
+    "pipe4",
+    "pipen",
+    "rtu",
+    "comp4",
+    "ddmux",
+    "vcdmux"
+  ],
+  "loc": 1067,
+  "module_count": 10,
+  "file_count": 10,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "LICENSE",
+    "lib/LICENSE"
+  ]
+}

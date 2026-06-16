@@ -1,0 +1,28 @@
+{
+  "case_id": "bench_0220_communication_controller_apb_to_i2c",
+  "category": "clock_domain",
+  "top_module": "i2c",
+  "llm_input": "design.v",
+  "source_project": "communication_controller_apb_to_i2c",
+  "source_name": "apb to i2c",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/communication_controller_apb_to_i2c",
+  "source_status": "Alpha",
+  "source_license": "LGPL",
+  "source_prefix": "communication",
+  "included_files": [
+    "rtl/i2c.v",
+    "rtl/apb.v",
+    "rtl/fifo.v",
+    "rtl/module_i2c.v"
+  ],
+  "dependency_modules": [
+    "i2c",
+    "apb",
+    "fifo",
+    "module_i2c"
+  ],
+  "loc": 3968,
+  "module_count": 4,
+  "file_count": 4,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

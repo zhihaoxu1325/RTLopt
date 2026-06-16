@@ -1,0 +1,50 @@
+{
+  "case_id": "bench_0192_arithmetic_core_mesi_coherency_intersection_controller",
+  "category": "clock_domain",
+  "top_module": "PSG16",
+  "llm_input": "design.v",
+  "source_project": "arithmetic_core_mesi_coherency_intersection_controller",
+  "source_name": "mesi coherency intersection controller",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_mesi_coherency_intersection_controller",
+  "source_status": "Alpha",
+  "source_license": "LGPL",
+  "source_prefix": "arithmetic",
+  "included_files": [
+    "rtl/verilog/mmc_boot_defines.v",
+    "rtl/verilog/virtex_bitstream_const.v",
+    "src/rtl/mesi_isc_define.v",
+    "rtl/verilog/PSG16.v",
+    "rtl/verilog/PSGBusArb.v",
+    "rtl/verilog/PSGChannelSummer.v",
+    "rtl/verilog/PSGEnvGen.v",
+    "rtl/verilog/PSGEnvGenDec.v",
+    "rtl/verilog/PSGFilter.v",
+    "rtl/verilog/PSGMasterVolumeControl.v",
+    "rtl/verilog/PSGNoteGen.v",
+    "rtl/verilog/PSGNoteOutMux.v",
+    "rtl/verilog/PSGOutputSummer.v",
+    "rtl/verilog/PSGShaper.v",
+    "rtl/verilog/mux4to1.v"
+  ],
+  "dependency_modules": [
+    "PSG16",
+    "PSGBusArb",
+    "PSGChannelSummer",
+    "PSGEnvGen",
+    "mux4to1",
+    "PSGFilter",
+    "PSGMasterVolumeControl",
+    "PSGNoteGen",
+    "PSGNoteOutMux",
+    "PSGOutputSummer",
+    "PSGShaper"
+  ],
+  "loc": 2344,
+  "module_count": 11,
+  "file_count": 15,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "license_files": [
+    "doc/gpl.txt",
+    "doc/lgpl.txt"
+  ]
+}

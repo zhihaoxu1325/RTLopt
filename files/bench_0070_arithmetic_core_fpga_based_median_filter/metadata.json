@@ -1,0 +1,32 @@
+{
+  "case_id": "bench_0070_arithmetic_core_fpga_based_median_filter",
+  "category": "data_path",
+  "top_module": "median",
+  "llm_input": "design.v",
+  "source_project": "arithmetic_core_fpga-based_median_filter",
+  "source_name": "fpga-based median filter",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/arithmetic_core_fpga-based_median_filter",
+  "source_status": "Stable",
+  "source_license": "LGPL",
+  "source_prefix": "arithmetic",
+  "included_files": [
+    "rtl/median.v",
+    "rtl/common_network.v",
+    "rtl/dff_3_pipe.v",
+    "rtl/node.v",
+    "rtl/pixel_network.v",
+    "rtl/state_machine.v"
+  ],
+  "dependency_modules": [
+    "median",
+    "common_network",
+    "node",
+    "dff_3_pipe",
+    "pixel_network",
+    "state_machine"
+  ],
+  "loc": 1073,
+  "module_count": 6,
+  "file_count": 6,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

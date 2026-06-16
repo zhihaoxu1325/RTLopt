@@ -1,0 +1,35 @@
+{
+  "case_id": "bench_0051_memory_core_directmappedcachecontroller",
+  "category": "data_path",
+  "top_module": "memory_bank",
+  "llm_input": "design.v",
+  "source_project": "memory_core_directmappedcachecontroller",
+  "source_name": "directmappedcachecontroller",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_directmappedcachecontroller",
+  "source_status": "Mature",
+  "source_license": "LGPL",
+  "source_prefix": "memory",
+  "included_files": [
+    "rtl/verilog/memory_bank.v",
+    "RAMB16_S8.v",
+    "bufif0_8bit.v",
+    "eight_to_one_mux_8bit.v",
+    "memory_bank.v",
+    "one_to_eight_demux_8bit.v",
+    "rtl/verilog/RAMB16_S8.v",
+    "rtl/verilog/bufif0_8bit.v",
+    "rtl/verilog/eight_to_one_mux_8bit.v",
+    "rtl/verilog/one_to_eight_demux_8bit.v"
+  ],
+  "dependency_modules": [
+    "memory_bank",
+    "RAMB16_S8",
+    "bufif0_8bit",
+    "eight_to_one_mux_8bit",
+    "one_to_eight_demux_8bit"
+  ],
+  "loc": 528,
+  "module_count": 5,
+  "file_count": 10,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}

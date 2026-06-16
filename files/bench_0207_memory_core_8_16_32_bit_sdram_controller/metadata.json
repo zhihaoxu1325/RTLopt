@@ -1,0 +1,33 @@
+{
+  "case_id": "bench_0207_memory_core_8_16_32_bit_sdram_controller",
+  "category": "clock_domain",
+  "top_module": "sdrc_core",
+  "llm_input": "design.v",
+  "source_project": "memory_core_8-16-32_bit_sdram_controller",
+  "source_name": "8/16/32 bit sdram controller",
+  "source_url": "https://github.com/fabriziotappero/ip-cores/tree/memory_core_8-16-32_bit_sdram_controller",
+  "source_status": "Stable",
+  "source_license": "GPL",
+  "source_prefix": "memory",
+  "included_files": [
+    "rtl/core/sdrc_define.v",
+    "rtl/core/sdrc_core.v",
+    "rtl/core/sdrc_bank_ctl.v",
+    "rtl/core/sdrc_bank_fsm.v",
+    "rtl/core/sdrc_bs_convert.v",
+    "rtl/core/sdrc_req_gen.v",
+    "rtl/core/sdrc_xfr_ctl.v"
+  ],
+  "dependency_modules": [
+    "sdrc_core",
+    "sdrc_bank_ctl",
+    "sdrc_bank_fsm",
+    "sdrc_bs_convert",
+    "sdrc_req_gen",
+    "sdrc_xfr_ctl"
+  ],
+  "loc": 2824,
+  "module_count": 6,
+  "file_count": 7,
+  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+}
