@@ -16,7 +16,7 @@ The expanded candidate pool has been flattened directly under:
 files/
 ```
 
-It adds 240 Verilog-oriented OpenCores candidates imported from the
+It also adds some Verilog-oriented OpenCores candidates imported from the
 `fabriziotappero/ip-cores` branch index. These candidates are provided as a
 backup and inspection set for building or extending benchmark releases. They are
 not all claimed to be manually validated final benchmark cases: some upstream
