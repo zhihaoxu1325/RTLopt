@@ -13,7 +13,18 @@ This repository implements an engineering MVP of the method described in
 ## Quick start
 ```bash
 cd rtl_morph_eval
-python -m src.main path/to/design.v
+PYTHONPATH=src python3 -m src.main path/to/design.v
+```
+
+For a local smoke test:
+```bash
+cd rtl_morph_eval
+PYTHONPATH=src python3 -m src.main tests/fixtures/simple_logic.v
+```
+
+Reports are written under:
+```text
+data/reports/
 ```
 
 ## Test

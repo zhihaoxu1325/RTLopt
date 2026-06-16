@@ -10,6 +10,7 @@ from optimizer.claude_optimizer import ClaudeOptimizer
 from optimizer.gpt_optimizer import GPTOptimizer
 from optimizer.rtlrewriter_adapter import RTLRewriterAdapter
 from pipeline.experiment_runner import ExperimentRunner
+from utils.paths import DATA_DIR
 
 
 class Orchestrator:
@@ -42,6 +43,6 @@ class Orchestrator:
                     for pm in self.prompt_modes:
                         records.append(self.runner.run_one(variant_case, variant_name, optimizer, pm))
 
-        self.reporter.write_json(records, "rtl_morph_eval/data/reports/report.json")
-        self.reporter.write_csv(records, "rtl_morph_eval/data/reports/report.csv")
+        self.reporter.write_json(records, DATA_DIR / "reports" / "report.json")
+        self.reporter.write_csv(records, DATA_DIR / "reports" / "report.csv")
         return records

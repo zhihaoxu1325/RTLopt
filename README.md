@@ -31,13 +31,31 @@ present, and detected module names:
 rtl_morph_eval/configs/opencores_manifest.json
 ```
 
-To refresh or reproduce the import:
+## Run
 
 ```bash
 cd rtl_morph_eval
-python scripts/import_opencores.py --apply \
-  --licenses BSD,LGPL,GPL,Others,Unknown \
-  --prefixes arithmetic,communication,crypto,dsp,ecc,library,memory,other,processor,system,video
+PYTHONPATH=src python3 -m src.main tests/fixtures/simple_logic.v
+```
+
+For a custom Verilog input:
+
+```bash
+cd rtl_morph_eval
+PYTHONPATH=src python3 -m src.main path/to/design.v
+```
+
+The command writes reports under:
+
+```text
+rtl_morph_eval/data/reports/
+```
+
+Run the test suite with:
+
+```bash
+cd rtl_morph_eval
+pytest
 ```
 
 ## Framework

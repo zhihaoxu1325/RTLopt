@@ -7,14 +7,15 @@ from pathlib import Path
 from dataset.models import Category, MutantCase, RTLCase
 from metamorphosis.base_mutator import BaseMutator
 from utils.fs import write_text
+from utils.paths import DATA_DIR
 
 
 class DatapathMutator(BaseMutator):
     category = Category.DATAPATH
     ternary_re = re.compile(r"assign\s+(\w+)\s*=\s*(.+?)\?\s*(.+?)\s*:\s*(.+?);", re.DOTALL)
 
-    def __init__(self, out_dir: str = "rtl_morph_eval/data/mutants", seed: int = 11) -> None:
-        self.out_dir = Path(out_dir)
+    def __init__(self, out_dir: str | Path | None = None, seed: int = 11) -> None:
+        self.out_dir = Path(out_dir) if out_dir is not None else DATA_DIR / "mutants"
         self.rng = random.Random(seed)
 
     def mutate(self, case: RTLCase, n: int = 1) -> list[MutantCase]:

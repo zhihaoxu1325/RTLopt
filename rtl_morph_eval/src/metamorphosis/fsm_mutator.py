@@ -6,6 +6,7 @@ from pathlib import Path
 from dataset.models import Category, MutantCase, RTLCase
 from metamorphosis.base_mutator import BaseMutator
 from utils.fs import write_text
+from utils.paths import DATA_DIR
 
 
 @dataclass
@@ -26,8 +27,8 @@ class FSMModel:
 class FSMMutator(BaseMutator):
     category = Category.TIMING_CTRL
 
-    def __init__(self, out_dir: str = "rtl_morph_eval/data/mutants") -> None:
-        self.out_dir = Path(out_dir)
+    def __init__(self, out_dir: str | Path | None = None) -> None:
+        self.out_dir = Path(out_dir) if out_dir is not None else DATA_DIR / "mutants"
 
     def mutate(self, case: RTLCase, n: int = 1) -> list[MutantCase]:
         code = Path(case.rtl_path).read_text(encoding="utf-8")

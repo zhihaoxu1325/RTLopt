@@ -1,3 +1,5 @@
 /work/
+/rtl_morph_eval/data/
+.pytest_cache/
 __pycache__/
 *.py[cod]
