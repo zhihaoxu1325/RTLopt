@@ -9,18 +9,6 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "system",
-  "included_files": [
-    "sdm/define.v",
-    "vc/src/inpbuf.v",
-    "common/src/cell_lib.v",
-    "common/src/comp4.v",
-    "common/src/ctree.v",
-    "common/src/pipe4.v",
-    "common/src/pipen.v",
-    "vc/src/ddmux.v",
-    "vc/src/rtu.v",
-    "vc/src/vcdmux.v"
-  ],
   "dependency_modules": [
     "inpbuf",
     "c2",
@@ -36,9 +24,28 @@
   "loc": 1067,
   "module_count": 10,
   "file_count": 10,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "LICENSE",
     "lib/LICENSE"
+  ],
+  "case_dir": "files/bench_0069_system_on_chip_async_sdm_noc",
+  "design_path": "files/bench_0069_system_on_chip_async_sdm_noc/design.v",
+  "metadata_path": "files/bench_0069_system_on_chip_async_sdm_noc/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "sdm/define.v",
+    "vc/src/inpbuf.v",
+    "common/src/cell_lib.v",
+    "common/src/comp4.v",
+    "common/src/ctree.v",
+    "common/src/pipe4.v",
+    "common/src/pipen.v",
+    "vc/src/ddmux.v",
+    "vc/src/rtu.v",
+    "vc/src/vcdmux.v"
   ]
 }

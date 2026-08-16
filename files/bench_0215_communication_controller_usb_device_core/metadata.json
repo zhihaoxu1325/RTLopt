@@ -9,15 +9,6 @@
   "source_status": "Alpha",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/usbf_device.v",
-    "rtl/phy/usb_phy.v",
-    "rtl/phy/usb_rx_phy.v",
-    "rtl/phy/usb_tx_phy.v",
-    "rtl/usbf_crc16.v",
-    "rtl/usbf_fifo.v",
-    "rtl/usbf_sie.v"
-  ],
   "dependency_modules": [
     "usbf_device",
     "usb_phy",
@@ -30,5 +21,21 @@
   "loc": 3348,
   "module_count": 7,
   "file_count": 7,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0215_communication_controller_usb_device_core",
+  "design_path": "files/bench_0215_communication_controller_usb_device_core/design.v",
+  "metadata_path": "files/bench_0215_communication_controller_usb_device_core/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/usbf_device.v",
+    "rtl/phy/usb_phy.v",
+    "rtl/phy/usb_rx_phy.v",
+    "rtl/phy/usb_tx_phy.v",
+    "rtl/usbf_crc16.v",
+    "rtl/usbf_fifo.v",
+    "rtl/usbf_sie.v"
+  ]
 }

@@ -9,22 +9,6 @@
   "source_status": "Stable",
   "source_license": "GPL",
   "source_prefix": "ecc",
-  "included_files": [
-    "RTL/verilog/mmc_boot_defines.v",
-    "RTL/verilog/virtex_bitstream_const.v",
-    "RTL/RS_dec.v",
-    "RTL/BM_lamda.v",
-    "RTL/DP_RAM.v",
-    "RTL/GF_matrix_ascending_binary.v",
-    "RTL/GF_matrix_dec.v",
-    "RTL/GF_mult_add_syndromes.v",
-    "RTL/Omega_Phy.v",
-    "RTL/error_correction.v",
-    "RTL/input_syndromes.v",
-    "RTL/lamda_roots.v",
-    "RTL/out_stage.v",
-    "RTL/transport_in2out.v"
-  ],
   "dependency_modules": [
     "RS_dec",
     "BM_lamda",
@@ -42,9 +26,32 @@
   "loc": 4522,
   "module_count": 12,
   "file_count": 14,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "doc/gpl.txt",
     "doc/lgpl.txt"
+  ],
+  "case_dir": "files/bench_0225_ecc_core_reed_solomon_decoder_204188",
+  "design_path": "files/bench_0225_ecc_core_reed_solomon_decoder_204188/design.v",
+  "metadata_path": "files/bench_0225_ecc_core_reed_solomon_decoder_204188/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/verilog/mmc_boot_defines.v",
+    "RTL/verilog/virtex_bitstream_const.v",
+    "RTL/RS_dec.v",
+    "RTL/BM_lamda.v",
+    "RTL/DP_RAM.v",
+    "RTL/GF_matrix_ascending_binary.v",
+    "RTL/GF_matrix_dec.v",
+    "RTL/GF_mult_add_syndromes.v",
+    "RTL/Omega_Phy.v",
+    "RTL/error_correction.v",
+    "RTL/input_syndromes.v",
+    "RTL/lamda_roots.v",
+    "RTL/out_stage.v",
+    "RTL/transport_in2out.v"
   ]
 }

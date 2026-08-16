@@ -9,17 +9,6 @@
   "source_status": "Alpha",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/verilog/spi_defines.v",
-    "rtl/verilog/spi_top_tb2.v",
-    "rtl/verilog/adc.v",
-    "rtl/verilog/amp.v",
-    "rtl/verilog/dac.v",
-    "rtl/verilog/spi_clgen.v",
-    "rtl/verilog/spi_shift_in.v",
-    "rtl/verilog/spi_shift_out.v",
-    "rtl/verilog/spi_top.v"
-  ],
   "dependency_modules": [
     "spi_top_tb2",
     "adc",
@@ -33,5 +22,23 @@
   "loc": 1386,
   "module_count": 8,
   "file_count": 9,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0082_communication_controller_spi_controller_for_ad_da_chips_on_s3e_a_an_starter",
+  "design_path": "files/bench_0082_communication_controller_spi_controller_for_ad_da_chips_on_s3e_a_an_starter/design.v",
+  "metadata_path": "files/bench_0082_communication_controller_spi_controller_for_ad_da_chips_on_s3e_a_an_starter/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/spi_defines.v",
+    "rtl/verilog/spi_top_tb2.v",
+    "rtl/verilog/adc.v",
+    "rtl/verilog/amp.v",
+    "rtl/verilog/dac.v",
+    "rtl/verilog/spi_clgen.v",
+    "rtl/verilog/spi_shift_in.v",
+    "rtl/verilog/spi_shift_out.v",
+    "rtl/verilog/spi_top.v"
+  ]
 }

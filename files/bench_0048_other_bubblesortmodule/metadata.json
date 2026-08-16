@@ -9,13 +9,6 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "other",
-  "included_files": [
-    "rtl/verilog/bublesort.v",
-    "rtl/verilog/bitsplit.v",
-    "rtl/verilog/intgenerator.v",
-    "rtl/verilog/rungenerator.v",
-    "rtl/verilog/stageen.v"
-  ],
   "dependency_modules": [
     "bublesort",
     "intgenerator",
@@ -26,5 +19,19 @@
   "loc": 501,
   "module_count": 5,
   "file_count": 5,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0048_other_bubblesortmodule",
+  "design_path": "files/bench_0048_other_bubblesortmodule/design.v",
+  "metadata_path": "files/bench_0048_other_bubblesortmodule/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/bublesort.v",
+    "rtl/verilog/bitsplit.v",
+    "rtl/verilog/intgenerator.v",
+    "rtl/verilog/rungenerator.v",
+    "rtl/verilog/stageen.v"
+  ]
 }

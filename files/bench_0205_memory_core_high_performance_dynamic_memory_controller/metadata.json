@@ -9,20 +9,6 @@
   "source_status": "Stable",
   "source_license": "GPL",
   "source_prefix": "memory",
-  "included_files": [
-    "hpdmc_ddr32/rtl/hpdmc.v",
-    "hpdmc_ddr32/rtl/hpdmc_banktimer.v",
-    "hpdmc_ddr32/rtl/hpdmc_busif.v",
-    "hpdmc_ddr32/rtl/hpdmc_ctlif.v",
-    "hpdmc_ddr32/rtl/hpdmc_datactl.v",
-    "hpdmc_ddr32/rtl/hpdmc_mgmt.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_ddrio.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_iddr32.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_iobuf32.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_obuft4.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr32.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr4.v"
-  ],
   "dependency_modules": [
     "hpdmc",
     "hpdmc_busif",
@@ -40,5 +26,26 @@
   "loc": 2733,
   "module_count": 12,
   "file_count": 12,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0205_memory_core_high_performance_dynamic_memory_controller",
+  "design_path": "files/bench_0205_memory_core_high_performance_dynamic_memory_controller/design.v",
+  "metadata_path": "files/bench_0205_memory_core_high_performance_dynamic_memory_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "hpdmc_ddr32/rtl/hpdmc.v",
+    "hpdmc_ddr32/rtl/hpdmc_banktimer.v",
+    "hpdmc_ddr32/rtl/hpdmc_busif.v",
+    "hpdmc_ddr32/rtl/hpdmc_ctlif.v",
+    "hpdmc_ddr32/rtl/hpdmc_datactl.v",
+    "hpdmc_ddr32/rtl/hpdmc_mgmt.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_ddrio.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_iddr32.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_iobuf32.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_obuft4.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr32.v",
+    "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr4.v"
+  ]
 }

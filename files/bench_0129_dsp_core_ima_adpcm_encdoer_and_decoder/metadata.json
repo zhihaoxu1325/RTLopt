@@ -9,22 +9,6 @@
   "source_status": "Stable",
   "source_license": "BSD",
   "source_prefix": "dsp",
-  "included_files": [
-    "rtl/verilog/mmc_boot_defines.v",
-    "rtl/verilog/virtex_bitstream_const.v",
-    "rtl/verilog/PSG16.v",
-    "rtl/verilog/PSGBusArb.v",
-    "rtl/verilog/PSGChannelSummer.v",
-    "rtl/verilog/PSGEnvGen.v",
-    "rtl/verilog/PSGEnvGenDec.v",
-    "rtl/verilog/PSGFilter.v",
-    "rtl/verilog/PSGMasterVolumeControl.v",
-    "rtl/verilog/PSGNoteGen.v",
-    "rtl/verilog/PSGNoteOutMux.v",
-    "rtl/verilog/PSGOutputSummer.v",
-    "rtl/verilog/PSGShaper.v",
-    "rtl/verilog/mux4to1.v"
-  ],
   "dependency_modules": [
     "PSG16",
     "PSGBusArb",
@@ -41,9 +25,32 @@
   "loc": 2277,
   "module_count": 11,
   "file_count": 14,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "doc/gpl.txt",
     "doc/lgpl.txt"
+  ],
+  "case_dir": "files/bench_0129_dsp_core_ima_adpcm_encdoer_and_decoder",
+  "design_path": "files/bench_0129_dsp_core_ima_adpcm_encdoer_and_decoder/design.v",
+  "metadata_path": "files/bench_0129_dsp_core_ima_adpcm_encdoer_and_decoder/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/mmc_boot_defines.v",
+    "rtl/verilog/virtex_bitstream_const.v",
+    "rtl/verilog/PSG16.v",
+    "rtl/verilog/PSGBusArb.v",
+    "rtl/verilog/PSGChannelSummer.v",
+    "rtl/verilog/PSGEnvGen.v",
+    "rtl/verilog/PSGEnvGenDec.v",
+    "rtl/verilog/PSGFilter.v",
+    "rtl/verilog/PSGMasterVolumeControl.v",
+    "rtl/verilog/PSGNoteGen.v",
+    "rtl/verilog/PSGNoteOutMux.v",
+    "rtl/verilog/PSGOutputSummer.v",
+    "rtl/verilog/PSGShaper.v",
+    "rtl/verilog/mux4to1.v"
   ]
 }

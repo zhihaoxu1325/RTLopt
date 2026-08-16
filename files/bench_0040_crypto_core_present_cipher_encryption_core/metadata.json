@@ -9,14 +9,6 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "crypto",
-  "included_files": [
-    "rtl/verilog/present_encryptor_top.v",
-    "rtl/verilog/key_update.v",
-    "rtl/verilog/permutation.v",
-    "rtl/verilog/sbox.v",
-    "rtl/verilog/sub_per.v",
-    "rtl/verilog/substitution.v"
-  ],
   "dependency_modules": [
     "present_encryptor_top",
     "key_update",
@@ -28,5 +20,20 @@
   "loc": 451,
   "module_count": 6,
   "file_count": 6,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0040_crypto_core_present_cipher_encryption_core",
+  "design_path": "files/bench_0040_crypto_core_present_cipher_encryption_core/design.v",
+  "metadata_path": "files/bench_0040_crypto_core_present_cipher_encryption_core/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/present_encryptor_top.v",
+    "rtl/verilog/key_update.v",
+    "rtl/verilog/permutation.v",
+    "rtl/verilog/sbox.v",
+    "rtl/verilog/sub_per.v",
+    "rtl/verilog/substitution.v"
+  ]
 }

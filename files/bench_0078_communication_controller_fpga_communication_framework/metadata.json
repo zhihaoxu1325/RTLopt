@@ -9,21 +9,6 @@
   "source_status": "Alpha",
   "source_license": "BSD",
   "source_prefix": "communication",
-  "included_files": [
-    "hdl/PATLPP/patlpp.v",
-    "hdl/PATLPP/alunit/alunit.v",
-    "hdl/PATLPP/checksum/checksum.v",
-    "hdl/PATLPP/comparelogic/comparelogic.v",
-    "hdl/PATLPP/microcodelogic/microcodelogic.v",
-    "hdl/PATLPP/microcodelogic/microcodesrc/microcodesrc.v",
-    "hdl/PATLPP/regfile/regfile.v",
-    "hdl/PATLPP/shiftr/gensrl.v",
-    "hdl/PATLPP/shiftr/shiftr.v",
-    "hdl/lpm/mux2/lpm_mux2.v",
-    "hdl/lpm/mux4/lpm_mux4.v",
-    "hdl/lpm/mux8/lpm_mux8.v",
-    "hdl/lpm/stopar/lpm_stopar.v"
-  ],
   "dependency_modules": [
     "patlpp",
     "alunit",
@@ -42,5 +27,27 @@
   "loc": 1315,
   "module_count": 13,
   "file_count": 13,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0078_communication_controller_fpga_communication_framework",
+  "design_path": "files/bench_0078_communication_controller_fpga_communication_framework/design.v",
+  "metadata_path": "files/bench_0078_communication_controller_fpga_communication_framework/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "hdl/PATLPP/patlpp.v",
+    "hdl/PATLPP/alunit/alunit.v",
+    "hdl/PATLPP/checksum/checksum.v",
+    "hdl/PATLPP/comparelogic/comparelogic.v",
+    "hdl/PATLPP/microcodelogic/microcodelogic.v",
+    "hdl/PATLPP/microcodelogic/microcodesrc/microcodesrc.v",
+    "hdl/PATLPP/regfile/regfile.v",
+    "hdl/PATLPP/shiftr/gensrl.v",
+    "hdl/PATLPP/shiftr/shiftr.v",
+    "hdl/lpm/mux2/lpm_mux2.v",
+    "hdl/lpm/mux4/lpm_mux4.v",
+    "hdl/lpm/mux8/lpm_mux8.v",
+    "hdl/lpm/stopar/lpm_stopar.v"
+  ]
 }

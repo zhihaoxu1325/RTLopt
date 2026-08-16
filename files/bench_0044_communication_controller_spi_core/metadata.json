@@ -9,10 +9,6 @@
   "source_status": "Stable",
   "source_license": "Unknown",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/verilog/simple_spi_top.v",
-    "rtl/verilog/fifo4.v"
-  ],
   "dependency_modules": [
     "simple_spi_top",
     "fifo4"
@@ -20,5 +16,16 @@
   "loc": 470,
   "module_count": 2,
   "file_count": 2,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0044_communication_controller_spi_core",
+  "design_path": "files/bench_0044_communication_controller_spi_core/design.v",
+  "metadata_path": "files/bench_0044_communication_controller_spi_core/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/simple_spi_top.v",
+    "rtl/verilog/fifo4.v"
+  ]
 }

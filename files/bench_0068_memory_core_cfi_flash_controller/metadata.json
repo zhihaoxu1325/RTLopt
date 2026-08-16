@@ -9,10 +9,6 @@
   "source_status": "Alpha",
   "source_license": "LGPL",
   "source_prefix": "memory",
-  "included_files": [
-    "rtl/verilog/cfi_ctrl.v",
-    "rtl/verilog/cfi_ctrl_engine.v"
-  ],
   "dependency_modules": [
     "cfi_ctrl",
     "cfi_ctrl_engine"
@@ -20,5 +16,16 @@
   "loc": 1040,
   "module_count": 2,
   "file_count": 2,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0068_memory_core_cfi_flash_controller",
+  "design_path": "files/bench_0068_memory_core_cfi_flash_controller/design.v",
+  "metadata_path": "files/bench_0068_memory_core_cfi_flash_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/cfi_ctrl.v",
+    "rtl/verilog/cfi_ctrl_engine.v"
+  ]
 }

@@ -9,13 +9,6 @@
   "source_status": "",
   "source_license": "Unknown",
   "source_prefix": "memory",
-  "included_files": [
-    "sdr_sdram_ctrl.v",
-    "versatile_mem_ctrl_top.v",
-    "versatile_mem_ctrl_defines.v",
-    "ddr2_module.v",
-    "ddr2.v"
-  ],
   "dependency_modules": [
     "ddr2_module",
     "ddr2"
@@ -23,5 +16,19 @@
   "loc": 4173,
   "module_count": 2,
   "file_count": 5,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0223_memory_core_versatile_memory_controller",
+  "design_path": "files/bench_0223_memory_core_versatile_memory_controller/design.v",
+  "metadata_path": "files/bench_0223_memory_core_versatile_memory_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "sdr_sdram_ctrl.v",
+    "versatile_mem_ctrl_top.v",
+    "versatile_mem_ctrl_defines.v",
+    "ddr2_module.v",
+    "ddr2.v"
+  ]
 }

@@ -9,7 +9,25 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "system",
-  "included_files": [
+  "dependency_modules": [
+    "system",
+    "rotary",
+    "wb_lcd",
+    "lcd",
+    "delay_counter"
+  ],
+  "loc": 5171,
+  "module_count": 5,
+  "file_count": 31,
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0230_system_controller_wb_lcd_character_display_controller",
+  "design_path": "files/bench_0230_system_controller_wb_lcd_character_display_controller/design.v",
+  "metadata_path": "files/bench_0230_system_controller_wb_lcd_character_display_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
     "myhdl/wb_lcd_workspace/rtl/lcd_defines.v",
     "myhdl/wb_lcd_workspace_ramless/rtl/lcd_defines.v",
     "verilog/wb_lcd_ramless/rtl/lcd_defines.v",
@@ -41,16 +59,5 @@
     "verilog/wb_lcd_ramless/rtl/delay_counter.v",
     "verilog/wb_lcd_ramless/rtl/lcd_display.v",
     "verilog/wb_lcd_ramless/rtl/wb_lcd.v"
-  ],
-  "dependency_modules": [
-    "system",
-    "rotary",
-    "wb_lcd",
-    "lcd",
-    "delay_counter"
-  ],
-  "loc": 5171,
-  "module_count": 5,
-  "file_count": 31,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  ]
 }

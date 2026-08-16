@@ -9,20 +9,6 @@
   "source_status": "Alpha",
   "source_license": "LGPL",
   "source_prefix": "other",
-  "included_files": [
-    "RTL/verilog/PSG16.v",
-    "RTL/verilog/PSGBusArb.v",
-    "RTL/verilog/PSGChannelSummer.v",
-    "RTL/verilog/PSGEnvGen.v",
-    "RTL/verilog/PSGEnvGenDec.v",
-    "RTL/verilog/PSGFilter.v",
-    "RTL/verilog/PSGMasterVolumeControl.v",
-    "RTL/verilog/PSGNoteGen.v",
-    "RTL/verilog/PSGNoteOutMux.v",
-    "RTL/verilog/PSGOutputSummer.v",
-    "RTL/verilog/PSGShaper.v",
-    "RTL/verilog/mux4to1.v"
-  ],
   "dependency_modules": [
     "PSG16",
     "PSGBusArb",
@@ -39,5 +25,26 @@
   "loc": 2181,
   "module_count": 11,
   "file_count": 12,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0091_other_pwm",
+  "design_path": "files/bench_0091_other_pwm/design.v",
+  "metadata_path": "files/bench_0091_other_pwm/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/verilog/PSG16.v",
+    "RTL/verilog/PSGBusArb.v",
+    "RTL/verilog/PSGChannelSummer.v",
+    "RTL/verilog/PSGEnvGen.v",
+    "RTL/verilog/PSGEnvGenDec.v",
+    "RTL/verilog/PSGFilter.v",
+    "RTL/verilog/PSGMasterVolumeControl.v",
+    "RTL/verilog/PSGNoteGen.v",
+    "RTL/verilog/PSGNoteOutMux.v",
+    "RTL/verilog/PSGOutputSummer.v",
+    "RTL/verilog/PSGShaper.v",
+    "RTL/verilog/mux4to1.v"
+  ]
 }

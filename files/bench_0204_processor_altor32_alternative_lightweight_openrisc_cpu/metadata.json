@@ -9,7 +9,36 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "processor",
-  "included_files": [
+  "dependency_modules": [
+    "PSG16",
+    "PSGBusArb",
+    "PSGChannelSummer",
+    "PSGEnvGen",
+    "mux4to1",
+    "PSGFilter",
+    "PSGMasterVolumeControl",
+    "PSGNoteGen",
+    "PSGNoteOutMux",
+    "PSGOutputSummer",
+    "PSGShaper"
+  ],
+  "loc": 2736,
+  "module_count": 11,
+  "file_count": 18,
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "license_files": [
+    "doc/gpl.txt",
+    "doc/lgpl.txt",
+    "gcc-x64/or1knd-elf/share/man/man7/gpl.7"
+  ],
+  "case_dir": "files/bench_0204_processor_altor32_alternative_lightweight_openrisc_cpu",
+  "design_path": "files/bench_0204_processor_altor32_alternative_lightweight_openrisc_cpu/design.v",
+  "metadata_path": "files/bench_0204_processor_altor32_alternative_lightweight_openrisc_cpu/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
     "RTL/cpu_lite/altor32_defs.v",
     "RTL/cpu/altor32_defs.v",
     "RTL/verilog/mmc_boot_defines.v",
@@ -28,27 +57,5 @@
     "RTL/verilog/PSGOutputSummer.v",
     "RTL/verilog/PSGShaper.v",
     "RTL/verilog/mux4to1.v"
-  ],
-  "dependency_modules": [
-    "PSG16",
-    "PSGBusArb",
-    "PSGChannelSummer",
-    "PSGEnvGen",
-    "mux4to1",
-    "PSGFilter",
-    "PSGMasterVolumeControl",
-    "PSGNoteGen",
-    "PSGNoteOutMux",
-    "PSGOutputSummer",
-    "PSGShaper"
-  ],
-  "loc": 2736,
-  "module_count": 11,
-  "file_count": 18,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
-  "license_files": [
-    "doc/gpl.txt",
-    "doc/lgpl.txt",
-    "gcc-x64/or1knd-elf/share/man/man7/gpl.7"
   ]
 }

@@ -9,14 +9,6 @@
   "source_status": "Beta",
   "source_license": "LGPL",
   "source_prefix": "memory",
-  "included_files": [
-    "rtl/ddr3_simple4.v",
-    "rtl/ddr3_sr36.v",
-    "rtl/ddr3_sr4.v",
-    "rtl/dport_ram.v",
-    "rtl/my_iddrx8.v",
-    "rtl/my_oddrx8.v"
-  ],
   "dependency_modules": [
     "ddr3_simple4",
     "ddr3_sr36",
@@ -28,5 +20,20 @@
   "loc": 914,
   "module_count": 6,
   "file_count": 6,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0065_memory_core_ddr3_synthesizable_bfm",
+  "design_path": "files/bench_0065_memory_core_ddr3_synthesizable_bfm/design.v",
+  "metadata_path": "files/bench_0065_memory_core_ddr3_synthesizable_bfm/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/ddr3_simple4.v",
+    "rtl/ddr3_sr36.v",
+    "rtl/ddr3_sr4.v",
+    "rtl/dport_ram.v",
+    "rtl/my_iddrx8.v",
+    "rtl/my_oddrx8.v"
+  ]
 }

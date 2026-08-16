@@ -9,10 +9,6 @@
   "source_status": "Beta",
   "source_license": "GPL",
   "source_prefix": "other",
-  "included_files": [
-    "1942/computer_1942.v",
-    "sqm/sqmusic.v"
-  ],
   "dependency_modules": [
     "computer_1942",
     "AY_3_8910_capcom",
@@ -27,5 +23,16 @@
   "loc": 445,
   "module_count": 9,
   "file_count": 2,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0041_other_ay_3_8910_compatible_module_in_verilog",
+  "design_path": "files/bench_0041_other_ay_3_8910_compatible_module_in_verilog/design.v",
+  "metadata_path": "files/bench_0041_other_ay_3_8910_compatible_module_in_verilog/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "1942/computer_1942.v",
+    "sqm/sqmusic.v"
+  ]
 }

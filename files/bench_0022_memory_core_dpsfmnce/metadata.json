@@ -9,14 +9,21 @@
   "source_status": "Mature",
   "source_license": "LGPL",
   "source_prefix": "memory",
-  "included_files": [
-    "RTL/DPSFnmCE.v"
-  ],
   "dependency_modules": [
     "DPSFnmCE"
   ],
   "loc": 226,
   "module_count": 1,
   "file_count": 1,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0022_memory_core_dpsfmnce",
+  "design_path": "files/bench_0022_memory_core_dpsfmnce/design.v",
+  "metadata_path": "files/bench_0022_memory_core_dpsfmnce/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/DPSFnmCE.v"
+  ]
 }

@@ -9,12 +9,6 @@
   "source_status": "Beta",
   "source_license": "Others",
   "source_prefix": "crypto",
-  "included_files": [
-    "rtl/aes_cipher_top.v",
-    "rtl/aes_key_expand_128.v",
-    "rtl/aes_rcon.v",
-    "rtl/aes_sbox.v"
-  ],
   "dependency_modules": [
     "aes_cipher_top",
     "aes_key_expand_128",
@@ -24,5 +18,18 @@
   "loc": 873,
   "module_count": 4,
   "file_count": 4,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0062_crypto_core_galois_counter_mode_advanced_encryption_standard_g",
+  "design_path": "files/bench_0062_crypto_core_galois_counter_mode_advanced_encryption_standard_g/design.v",
+  "metadata_path": "files/bench_0062_crypto_core_galois_counter_mode_advanced_encryption_standard_g/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/aes_cipher_top.v",
+    "rtl/aes_key_expand_128.v",
+    "rtl/aes_rcon.v",
+    "rtl/aes_sbox.v"
+  ]
 }

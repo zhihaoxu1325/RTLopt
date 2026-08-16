@@ -9,24 +9,6 @@
   "source_status": "Stable",
   "source_license": "Unknown",
   "source_prefix": "system",
-  "included_files": [
-    "rtl/verilog/ac97_defines.v",
-    "rtl/verilog/ac97_top.v",
-    "rtl/verilog/ac97_cra.v",
-    "rtl/verilog/ac97_dma_if.v",
-    "rtl/verilog/ac97_dma_req.v",
-    "rtl/verilog/ac97_fifo_ctrl.v",
-    "rtl/verilog/ac97_in_fifo.v",
-    "rtl/verilog/ac97_int.v",
-    "rtl/verilog/ac97_out_fifo.v",
-    "rtl/verilog/ac97_prc.v",
-    "rtl/verilog/ac97_rf.v",
-    "rtl/verilog/ac97_rst.v",
-    "rtl/verilog/ac97_sin.v",
-    "rtl/verilog/ac97_soc.v",
-    "rtl/verilog/ac97_sout.v",
-    "rtl/verilog/ac97_wb_if.v"
-  ],
   "dependency_modules": [
     "ac97_top",
     "ac97_cra",
@@ -47,5 +29,30 @@
   "loc": 3892,
   "module_count": 15,
   "file_count": 16,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0218_system_controller_ac_97_controller_ip_core",
+  "design_path": "files/bench_0218_system_controller_ac_97_controller_ip_core/design.v",
+  "metadata_path": "files/bench_0218_system_controller_ac_97_controller_ip_core/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/ac97_defines.v",
+    "rtl/verilog/ac97_top.v",
+    "rtl/verilog/ac97_cra.v",
+    "rtl/verilog/ac97_dma_if.v",
+    "rtl/verilog/ac97_dma_req.v",
+    "rtl/verilog/ac97_fifo_ctrl.v",
+    "rtl/verilog/ac97_in_fifo.v",
+    "rtl/verilog/ac97_int.v",
+    "rtl/verilog/ac97_out_fifo.v",
+    "rtl/verilog/ac97_prc.v",
+    "rtl/verilog/ac97_rf.v",
+    "rtl/verilog/ac97_rst.v",
+    "rtl/verilog/ac97_sin.v",
+    "rtl/verilog/ac97_soc.v",
+    "rtl/verilog/ac97_sout.v",
+    "rtl/verilog/ac97_wb_if.v"
+  ]
 }

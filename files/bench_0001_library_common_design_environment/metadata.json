@@ -9,17 +9,24 @@
   "source_status": "Stable",
   "source_license": "Others",
   "source_prefix": "library",
-  "included_files": [
-    "ip/pad/rtl/verilog/pad_se_dig.v"
-  ],
   "dependency_modules": [
     "cde_pad_se_dig"
   ],
   "loc": 51,
   "module_count": 1,
   "file_count": 1,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "license/LICENSE-2.0.txt"
+  ],
+  "case_dir": "files/bench_0001_library_common_design_environment",
+  "design_path": "files/bench_0001_library_common_design_environment/design.v",
+  "metadata_path": "files/bench_0001_library_common_design_environment/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "ip/pad/rtl/verilog/pad_se_dig.v"
   ]
 }

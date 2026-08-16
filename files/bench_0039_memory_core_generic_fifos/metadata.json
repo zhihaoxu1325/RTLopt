@@ -9,14 +9,21 @@
   "source_status": "Stable",
   "source_license": "Unknown",
   "source_prefix": "memory",
-  "included_files": [
-    "rtl/verilog/generic_fifo_sc_a.v"
-  ],
   "dependency_modules": [
     "generic_fifo_sc_a"
   ],
   "loc": 346,
   "module_count": 1,
   "file_count": 1,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0039_memory_core_generic_fifos",
+  "design_path": "files/bench_0039_memory_core_generic_fifos/design.v",
+  "metadata_path": "files/bench_0039_memory_core_generic_fifos/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/generic_fifo_sc_a.v"
+  ]
 }

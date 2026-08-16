@@ -9,18 +9,25 @@
   "source_status": "Alpha",
   "source_license": "Others",
   "source_prefix": "communication",
-  "included_files": [
-    "precompiled/server.v"
-  ],
   "dependency_modules": [
     "server"
   ],
   "loc": 3985,
   "module_count": 1,
   "file_count": 1,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "COPYING.txt",
     "chips2/COPYING.txt"
+  ],
+  "case_dir": "files/bench_0221_communication_controller_tcp_ip_socket",
+  "design_path": "files/bench_0221_communication_controller_tcp_ip_socket/design.v",
+  "metadata_path": "files/bench_0221_communication_controller_tcp_ip_socket/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "precompiled/server.v"
   ]
 }

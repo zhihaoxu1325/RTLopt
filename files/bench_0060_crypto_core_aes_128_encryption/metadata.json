@@ -9,17 +9,6 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "crypto",
-  "included_files": [
-    "rtl/Top_PipelinedCipher.v",
-    "rtl/AddRoundKey.v",
-    "rtl/KeyExpantion.v",
-    "rtl/MixColumns.v",
-    "rtl/Round.v",
-    "rtl/RoundKeyGen.v",
-    "rtl/SBox.v",
-    "rtl/ShiftRows.v",
-    "rtl/SubBytes.v"
-  ],
   "dependency_modules": [
     "Top_PipelinedCipher",
     "AddRoundKey",
@@ -34,5 +23,23 @@
   "loc": 877,
   "module_count": 9,
   "file_count": 9,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0060_crypto_core_aes_128_encryption",
+  "design_path": "files/bench_0060_crypto_core_aes_128_encryption/design.v",
+  "metadata_path": "files/bench_0060_crypto_core_aes_128_encryption/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/Top_PipelinedCipher.v",
+    "rtl/AddRoundKey.v",
+    "rtl/KeyExpantion.v",
+    "rtl/MixColumns.v",
+    "rtl/Round.v",
+    "rtl/RoundKeyGen.v",
+    "rtl/SBox.v",
+    "rtl/ShiftRows.v",
+    "rtl/SubBytes.v"
+  ]
 }

@@ -9,22 +9,6 @@
   "source_status": "Stable",
   "source_license": "Unknown",
   "source_prefix": "crypto",
-  "included_files": [
-    "rtl/verilog/perf_opt/des3.v",
-    "rtl/verilog/area_opt/des.v",
-    "rtl/verilog/area_opt/des3.v",
-    "rtl/verilog/common/crp.v",
-    "rtl/verilog/common/sbox1.v",
-    "rtl/verilog/common/sbox2.v",
-    "rtl/verilog/common/sbox3.v",
-    "rtl/verilog/common/sbox4.v",
-    "rtl/verilog/common/sbox5.v",
-    "rtl/verilog/common/sbox6.v",
-    "rtl/verilog/common/sbox7.v",
-    "rtl/verilog/common/sbox8.v",
-    "rtl/verilog/perf_opt/des.v",
-    "rtl/verilog/perf_opt/key_sel.v"
-  ],
   "dependency_modules": [
     "des3",
     "des",
@@ -42,5 +26,28 @@
   "loc": 2445,
   "module_count": 12,
   "file_count": 14,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0196_crypto_core_des_triple_des_ip_cores",
+  "design_path": "files/bench_0196_crypto_core_des_triple_des_ip_cores/design.v",
+  "metadata_path": "files/bench_0196_crypto_core_des_triple_des_ip_cores/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/perf_opt/des3.v",
+    "rtl/verilog/area_opt/des.v",
+    "rtl/verilog/area_opt/des3.v",
+    "rtl/verilog/common/crp.v",
+    "rtl/verilog/common/sbox1.v",
+    "rtl/verilog/common/sbox2.v",
+    "rtl/verilog/common/sbox3.v",
+    "rtl/verilog/common/sbox4.v",
+    "rtl/verilog/common/sbox5.v",
+    "rtl/verilog/common/sbox6.v",
+    "rtl/verilog/common/sbox7.v",
+    "rtl/verilog/common/sbox8.v",
+    "rtl/verilog/perf_opt/des.v",
+    "rtl/verilog/perf_opt/key_sel.v"
+  ]
 }

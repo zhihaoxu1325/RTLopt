@@ -9,18 +9,6 @@
   "source_status": "Mature",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "RTL/SSP_UART.v",
-    "RTL/DPSFnmCE.v",
-    "RTL/UART_BRG.v",
-    "RTL/UART_INT.v",
-    "RTL/UART_RTO.v",
-    "RTL/UART_RXSM.v",
-    "RTL/UART_TXSM.v",
-    "RTL/fedet.v",
-    "RTL/re1ce.v",
-    "RTL/redet.v"
-  ],
   "dependency_modules": [
     "SSP_UART",
     "DPSFnmCE",
@@ -36,5 +24,24 @@
   "loc": 2920,
   "module_count": 10,
   "file_count": 10,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0210_communication_controller_ssp_uart",
+  "design_path": "files/bench_0210_communication_controller_ssp_uart/design.v",
+  "metadata_path": "files/bench_0210_communication_controller_ssp_uart/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/SSP_UART.v",
+    "RTL/DPSFnmCE.v",
+    "RTL/UART_BRG.v",
+    "RTL/UART_INT.v",
+    "RTL/UART_RTO.v",
+    "RTL/UART_RXSM.v",
+    "RTL/UART_TXSM.v",
+    "RTL/fedet.v",
+    "RTL/re1ce.v",
+    "RTL/redet.v"
+  ]
 }

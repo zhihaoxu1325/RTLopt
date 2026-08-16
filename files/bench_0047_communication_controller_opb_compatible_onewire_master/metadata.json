@@ -9,14 +9,21 @@
   "source_status": "Mature",
   "source_license": "GPL",
   "source_prefix": "communication",
-  "included_files": [
-    "s3e_onewire_master_v1_00_a/hdl/verilog/user_logic.v"
-  ],
   "dependency_modules": [
     "user_logic"
   ],
   "loc": 488,
   "module_count": 1,
   "file_count": 1,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0047_communication_controller_opb_compatible_onewire_master",
+  "design_path": "files/bench_0047_communication_controller_opb_compatible_onewire_master/design.v",
+  "metadata_path": "files/bench_0047_communication_controller_opb_compatible_onewire_master/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "s3e_onewire_master_v1_00_a/hdl/verilog/user_logic.v"
+  ]
 }

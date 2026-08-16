@@ -9,16 +9,6 @@
   "source_status": "Beta",
   "source_license": "Unknown",
   "source_prefix": "crypto",
-  "included_files": [
-    "rtl/sboxes.v",
-    "rtl/sbox1.v",
-    "rtl/sbox2.v",
-    "rtl/sbox3.v",
-    "rtl/sbox4.v",
-    "rtl/sbox5.v",
-    "rtl/sbox6.v",
-    "rtl/sbox7.v"
-  ],
   "dependency_modules": [
     "sboxes",
     "sbox1",
@@ -32,5 +22,22 @@
   "loc": 356,
   "module_count": 8,
   "file_count": 8,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0037_crypto_core_csa",
+  "design_path": "files/bench_0037_crypto_core_csa/design.v",
+  "metadata_path": "files/bench_0037_crypto_core_csa/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/sboxes.v",
+    "rtl/sbox1.v",
+    "rtl/sbox2.v",
+    "rtl/sbox3.v",
+    "rtl/sbox4.v",
+    "rtl/sbox5.v",
+    "rtl/sbox6.v",
+    "rtl/sbox7.v"
+  ]
 }

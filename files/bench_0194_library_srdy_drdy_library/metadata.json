@@ -9,26 +9,6 @@
   "source_status": "Stable",
   "source_license": "Others",
   "source_prefix": "library",
-  "included_files": [
-    "examples/bridge/rtl/port_macro.v",
-    "examples/bridge/rtl/allocator.v",
-    "examples/bridge/rtl/concentrator.v",
-    "examples/bridge/rtl/deallocator.v",
-    "examples/bridge/rtl/distributor.v",
-    "examples/bridge/rtl/mac_crc32.v",
-    "examples/bridge/rtl/pkt_parse.v",
-    "examples/bridge/rtl/port_clocking.v",
-    "examples/bridge/rtl/sd_rx_gigmac.v",
-    "examples/bridge/rtl/sd_tx_gigmac.v",
-    "rtl/verilog/buffers/sd_fifo_head_s.v",
-    "rtl/verilog/buffers/sd_fifo_s.v",
-    "rtl/verilog/buffers/sd_fifo_tail_s.v",
-    "rtl/verilog/closure/sd_input.v",
-    "rtl/verilog/closure/sd_iohalf.v",
-    "rtl/verilog/closure/sd_output.v",
-    "rtl/verilog/forks/sd_ajoin2.v",
-    "rtl/verilog/memory/behave2p_mem.v"
-  ],
   "dependency_modules": [
     "port_macro",
     "allocator",
@@ -52,5 +32,32 @@
   "loc": 2443,
   "module_count": 18,
   "file_count": 18,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0194_library_srdy_drdy_library",
+  "design_path": "files/bench_0194_library_srdy_drdy_library/design.v",
+  "metadata_path": "files/bench_0194_library_srdy_drdy_library/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "examples/bridge/rtl/port_macro.v",
+    "examples/bridge/rtl/allocator.v",
+    "examples/bridge/rtl/concentrator.v",
+    "examples/bridge/rtl/deallocator.v",
+    "examples/bridge/rtl/distributor.v",
+    "examples/bridge/rtl/mac_crc32.v",
+    "examples/bridge/rtl/pkt_parse.v",
+    "examples/bridge/rtl/port_clocking.v",
+    "examples/bridge/rtl/sd_rx_gigmac.v",
+    "examples/bridge/rtl/sd_tx_gigmac.v",
+    "rtl/verilog/buffers/sd_fifo_head_s.v",
+    "rtl/verilog/buffers/sd_fifo_s.v",
+    "rtl/verilog/buffers/sd_fifo_tail_s.v",
+    "rtl/verilog/closure/sd_input.v",
+    "rtl/verilog/closure/sd_iohalf.v",
+    "rtl/verilog/closure/sd_output.v",
+    "rtl/verilog/forks/sd_ajoin2.v",
+    "rtl/verilog/memory/behave2p_mem.v"
+  ]
 }

@@ -25,6 +25,14 @@ as the top module. The full benchmark manifest is:
 rtl_morph_eval/configs/benchmark_manifest.json
 ```
 
+Metadata fields use repo-local and upstream names deliberately:
+
+- `design_path` points to the benchmark RTL file in this repository.
+- `repo_local_files` lists the files expected to exist in each benchmark case.
+- `upstream_included_files` lists original source-project paths that were
+  merged into `design.v`; these are provenance references only and are not
+  expected to exist as separate files in this repository.
+
 Some cases are derived from third-party open RTL projects. Their metadata keeps
 source and license provenance so cases can be reviewed before being used in a
 final redistribution package.

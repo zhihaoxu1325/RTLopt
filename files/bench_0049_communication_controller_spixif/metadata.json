@@ -9,14 +9,21 @@
   "source_status": "Mature",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "RTL/SPIxIF.v"
-  ],
   "dependency_modules": [
     "SPIxIF"
   ],
   "loc": 494,
   "module_count": 1,
   "file_count": 1,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0049_communication_controller_spixif",
+  "design_path": "files/bench_0049_communication_controller_spixif/design.v",
+  "metadata_path": "files/bench_0049_communication_controller_spixif/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/SPIxIF.v"
+  ]
 }

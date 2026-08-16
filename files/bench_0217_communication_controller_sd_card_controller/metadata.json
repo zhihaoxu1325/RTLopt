@@ -9,24 +9,6 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/sdc_fifo/verilog/sd_defines.v",
-    "rtl/sdc_dma/verilog/sd_defines.v",
-    "rtl/sdc_dma/verilog/sdc_controller.v",
-    "rtl/sdc_dma/verilog/sd_bd.v",
-    "rtl/sdc_dma/verilog/sd_clock_divider.v",
-    "rtl/sdc_dma/verilog/sd_cmd_master.v",
-    "rtl/sdc_dma/verilog/sd_cmd_serial_host.v",
-    "rtl/sdc_dma/verilog/sd_controller_wb.v",
-    "rtl/sdc_dma/verilog/sd_crc_16.v",
-    "rtl/sdc_dma/verilog/sd_crc_7.v",
-    "rtl/sdc_dma/verilog/sd_data_master.v",
-    "rtl/sdc_dma/verilog/sd_data_serial_host.v",
-    "rtl/sdc_dma/verilog/sd_fifo_rx_filler.v",
-    "rtl/sdc_dma/verilog/sd_fifo_tx_filler.v",
-    "rtl/sdc_dma/verilog/sd_rx_fifo.v",
-    "rtl/sdc_dma/verilog/sd_tx_fifo.v"
-  ],
   "dependency_modules": [
     "sdc_controller",
     "sd_bd",
@@ -46,5 +28,30 @@
   "loc": 3621,
   "module_count": 14,
   "file_count": 16,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0217_communication_controller_sd_card_controller",
+  "design_path": "files/bench_0217_communication_controller_sd_card_controller/design.v",
+  "metadata_path": "files/bench_0217_communication_controller_sd_card_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/sdc_fifo/verilog/sd_defines.v",
+    "rtl/sdc_dma/verilog/sd_defines.v",
+    "rtl/sdc_dma/verilog/sdc_controller.v",
+    "rtl/sdc_dma/verilog/sd_bd.v",
+    "rtl/sdc_dma/verilog/sd_clock_divider.v",
+    "rtl/sdc_dma/verilog/sd_cmd_master.v",
+    "rtl/sdc_dma/verilog/sd_cmd_serial_host.v",
+    "rtl/sdc_dma/verilog/sd_controller_wb.v",
+    "rtl/sdc_dma/verilog/sd_crc_16.v",
+    "rtl/sdc_dma/verilog/sd_crc_7.v",
+    "rtl/sdc_dma/verilog/sd_data_master.v",
+    "rtl/sdc_dma/verilog/sd_data_serial_host.v",
+    "rtl/sdc_dma/verilog/sd_fifo_rx_filler.v",
+    "rtl/sdc_dma/verilog/sd_fifo_tx_filler.v",
+    "rtl/sdc_dma/verilog/sd_rx_fifo.v",
+    "rtl/sdc_dma/verilog/sd_tx_fifo.v"
+  ]
 }

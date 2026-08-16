@@ -9,12 +9,6 @@
   "source_status": "Beta",
   "source_license": "BSD",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/verilog/rtfSimpleUart.v",
-    "rtl/verilog/edge_det.v",
-    "rtl/verilog/rtfSimpleUartRx.v",
-    "rtl/verilog/rtfSimpleUartTx.v"
-  ],
   "dependency_modules": [
     "rtfSimpleUart",
     "edge_det",
@@ -24,5 +18,18 @@
   "loc": 885,
   "module_count": 4,
   "file_count": 4,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0063_communication_controller_rtfsimpleuart",
+  "design_path": "files/bench_0063_communication_controller_rtfsimpleuart/design.v",
+  "metadata_path": "files/bench_0063_communication_controller_rtfsimpleuart/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/rtfSimpleUart.v",
+    "rtl/verilog/edge_det.v",
+    "rtl/verilog/rtfSimpleUartRx.v",
+    "rtl/verilog/rtfSimpleUartTx.v"
+  ]
 }

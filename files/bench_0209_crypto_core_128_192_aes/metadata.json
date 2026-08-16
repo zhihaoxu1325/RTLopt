@@ -9,20 +9,6 @@
   "source_status": "Stable",
   "source_license": "Unknown",
   "source_prefix": "crypto",
-  "included_files": [
-    "rtl/verilog/aes192lowarea/aes192.v",
-    "rtl/verilog/aes128lowarea/byte_mixcolum.v",
-    "rtl/verilog/aes128lowarea/mixcolum.v",
-    "rtl/verilog/aes128lowarea/sbox.v",
-    "rtl/verilog/aes128lowarea/subbytes.v",
-    "rtl/verilog/aes128lowarea/word_mixcolum.v",
-    "rtl/verilog/aes192lowarea/byte_mixcolum.v",
-    "rtl/verilog/aes192lowarea/keysched192.v",
-    "rtl/verilog/aes192lowarea/mixcolum.v",
-    "rtl/verilog/aes192lowarea/sbox.v",
-    "rtl/verilog/aes192lowarea/subbytes.v",
-    "rtl/verilog/aes192lowarea/word_mixcolum.v"
-  ],
   "dependency_modules": [
     "aes192",
     "keysched192",
@@ -35,5 +21,26 @@
   "loc": 2899,
   "module_count": 7,
   "file_count": 12,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0209_crypto_core_128_192_aes",
+  "design_path": "files/bench_0209_crypto_core_128_192_aes/design.v",
+  "metadata_path": "files/bench_0209_crypto_core_128_192_aes/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/aes192lowarea/aes192.v",
+    "rtl/verilog/aes128lowarea/byte_mixcolum.v",
+    "rtl/verilog/aes128lowarea/mixcolum.v",
+    "rtl/verilog/aes128lowarea/sbox.v",
+    "rtl/verilog/aes128lowarea/subbytes.v",
+    "rtl/verilog/aes128lowarea/word_mixcolum.v",
+    "rtl/verilog/aes192lowarea/byte_mixcolum.v",
+    "rtl/verilog/aes192lowarea/keysched192.v",
+    "rtl/verilog/aes192lowarea/mixcolum.v",
+    "rtl/verilog/aes192lowarea/sbox.v",
+    "rtl/verilog/aes192lowarea/subbytes.v",
+    "rtl/verilog/aes192lowarea/word_mixcolum.v"
+  ]
 }

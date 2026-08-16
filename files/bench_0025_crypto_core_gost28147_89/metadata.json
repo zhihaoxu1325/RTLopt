@@ -9,11 +9,6 @@
   "source_status": "Stable",
   "source_license": "BSD",
   "source_prefix": "crypto",
-  "included_files": [
-    "rtl/gost89_pipelined_ecb.v",
-    "rtl/gost89_round.v",
-    "rtl/gost89_sbox.v"
-  ],
   "dependency_modules": [
     "gost89_pipelined_ecb_encrypt",
     "gost89_round",
@@ -22,8 +17,20 @@
   "loc": 236,
   "module_count": 3,
   "file_count": 3,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "LICENSE"
+  ],
+  "case_dir": "files/bench_0025_crypto_core_gost28147_89",
+  "design_path": "files/bench_0025_crypto_core_gost28147_89/design.v",
+  "metadata_path": "files/bench_0025_crypto_core_gost28147_89/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/gost89_pipelined_ecb.v",
+    "rtl/gost89_round.v",
+    "rtl/gost89_sbox.v"
   ]
 }

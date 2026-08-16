@@ -9,21 +9,6 @@
   "source_status": "Beta",
   "source_license": "Unknown",
   "source_prefix": "other",
-  "included_files": [
-    "d_TopLevel.v",
-    "AdcDriver/d_Driver_ADC.v",
-    "AdcDriver/d_Driver_ADCRamBuffer.v",
-    "AdcDriver/d_Driver_RamBuffer.v",
-    "Mouse/d_DriverMouse.v",
-    "SegDriver/d_HexSeg.v",
-    "SegDriver/d_SegDriver.v",
-    "UserInput/d_MouseInput.v",
-    "UserInput/sub_UserBoxes.v",
-    "UserInput/sub_UserLines.v",
-    "VGA/CharDecode/d_CharDecode.v",
-    "VGA/d_VGAdriver.v",
-    "VGA/d_VgaRamBuffer.v"
-  ],
   "dependency_modules": [
     "TopLevel",
     "ADCDataBuffer",
@@ -42,5 +27,27 @@
   "loc": 3269,
   "module_count": 13,
   "file_count": 13,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0212_other_an_alternative_oscilloscope",
+  "design_path": "files/bench_0212_other_an_alternative_oscilloscope/design.v",
+  "metadata_path": "files/bench_0212_other_an_alternative_oscilloscope/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "d_TopLevel.v",
+    "AdcDriver/d_Driver_ADC.v",
+    "AdcDriver/d_Driver_ADCRamBuffer.v",
+    "AdcDriver/d_Driver_RamBuffer.v",
+    "Mouse/d_DriverMouse.v",
+    "SegDriver/d_HexSeg.v",
+    "SegDriver/d_SegDriver.v",
+    "UserInput/d_MouseInput.v",
+    "UserInput/sub_UserBoxes.v",
+    "UserInput/sub_UserLines.v",
+    "VGA/CharDecode/d_CharDecode.v",
+    "VGA/d_VGAdriver.v",
+    "VGA/d_VgaRamBuffer.v"
+  ]
 }

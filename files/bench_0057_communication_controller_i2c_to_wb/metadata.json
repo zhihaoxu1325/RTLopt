@@ -9,13 +9,6 @@
   "source_status": "Alpha",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "src/i2c_to_wb_top.v",
-    "src/glitch_filter.v",
-    "src/i2c_to_wb_config.v",
-    "src/i2c_to_wb_fsm.v",
-    "src/i2c_to_wb_if.v"
-  ],
   "dependency_modules": [
     "i2c_to_wb_top",
     "glitch_filter",
@@ -26,5 +19,19 @@
   "loc": 772,
   "module_count": 5,
   "file_count": 5,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0057_communication_controller_i2c_to_wb",
+  "design_path": "files/bench_0057_communication_controller_i2c_to_wb/design.v",
+  "metadata_path": "files/bench_0057_communication_controller_i2c_to_wb/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "src/i2c_to_wb_top.v",
+    "src/glitch_filter.v",
+    "src/i2c_to_wb_config.v",
+    "src/i2c_to_wb_fsm.v",
+    "src/i2c_to_wb_if.v"
+  ]
 }

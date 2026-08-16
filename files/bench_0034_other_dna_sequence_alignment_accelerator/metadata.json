@@ -9,10 +9,6 @@
   "source_status": "Alpha",
   "source_license": "LGPL",
   "source_prefix": "other",
-  "included_files": [
-    "sw_gen_affine.v",
-    "sw_pe_affine.v"
-  ],
   "dependency_modules": [
     "sw_gen_affine",
     "sw_pe_affine"
@@ -20,5 +16,16 @@
   "loc": 293,
   "module_count": 2,
   "file_count": 2,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0034_other_dna_sequence_alignment_accelerator",
+  "design_path": "files/bench_0034_other_dna_sequence_alignment_accelerator/design.v",
+  "metadata_path": "files/bench_0034_other_dna_sequence_alignment_accelerator/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "sw_gen_affine.v",
+    "sw_pe_affine.v"
+  ]
 }

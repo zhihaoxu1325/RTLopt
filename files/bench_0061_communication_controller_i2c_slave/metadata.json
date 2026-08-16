@@ -9,13 +9,6 @@
   "source_status": "Stable",
   "source_license": "GPL",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/i2cSlave_define.v",
-    "rtl/i2cSlaveTop.v",
-    "rtl/i2cSlave.v",
-    "rtl/registerInterface.v",
-    "rtl/serialInterface.v"
-  ],
   "dependency_modules": [
     "i2cSlaveTop",
     "i2cSlave",
@@ -25,5 +18,19 @@
   "loc": 864,
   "module_count": 4,
   "file_count": 5,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0061_communication_controller_i2c_slave",
+  "design_path": "files/bench_0061_communication_controller_i2c_slave/design.v",
+  "metadata_path": "files/bench_0061_communication_controller_i2c_slave/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/i2cSlave_define.v",
+    "rtl/i2cSlaveTop.v",
+    "rtl/i2cSlave.v",
+    "rtl/registerInterface.v",
+    "rtl/serialInterface.v"
+  ]
 }

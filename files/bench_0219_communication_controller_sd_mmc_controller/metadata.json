@@ -9,24 +9,6 @@
   "source_status": "Stable",
   "source_license": "GPL",
   "source_prefix": "communication",
-  "included_files": [
-    "RTL/spiMaster_defines.v",
-    "RTL/spiMaster.v",
-    "RTL/ctrlStsRegBI.v",
-    "RTL/initSD.v",
-    "RTL/readWriteSDBlock.v",
-    "RTL/readWriteSPIWireData.v",
-    "RTL/sendCmd.v",
-    "RTL/sm_RxFifo.v",
-    "RTL/sm_RxFifoBI.v",
-    "RTL/sm_TxFifo.v",
-    "RTL/sm_TxFifoBI.v",
-    "RTL/sm_dpMem_dc.v",
-    "RTL/sm_fifoRTL.v",
-    "RTL/spiCtrl.v",
-    "RTL/spiMasterWishBoneBI.v",
-    "RTL/spiTxRxData.v"
-  ],
   "dependency_modules": [
     "spiMaster",
     "ctrlStsRegBI",
@@ -47,5 +29,30 @@
   "loc": 3905,
   "module_count": 15,
   "file_count": 16,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0219_communication_controller_sd_mmc_controller",
+  "design_path": "files/bench_0219_communication_controller_sd_mmc_controller/design.v",
+  "metadata_path": "files/bench_0219_communication_controller_sd_mmc_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/spiMaster_defines.v",
+    "RTL/spiMaster.v",
+    "RTL/ctrlStsRegBI.v",
+    "RTL/initSD.v",
+    "RTL/readWriteSDBlock.v",
+    "RTL/readWriteSPIWireData.v",
+    "RTL/sendCmd.v",
+    "RTL/sm_RxFifo.v",
+    "RTL/sm_RxFifoBI.v",
+    "RTL/sm_TxFifo.v",
+    "RTL/sm_TxFifoBI.v",
+    "RTL/sm_dpMem_dc.v",
+    "RTL/sm_fifoRTL.v",
+    "RTL/spiCtrl.v",
+    "RTL/spiMasterWishBoneBI.v",
+    "RTL/spiTxRxData.v"
+  ]
 }

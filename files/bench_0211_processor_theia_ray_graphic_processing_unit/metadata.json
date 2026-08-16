@@ -9,19 +9,6 @@
   "source_status": "Beta",
   "source_license": "GPL",
   "source_prefix": "processor",
-  "included_files": [
-    "RTL/aDefinitions.v",
-    "RTL/verilog/mmc_boot_defines.v",
-    "RTL/verilog/virtex_bitstream_const.v",
-    "RTL/Module_VectorALU.v",
-    "RTL/Collaterals.v",
-    "RTL/Module_ArithmeticComparison.v",
-    "RTL/Module_FixedPointAddtionSubstraction.v",
-    "RTL/Module_FixedPointDivision.v",
-    "RTL/Module_FixedPointSquareRoot.v",
-    "RTL/Module_RadixRMul.v",
-    "RTL/Module_Swizzle.v"
-  ],
   "dependency_modules": [
     "VectorALU",
     "ArithmeticComparison",
@@ -40,9 +27,29 @@
   "loc": 3244,
   "module_count": 13,
   "file_count": 11,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "doc/gpl.txt",
     "doc/lgpl.txt"
+  ],
+  "case_dir": "files/bench_0211_processor_theia_ray_graphic_processing_unit",
+  "design_path": "files/bench_0211_processor_theia_ray_graphic_processing_unit/design.v",
+  "metadata_path": "files/bench_0211_processor_theia_ray_graphic_processing_unit/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/aDefinitions.v",
+    "RTL/verilog/mmc_boot_defines.v",
+    "RTL/verilog/virtex_bitstream_const.v",
+    "RTL/Module_VectorALU.v",
+    "RTL/Collaterals.v",
+    "RTL/Module_ArithmeticComparison.v",
+    "RTL/Module_FixedPointAddtionSubstraction.v",
+    "RTL/Module_FixedPointDivision.v",
+    "RTL/Module_FixedPointSquareRoot.v",
+    "RTL/Module_RadixRMul.v",
+    "RTL/Module_Swizzle.v"
   ]
 }

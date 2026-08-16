@@ -9,10 +9,6 @@
   "source_status": "Beta",
   "source_license": "GPL",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/wbqspiflash.v",
-    "rtl/llqspi.v"
-  ],
   "dependency_modules": [
     "wbqspiflash",
     "llqspi"
@@ -20,9 +16,20 @@
   "loc": 1529,
   "module_count": 2,
   "file_count": 2,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "doc/gpl-3.0.pdf",
     "doc/src/gpl-3.0.tex"
+  ],
+  "case_dir": "files/bench_0085_communication_controller_quad_spi_flash_controller",
+  "design_path": "files/bench_0085_communication_controller_quad_spi_flash_controller/design.v",
+  "metadata_path": "files/bench_0085_communication_controller_quad_spi_flash_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/wbqspiflash.v",
+    "rtl/llqspi.v"
   ]
 }

@@ -9,22 +9,6 @@
   "source_status": "",
   "source_license": "Unknown",
   "source_prefix": "arithmetic",
-  "included_files": [
-    "mmc_boot_defines.v",
-    "virtex_bitstream_const.v",
-    "PSG16.v",
-    "PSGBusArb.v",
-    "PSGChannelSummer.v",
-    "PSGEnvGen.v",
-    "PSGEnvGenDec.v",
-    "PSGFilter.v",
-    "PSGMasterVolumeControl.v",
-    "PSGNoteGen.v",
-    "PSGNoteOutMux.v",
-    "PSGOutputSummer.v",
-    "PSGShaper.v",
-    "mux4to1.v"
-  ],
   "dependency_modules": [
     "PSG16",
     "PSGBusArb",
@@ -41,5 +25,28 @@
   "loc": 2277,
   "module_count": 11,
   "file_count": 14,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0103_arithmetic_core_complex_arithmetic_operations",
+  "design_path": "files/bench_0103_arithmetic_core_complex_arithmetic_operations/design.v",
+  "metadata_path": "files/bench_0103_arithmetic_core_complex_arithmetic_operations/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "mmc_boot_defines.v",
+    "virtex_bitstream_const.v",
+    "PSG16.v",
+    "PSGBusArb.v",
+    "PSGChannelSummer.v",
+    "PSGEnvGen.v",
+    "PSGEnvGenDec.v",
+    "PSGFilter.v",
+    "PSGMasterVolumeControl.v",
+    "PSGNoteGen.v",
+    "PSGNoteOutMux.v",
+    "PSGOutputSummer.v",
+    "PSGShaper.v",
+    "mux4to1.v"
+  ]
 }

@@ -9,14 +9,6 @@
   "source_status": "Beta",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/top/ha1588.v",
-    "rtl/reg/reg.v",
-    "rtl/rtc/rtc.v",
-    "rtl/tsu/ptp_parser.v",
-    "rtl/tsu/ptp_queue.v",
-    "rtl/tsu/tsu.v"
-  ],
   "dependency_modules": [
     "ha1588",
     "rgs",
@@ -28,5 +20,20 @@
   "loc": 1488,
   "module_count": 6,
   "file_count": 6,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0084_communication_controller_hardware_assisted_ieee_1588_ip_core",
+  "design_path": "files/bench_0084_communication_controller_hardware_assisted_ieee_1588_ip_core/design.v",
+  "metadata_path": "files/bench_0084_communication_controller_hardware_assisted_ieee_1588_ip_core/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/top/ha1588.v",
+    "rtl/reg/reg.v",
+    "rtl/rtc/rtc.v",
+    "rtl/tsu/ptp_parser.v",
+    "rtl/tsu/ptp_queue.v",
+    "rtl/tsu/tsu.v"
+  ]
 }

@@ -9,26 +9,6 @@
   "source_status": "Mature",
   "source_license": "LGPL",
   "source_prefix": "arithmetic",
-  "included_files": [
-    "rtl/verilog/mmc_boot_defines.v",
-    "rtl/verilog/virtex_bitstream_const.v",
-    "rtl/backup/decoder_20120201_1.v",
-    "rtl/ACS.v",
-    "rtl/bmc/bmc000.v",
-    "rtl/bmc/bmc001.v",
-    "rtl/bmc/bmc010.v",
-    "rtl/bmc/bmc011.v",
-    "rtl/bmc/bmc100.v",
-    "rtl/bmc/bmc101.v",
-    "rtl/bmc/bmc110.v",
-    "rtl/bmc/bmc111.v",
-    "rtl/decoder.v",
-    "rtl/mem_1x1024.v",
-    "rtl/mem_8x1024.v",
-    "rtl/original/mem_1x1024_ori.v",
-    "rtl/original/mem_8x1024_ori.v",
-    "rtl/tbu.v"
-  ],
   "dependency_modules": [
     "decoder",
     "ACS",
@@ -47,5 +27,32 @@
   "loc": 1799,
   "module_count": 13,
   "file_count": 18,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0087_arithmetic_core_viterbi_tx_rx",
+  "design_path": "files/bench_0087_arithmetic_core_viterbi_tx_rx/design.v",
+  "metadata_path": "files/bench_0087_arithmetic_core_viterbi_tx_rx/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/mmc_boot_defines.v",
+    "rtl/verilog/virtex_bitstream_const.v",
+    "rtl/backup/decoder_20120201_1.v",
+    "rtl/ACS.v",
+    "rtl/bmc/bmc000.v",
+    "rtl/bmc/bmc001.v",
+    "rtl/bmc/bmc010.v",
+    "rtl/bmc/bmc011.v",
+    "rtl/bmc/bmc100.v",
+    "rtl/bmc/bmc101.v",
+    "rtl/bmc/bmc110.v",
+    "rtl/bmc/bmc111.v",
+    "rtl/decoder.v",
+    "rtl/mem_1x1024.v",
+    "rtl/mem_8x1024.v",
+    "rtl/original/mem_1x1024_ori.v",
+    "rtl/original/mem_8x1024_ori.v",
+    "rtl/tbu.v"
+  ]
 }

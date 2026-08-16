@@ -9,16 +9,6 @@
   "source_status": "Beta",
   "source_license": "LGPL",
   "source_prefix": "arithmetic",
-  "included_files": [
-    "rtl/defines.v",
-    "rtl/cavlc_top.v",
-    "rtl/cavlc_fsm.v",
-    "rtl/cavlc_len_gen.v",
-    "rtl/cavlc_read_levels.v",
-    "rtl/cavlc_read_run_befores.v",
-    "rtl/cavlc_read_total_coeffs.v",
-    "rtl/cavlc_read_total_zeros.v"
-  ],
   "dependency_modules": [
     "cavlc_top",
     "cavlc_fsm",
@@ -31,5 +21,22 @@
   "loc": 3281,
   "module_count": 7,
   "file_count": 8,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0213_arithmetic_core_cavlc_decoder",
+  "design_path": "files/bench_0213_arithmetic_core_cavlc_decoder/design.v",
+  "metadata_path": "files/bench_0213_arithmetic_core_cavlc_decoder/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/defines.v",
+    "rtl/cavlc_top.v",
+    "rtl/cavlc_fsm.v",
+    "rtl/cavlc_len_gen.v",
+    "rtl/cavlc_read_levels.v",
+    "rtl/cavlc_read_run_befores.v",
+    "rtl/cavlc_read_total_coeffs.v",
+    "rtl/cavlc_read_total_zeros.v"
+  ]
 }

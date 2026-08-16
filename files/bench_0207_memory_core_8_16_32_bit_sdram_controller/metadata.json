@@ -9,15 +9,6 @@
   "source_status": "Stable",
   "source_license": "GPL",
   "source_prefix": "memory",
-  "included_files": [
-    "rtl/core/sdrc_define.v",
-    "rtl/core/sdrc_core.v",
-    "rtl/core/sdrc_bank_ctl.v",
-    "rtl/core/sdrc_bank_fsm.v",
-    "rtl/core/sdrc_bs_convert.v",
-    "rtl/core/sdrc_req_gen.v",
-    "rtl/core/sdrc_xfr_ctl.v"
-  ],
   "dependency_modules": [
     "sdrc_core",
     "sdrc_bank_ctl",
@@ -29,5 +20,21 @@
   "loc": 2824,
   "module_count": 6,
   "file_count": 7,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0207_memory_core_8_16_32_bit_sdram_controller",
+  "design_path": "files/bench_0207_memory_core_8_16_32_bit_sdram_controller/design.v",
+  "metadata_path": "files/bench_0207_memory_core_8_16_32_bit_sdram_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/core/sdrc_define.v",
+    "rtl/core/sdrc_core.v",
+    "rtl/core/sdrc_bank_ctl.v",
+    "rtl/core/sdrc_bank_fsm.v",
+    "rtl/core/sdrc_bs_convert.v",
+    "rtl/core/sdrc_req_gen.v",
+    "rtl/core/sdrc_xfr_ctl.v"
+  ]
 }

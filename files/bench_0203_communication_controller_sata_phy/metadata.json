@@ -9,16 +9,6 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "hdl/sata_constants.v",
-    "hdl/sata_phy_top_x6series.v",
-    "hdl/axis_fifo_36W_16D.v",
-    "hdl/axis_fifo_40W_16D.v",
-    "hdl/det_pos_edge.v",
-    "hdl/mux.v",
-    "hdl/sata_phy_dev_ctrl_x6series.v",
-    "hdl/sata_phy_host_ctrl_x6series.v"
-  ],
   "dependency_modules": [
     "sata_phy_top_x6series",
     "axis_fifo_36W_16D",
@@ -31,5 +21,22 @@
   "loc": 2664,
   "module_count": 7,
   "file_count": 8,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0203_communication_controller_sata_phy",
+  "design_path": "files/bench_0203_communication_controller_sata_phy/design.v",
+  "metadata_path": "files/bench_0203_communication_controller_sata_phy/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "hdl/sata_constants.v",
+    "hdl/sata_phy_top_x6series.v",
+    "hdl/axis_fifo_36W_16D.v",
+    "hdl/axis_fifo_40W_16D.v",
+    "hdl/det_pos_edge.v",
+    "hdl/mux.v",
+    "hdl/sata_phy_dev_ctrl_x6series.v",
+    "hdl/sata_phy_host_ctrl_x6series.v"
+  ]
 }

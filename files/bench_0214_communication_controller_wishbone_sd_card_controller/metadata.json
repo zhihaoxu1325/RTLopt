@@ -9,24 +9,6 @@
   "source_status": "Beta",
   "source_license": "LGPL",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/verilog/sdc_controller.v",
-    "rtl/verilog/bistable_domain_cross.v",
-    "rtl/verilog/edge_detect.v",
-    "rtl/verilog/generic_dpram.v",
-    "rtl/verilog/generic_fifo_dc_gray.v",
-    "rtl/verilog/monostable_domain_cross.v",
-    "rtl/verilog/sd_clock_divider.v",
-    "rtl/verilog/sd_cmd_master.v",
-    "rtl/verilog/sd_cmd_serial_host.v",
-    "rtl/verilog/sd_controller_wb.v",
-    "rtl/verilog/sd_crc_16.v",
-    "rtl/verilog/sd_crc_7.v",
-    "rtl/verilog/sd_data_master.v",
-    "rtl/verilog/sd_data_serial_host.v",
-    "rtl/verilog/sd_data_xfer_trig.v",
-    "rtl/verilog/sd_fifo_filler.v"
-  ],
   "dependency_modules": [
     "sdc_controller",
     "bistable_domain_cross",
@@ -50,5 +32,30 @@
   "loc": 3312,
   "module_count": 18,
   "file_count": 16,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0214_communication_controller_wishbone_sd_card_controller",
+  "design_path": "files/bench_0214_communication_controller_wishbone_sd_card_controller/design.v",
+  "metadata_path": "files/bench_0214_communication_controller_wishbone_sd_card_controller/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/sdc_controller.v",
+    "rtl/verilog/bistable_domain_cross.v",
+    "rtl/verilog/edge_detect.v",
+    "rtl/verilog/generic_dpram.v",
+    "rtl/verilog/generic_fifo_dc_gray.v",
+    "rtl/verilog/monostable_domain_cross.v",
+    "rtl/verilog/sd_clock_divider.v",
+    "rtl/verilog/sd_cmd_master.v",
+    "rtl/verilog/sd_cmd_serial_host.v",
+    "rtl/verilog/sd_controller_wb.v",
+    "rtl/verilog/sd_crc_16.v",
+    "rtl/verilog/sd_crc_7.v",
+    "rtl/verilog/sd_data_master.v",
+    "rtl/verilog/sd_data_serial_host.v",
+    "rtl/verilog/sd_data_xfer_trig.v",
+    "rtl/verilog/sd_fifo_filler.v"
+  ]
 }

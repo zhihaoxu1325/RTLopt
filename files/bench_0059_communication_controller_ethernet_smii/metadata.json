@@ -9,12 +9,6 @@
   "source_status": "Beta",
   "source_license": "Unknown",
   "source_prefix": "communication",
-  "included_files": [
-    "rtl/verilog/smii_ACTEL.v",
-    "rtl/verilog/generic_gbuf.v",
-    "rtl/verilog/smii.v",
-    "rtl/verilog/smii_txrx.v"
-  ],
   "dependency_modules": [
     "smii_txrx",
     "gbuf"
@@ -22,5 +16,18 @@
   "loc": 815,
   "module_count": 2,
   "file_count": 4,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0059_communication_controller_ethernet_smii",
+  "design_path": "files/bench_0059_communication_controller_ethernet_smii/design.v",
+  "metadata_path": "files/bench_0059_communication_controller_ethernet_smii/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "rtl/verilog/smii_ACTEL.v",
+    "rtl/verilog/generic_gbuf.v",
+    "rtl/verilog/smii.v",
+    "rtl/verilog/smii_txrx.v"
+  ]
 }

@@ -9,12 +9,6 @@
   "source_status": "Mature",
   "source_license": "BSD",
   "source_prefix": "communication",
-  "included_files": [
-    "verilog/rtl/uart_top.v",
-    "verilog/rtl/baud_gen.v",
-    "verilog/rtl/uart_rx.v",
-    "verilog/rtl/uart_tx.v"
-  ],
   "dependency_modules": [
     "uart_top",
     "baud_gen",
@@ -24,5 +18,18 @@
   "loc": 354,
   "module_count": 4,
   "file_count": 4,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0038_communication_controller_uart_to_bus",
+  "design_path": "files/bench_0038_communication_controller_uart_to_bus/design.v",
+  "metadata_path": "files/bench_0038_communication_controller_uart_to_bus/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "verilog/rtl/uart_top.v",
+    "verilog/rtl/baud_gen.v",
+    "verilog/rtl/uart_rx.v",
+    "verilog/rtl/uart_tx.v"
+  ]
 }

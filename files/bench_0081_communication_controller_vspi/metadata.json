@@ -9,14 +9,6 @@
   "source_status": "Stable",
   "source_license": "Others",
   "source_prefix": "communication",
-  "included_files": [
-    "src/spi_base/spiwrap.v",
-    "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/buffermem.v",
-    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/buffermem.v",
-    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/spiifc.v",
-    "src/spi_base/spiifc.v",
-    "src/spi_base/spiifc_twoclock.v"
-  ],
   "dependency_modules": [
     "spiwrap",
     "buffermem",
@@ -25,5 +17,20 @@
   "loc": 1333,
   "module_count": 3,
   "file_count": 6,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input."
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "case_dir": "files/bench_0081_communication_controller_vspi",
+  "design_path": "files/bench_0081_communication_controller_vspi/design.v",
+  "metadata_path": "files/bench_0081_communication_controller_vspi/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "src/spi_base/spiwrap.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/buffermem.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/buffermem.v",
+    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/spiifc.v",
+    "src/spi_base/spiifc.v",
+    "src/spi_base/spiifc_twoclock.v"
+  ]
 }

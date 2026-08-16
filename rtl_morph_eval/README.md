@@ -16,6 +16,11 @@ Benchmark cases live under `../files/bench_*/`. Each case uses one
 `design.v` as the optimization input; adjacent metadata records the selected
 top module and provenance.
 
+In the metadata, `design_path` is the repo-local benchmark input.
+`upstream_included_files` records the original upstream RTL paths that were
+merged into that single `design.v`; those upstream paths are not separate
+benchmark files in this repository.
+
 Run one benchmark case:
 
 ```bash

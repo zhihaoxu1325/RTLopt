@@ -9,9 +9,6 @@
   "source_status": "Mature",
   "source_license": "LGPL",
   "source_prefix": "processor",
-  "included_files": [
-    "RTL/device_box.v"
-  ],
   "dependency_modules": [
     "devices_box",
     "beep_interface",
@@ -24,9 +21,19 @@
   "loc": 482,
   "module_count": 7,
   "file_count": 1,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "doc/gpl.txt",
     "doc/lgpl.txt"
+  ],
+  "case_dir": "files/bench_0046_processor_vtach_bell_labs_cardiac_reimagined_in_verilog",
+  "design_path": "files/bench_0046_processor_vtach_bell_labs_cardiac_reimagined_in_verilog/design.v",
+  "metadata_path": "files/bench_0046_processor_vtach_bell_labs_cardiac_reimagined_in_verilog/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/device_box.v"
   ]
 }

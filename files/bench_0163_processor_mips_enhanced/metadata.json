@@ -9,22 +9,6 @@
   "source_status": "Stable",
   "source_license": "LGPL",
   "source_prefix": "processor",
-  "included_files": [
-    "RTL/verilog/mmc_boot_defines.v",
-    "RTL/verilog/virtex_bitstream_const.v",
-    "RTL/verilog/PSG16.v",
-    "RTL/verilog/PSGBusArb.v",
-    "RTL/verilog/PSGChannelSummer.v",
-    "RTL/verilog/PSGEnvGen.v",
-    "RTL/verilog/PSGEnvGenDec.v",
-    "RTL/verilog/PSGFilter.v",
-    "RTL/verilog/PSGMasterVolumeControl.v",
-    "RTL/verilog/PSGNoteGen.v",
-    "RTL/verilog/PSGNoteOutMux.v",
-    "RTL/verilog/PSGOutputSummer.v",
-    "RTL/verilog/PSGShaper.v",
-    "RTL/verilog/mux4to1.v"
-  ],
   "dependency_modules": [
     "PSG16",
     "PSGBusArb",
@@ -41,7 +25,7 @@
   "loc": 2277,
   "module_count": 11,
   "file_count": 14,
-  "notes": "Curated single-file RTL case generated from source-project module dependency closure. Use design.v as the LLM optimization input.",
+  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
   "license_files": [
     "doc/gpl.txt",
     "doc/lgpl.txt",
@@ -55,5 +39,28 @@
     "grlib-gpl-1.0.19-b3188/designs/leon3mp/971A_lqfp.bsd",
     "grlib-gpl-1.0.19-b3188/lib/gaisler/jtag/ahbjtag_bsd.vhd",
     "grlib-gpl-1.0.19-b3188/lib/techmap/gencomp/tech.in.gpl"
+  ],
+  "case_dir": "files/bench_0163_processor_mips_enhanced",
+  "design_path": "files/bench_0163_processor_mips_enhanced/design.v",
+  "metadata_path": "files/bench_0163_processor_mips_enhanced/metadata.json",
+  "repo_local_files": [
+    "design.v",
+    "metadata.json"
+  ],
+  "upstream_included_files": [
+    "RTL/verilog/mmc_boot_defines.v",
+    "RTL/verilog/virtex_bitstream_const.v",
+    "RTL/verilog/PSG16.v",
+    "RTL/verilog/PSGBusArb.v",
+    "RTL/verilog/PSGChannelSummer.v",
+    "RTL/verilog/PSGEnvGen.v",
+    "RTL/verilog/PSGEnvGenDec.v",
+    "RTL/verilog/PSGFilter.v",
+    "RTL/verilog/PSGMasterVolumeControl.v",
+    "RTL/verilog/PSGNoteGen.v",
+    "RTL/verilog/PSGNoteOutMux.v",
+    "RTL/verilog/PSGOutputSummer.v",
+    "RTL/verilog/PSGShaper.v",
+    "RTL/verilog/mux4to1.v"
   ]
 }
