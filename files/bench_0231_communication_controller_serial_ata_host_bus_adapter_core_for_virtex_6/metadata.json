@@ -23,31 +23,71 @@
   "loc": 5262,
   "module_count": 9,
   "file_count": 14,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "license_files": [
     "sata2_fifo_v1_00_a/COPYING3"
   ],
   "case_dir": "files/bench_0231_communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6",
   "design_path": "files/bench_0231_communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6/design.v",
   "metadata_path": "files/bench_0231_communication_controller_serial_ata_host_bus_adapter_core_for_virtex_6/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_phy.v",
-    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v",
-    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mux_21.v",
-    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mux_41.v",
-    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/oob_control.v",
-    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_gtx.v",
-    "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_gtx_dual.v",
-    "sata2_fifo_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v",
-    "sata2_fifo_v1_00_a/hdl/verilog/mux_21.v",
-    "sata2_fifo_v1_00_a/hdl/verilog/mux_41.v",
-    "sata2_fifo_v1_00_a/hdl/verilog/oob_control.v",
-    "sata2_fifo_v1_00_a/hdl/verilog/sata_gtx.v",
-    "sata2_fifo_v1_00_a/hdl/verilog/sata_gtx_dual.v",
-    "sata2_fifo_v1_00_a/hdl/verilog/sata_phy.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_phy.v",
+      "repo_path": "reference_sources/sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_phy.v"
+    },
+    {
+      "upstream_path": "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v",
+      "repo_path": "reference_sources/sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v"
+    },
+    {
+      "upstream_path": "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mux_21.v",
+      "repo_path": "reference_sources/sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mux_21.v"
+    },
+    {
+      "upstream_path": "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mux_41.v",
+      "repo_path": "reference_sources/sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/mux_41.v"
+    },
+    {
+      "upstream_path": "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/oob_control.v",
+      "repo_path": "reference_sources/sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/oob_control.v"
+    },
+    {
+      "upstream_path": "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_gtx.v",
+      "repo_path": "reference_sources/sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_gtx.v"
+    },
+    {
+      "upstream_path": "sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_gtx_dual.v",
+      "repo_path": "reference_sources/sata2_bus_v1_00_a/base_system/pcores/sata_core_v1_00_a/hdl/verilog/sata_gtx_dual.v"
+    },
+    {
+      "upstream_path": "sata2_fifo_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v",
+      "repo_path": "reference_sources/sata2_fifo_v1_00_a/hdl/verilog/mgt_usrclk_source_mmcm.v"
+    },
+    {
+      "upstream_path": "sata2_fifo_v1_00_a/hdl/verilog/mux_21.v",
+      "repo_path": "reference_sources/sata2_fifo_v1_00_a/hdl/verilog/mux_21.v"
+    },
+    {
+      "upstream_path": "sata2_fifo_v1_00_a/hdl/verilog/mux_41.v",
+      "repo_path": "reference_sources/sata2_fifo_v1_00_a/hdl/verilog/mux_41.v"
+    },
+    {
+      "upstream_path": "sata2_fifo_v1_00_a/hdl/verilog/oob_control.v",
+      "repo_path": "reference_sources/sata2_fifo_v1_00_a/hdl/verilog/oob_control.v"
+    },
+    {
+      "upstream_path": "sata2_fifo_v1_00_a/hdl/verilog/sata_gtx.v",
+      "repo_path": "reference_sources/sata2_fifo_v1_00_a/hdl/verilog/sata_gtx.v"
+    },
+    {
+      "upstream_path": "sata2_fifo_v1_00_a/hdl/verilog/sata_gtx_dual.v",
+      "repo_path": "reference_sources/sata2_fifo_v1_00_a/hdl/verilog/sata_gtx_dual.v"
+    },
+    {
+      "upstream_path": "sata2_fifo_v1_00_a/hdl/verilog/sata_phy.v",
+      "repo_path": "reference_sources/sata2_fifo_v1_00_a/hdl/verilog/sata_phy.v"
+    }
   ]
 }

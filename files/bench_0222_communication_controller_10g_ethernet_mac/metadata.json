@@ -35,34 +35,92 @@
   "loc": 4098,
   "module_count": 21,
   "file_count": 20,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0222_communication_controller_10g_ethernet_mac",
   "design_path": "files/bench_0222_communication_controller_10g_ethernet_mac/design.v",
   "metadata_path": "files/bench_0222_communication_controller_10g_ethernet_mac/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/rx_engine/xgiga_define.v",
-    "rtl/verilog/rx_engine/rxReceiveEngine.v",
-    "rtl/verilog/rx_engine/CRC32_D64.v",
-    "rtl/verilog/rx_engine/CRC32_D8.v",
-    "rtl/verilog/rx_engine/SwitchAsyncFIFO.v",
-    "rtl/verilog/rx_engine/SwitchSyncFIFO.v",
-    "rtl/verilog/rx_engine/counter.v",
-    "rtl/verilog/rx_engine/rxCRC.v",
-    "rtl/verilog/rx_engine/rxClkgen.v",
-    "rtl/verilog/rx_engine/rxDAchecker.v",
-    "rtl/verilog/rx_engine/rxDataPath.v",
-    "rtl/verilog/rx_engine/rxLenTypChecker.v",
-    "rtl/verilog/rx_engine/rxLinkFaultState.v",
-    "rtl/verilog/rx_engine/rxNumCounter.v",
-    "rtl/verilog/rx_engine/rxRSIO.v",
-    "rtl/verilog/rx_engine/rxRSLayer.v",
-    "rtl/verilog/rx_engine/rxStatModule.v",
-    "rtl/verilog/rx_engine/rxStateMachine.v",
-    "rtl/verilog/tx_engine/CRC32_D64.v",
-    "rtl/verilog/tx_engine/CRC32_D8.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/rx_engine/xgiga_define.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/xgiga_define.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxReceiveEngine.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxReceiveEngine.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/CRC32_D64.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/CRC32_D64.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/CRC32_D8.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/CRC32_D8.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/SwitchAsyncFIFO.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/SwitchAsyncFIFO.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/SwitchSyncFIFO.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/SwitchSyncFIFO.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/counter.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/counter.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxCRC.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxCRC.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxClkgen.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxClkgen.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxDAchecker.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxDAchecker.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxDataPath.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxDataPath.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxLenTypChecker.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxLenTypChecker.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxLinkFaultState.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxLinkFaultState.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxNumCounter.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxNumCounter.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxRSIO.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxRSIO.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxRSLayer.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxRSLayer.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxStatModule.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxStatModule.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rx_engine/rxStateMachine.v",
+      "repo_path": "reference_sources/rtl/verilog/rx_engine/rxStateMachine.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/tx_engine/CRC32_D64.v",
+      "repo_path": "reference_sources/rtl/verilog/tx_engine/CRC32_D64.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/tx_engine/CRC32_D8.v",
+      "repo_path": "reference_sources/rtl/verilog/tx_engine/CRC32_D8.v"
+    }
   ]
 }

@@ -17,20 +17,36 @@
   "loc": 1333,
   "module_count": 3,
   "file_count": 6,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0081_communication_controller_vspi",
   "design_path": "files/bench_0081_communication_controller_vspi/design.v",
   "metadata_path": "files/bench_0081_communication_controller_vspi/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "src/spi_base/spiwrap.v",
-    "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/buffermem.v",
-    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/buffermem.v",
-    "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/spiifc.v",
-    "src/spi_base/spiifc.v",
-    "src/spi_base/spiifc_twoclock.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "src/spi_base/spiwrap.v",
+      "repo_path": "reference_sources/src/spi_base/spiwrap.v"
+    },
+    {
+      "upstream_path": "projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/buffermem.v",
+      "repo_path": "reference_sources/projnav/xps/pcores/spiifc_v1_00_a/devl/projnav/ipcore_dir/buffermem.v"
+    },
+    {
+      "upstream_path": "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/buffermem.v",
+      "repo_path": "reference_sources/projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/buffermem.v"
+    },
+    {
+      "upstream_path": "projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/spiifc.v",
+      "repo_path": "reference_sources/projnav/xps/pcores/spiifc_v1_00_a/hdl/verilog/spiifc.v"
+    },
+    {
+      "upstream_path": "src/spi_base/spiifc.v",
+      "repo_path": "reference_sources/src/spi_base/spiifc.v"
+    },
+    {
+      "upstream_path": "src/spi_base/spiifc_twoclock.v",
+      "repo_path": "reference_sources/src/spi_base/spiifc_twoclock.v"
+    }
   ]
 }

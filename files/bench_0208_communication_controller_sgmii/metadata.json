@@ -27,29 +27,72 @@
   "loc": 2905,
   "module_count": 13,
   "file_count": 15,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0208_communication_controller_sgmii",
   "design_path": "files/bench_0208_communication_controller_sgmii/design.v",
   "metadata_path": "files/bench_0208_communication_controller_sgmii/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "src/SGMIIDefs.v",
-    "build/OpenCore_MAC/header.v",
-    "src/mSGMII.v",
-    "src/mANCtrl.v",
-    "src/mAltGX/mAltA5GXlvds.v",
-    "src/mAltGX/mAltArriaVlvdsRx.v",
-    "src/mAltGX/mAltArriaVlvdsTx.v",
-    "src/mAltGX/mAltLvdsPll.v",
-    "src/mClkBuf.v",
-    "src/mRateAdapter.v",
-    "src/mReceive.v",
-    "src/mRegisters.v",
-    "src/mSyncCtrl.v",
-    "src/mSyncFifo.v",
-    "src/mTransmit.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "src/SGMIIDefs.v",
+      "repo_path": "reference_sources/src/SGMIIDefs.v"
+    },
+    {
+      "upstream_path": "build/OpenCore_MAC/header.v",
+      "repo_path": "reference_sources/build/OpenCore_MAC/header.v"
+    },
+    {
+      "upstream_path": "src/mSGMII.v",
+      "repo_path": "reference_sources/src/mSGMII.v"
+    },
+    {
+      "upstream_path": "src/mANCtrl.v",
+      "repo_path": "reference_sources/src/mANCtrl.v"
+    },
+    {
+      "upstream_path": "src/mAltGX/mAltA5GXlvds.v",
+      "repo_path": "reference_sources/src/mAltGX/mAltA5GXlvds.v"
+    },
+    {
+      "upstream_path": "src/mAltGX/mAltArriaVlvdsRx.v",
+      "repo_path": "reference_sources/src/mAltGX/mAltArriaVlvdsRx.v"
+    },
+    {
+      "upstream_path": "src/mAltGX/mAltArriaVlvdsTx.v",
+      "repo_path": "reference_sources/src/mAltGX/mAltArriaVlvdsTx.v"
+    },
+    {
+      "upstream_path": "src/mAltGX/mAltLvdsPll.v",
+      "repo_path": "reference_sources/src/mAltGX/mAltLvdsPll.v"
+    },
+    {
+      "upstream_path": "src/mClkBuf.v",
+      "repo_path": "reference_sources/src/mClkBuf.v"
+    },
+    {
+      "upstream_path": "src/mRateAdapter.v",
+      "repo_path": "reference_sources/src/mRateAdapter.v"
+    },
+    {
+      "upstream_path": "src/mReceive.v",
+      "repo_path": "reference_sources/src/mReceive.v"
+    },
+    {
+      "upstream_path": "src/mRegisters.v",
+      "repo_path": "reference_sources/src/mRegisters.v"
+    },
+    {
+      "upstream_path": "src/mSyncCtrl.v",
+      "repo_path": "reference_sources/src/mSyncCtrl.v"
+    },
+    {
+      "upstream_path": "src/mSyncFifo.v",
+      "repo_path": "reference_sources/src/mSyncFifo.v"
+    },
+    {
+      "upstream_path": "src/mTransmit.v",
+      "repo_path": "reference_sources/src/mTransmit.v"
+    }
   ]
 }

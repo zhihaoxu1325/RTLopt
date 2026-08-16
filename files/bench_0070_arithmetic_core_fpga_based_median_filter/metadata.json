@@ -20,20 +20,36 @@
   "loc": 1073,
   "module_count": 6,
   "file_count": 6,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0070_arithmetic_core_fpga_based_median_filter",
   "design_path": "files/bench_0070_arithmetic_core_fpga_based_median_filter/design.v",
   "metadata_path": "files/bench_0070_arithmetic_core_fpga_based_median_filter/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/median.v",
-    "rtl/common_network.v",
-    "rtl/dff_3_pipe.v",
-    "rtl/node.v",
-    "rtl/pixel_network.v",
-    "rtl/state_machine.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/median.v",
+      "repo_path": "reference_sources/rtl/median.v"
+    },
+    {
+      "upstream_path": "rtl/common_network.v",
+      "repo_path": "reference_sources/rtl/common_network.v"
+    },
+    {
+      "upstream_path": "rtl/dff_3_pipe.v",
+      "repo_path": "reference_sources/rtl/dff_3_pipe.v"
+    },
+    {
+      "upstream_path": "rtl/node.v",
+      "repo_path": "reference_sources/rtl/node.v"
+    },
+    {
+      "upstream_path": "rtl/pixel_network.v",
+      "repo_path": "reference_sources/rtl/pixel_network.v"
+    },
+    {
+      "upstream_path": "rtl/state_machine.v",
+      "repo_path": "reference_sources/rtl/state_machine.v"
+    }
   ]
 }

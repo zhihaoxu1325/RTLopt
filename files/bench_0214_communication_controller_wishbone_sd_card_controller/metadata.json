@@ -32,30 +32,76 @@
   "loc": 3312,
   "module_count": 18,
   "file_count": 16,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0214_communication_controller_wishbone_sd_card_controller",
   "design_path": "files/bench_0214_communication_controller_wishbone_sd_card_controller/design.v",
   "metadata_path": "files/bench_0214_communication_controller_wishbone_sd_card_controller/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/sdc_controller.v",
-    "rtl/verilog/bistable_domain_cross.v",
-    "rtl/verilog/edge_detect.v",
-    "rtl/verilog/generic_dpram.v",
-    "rtl/verilog/generic_fifo_dc_gray.v",
-    "rtl/verilog/monostable_domain_cross.v",
-    "rtl/verilog/sd_clock_divider.v",
-    "rtl/verilog/sd_cmd_master.v",
-    "rtl/verilog/sd_cmd_serial_host.v",
-    "rtl/verilog/sd_controller_wb.v",
-    "rtl/verilog/sd_crc_16.v",
-    "rtl/verilog/sd_crc_7.v",
-    "rtl/verilog/sd_data_master.v",
-    "rtl/verilog/sd_data_serial_host.v",
-    "rtl/verilog/sd_data_xfer_trig.v",
-    "rtl/verilog/sd_fifo_filler.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/sdc_controller.v",
+      "repo_path": "reference_sources/rtl/verilog/sdc_controller.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/bistable_domain_cross.v",
+      "repo_path": "reference_sources/rtl/verilog/bistable_domain_cross.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/edge_detect.v",
+      "repo_path": "reference_sources/rtl/verilog/edge_detect.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/generic_dpram.v",
+      "repo_path": "reference_sources/rtl/verilog/generic_dpram.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/generic_fifo_dc_gray.v",
+      "repo_path": "reference_sources/rtl/verilog/generic_fifo_dc_gray.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/monostable_domain_cross.v",
+      "repo_path": "reference_sources/rtl/verilog/monostable_domain_cross.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_clock_divider.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_clock_divider.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_cmd_master.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_cmd_master.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_cmd_serial_host.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_cmd_serial_host.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_controller_wb.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_controller_wb.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_crc_16.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_crc_16.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_crc_7.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_crc_7.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_data_master.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_data_master.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_data_serial_host.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_data_serial_host.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_data_xfer_trig.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_data_xfer_trig.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/sd_fifo_filler.v",
+      "repo_path": "reference_sources/rtl/verilog/sd_fifo_filler.v"
+    }
   ]
 }

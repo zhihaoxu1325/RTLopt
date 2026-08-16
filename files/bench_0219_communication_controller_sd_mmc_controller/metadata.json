@@ -29,30 +29,76 @@
   "loc": 3905,
   "module_count": 15,
   "file_count": 16,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0219_communication_controller_sd_mmc_controller",
   "design_path": "files/bench_0219_communication_controller_sd_mmc_controller/design.v",
   "metadata_path": "files/bench_0219_communication_controller_sd_mmc_controller/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "RTL/spiMaster_defines.v",
-    "RTL/spiMaster.v",
-    "RTL/ctrlStsRegBI.v",
-    "RTL/initSD.v",
-    "RTL/readWriteSDBlock.v",
-    "RTL/readWriteSPIWireData.v",
-    "RTL/sendCmd.v",
-    "RTL/sm_RxFifo.v",
-    "RTL/sm_RxFifoBI.v",
-    "RTL/sm_TxFifo.v",
-    "RTL/sm_TxFifoBI.v",
-    "RTL/sm_dpMem_dc.v",
-    "RTL/sm_fifoRTL.v",
-    "RTL/spiCtrl.v",
-    "RTL/spiMasterWishBoneBI.v",
-    "RTL/spiTxRxData.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "RTL/spiMaster_defines.v",
+      "repo_path": "reference_sources/RTL/spiMaster_defines.v"
+    },
+    {
+      "upstream_path": "RTL/spiMaster.v",
+      "repo_path": "reference_sources/RTL/spiMaster.v"
+    },
+    {
+      "upstream_path": "RTL/ctrlStsRegBI.v",
+      "repo_path": "reference_sources/RTL/ctrlStsRegBI.v"
+    },
+    {
+      "upstream_path": "RTL/initSD.v",
+      "repo_path": "reference_sources/RTL/initSD.v"
+    },
+    {
+      "upstream_path": "RTL/readWriteSDBlock.v",
+      "repo_path": "reference_sources/RTL/readWriteSDBlock.v"
+    },
+    {
+      "upstream_path": "RTL/readWriteSPIWireData.v",
+      "repo_path": "reference_sources/RTL/readWriteSPIWireData.v"
+    },
+    {
+      "upstream_path": "RTL/sendCmd.v",
+      "repo_path": "reference_sources/RTL/sendCmd.v"
+    },
+    {
+      "upstream_path": "RTL/sm_RxFifo.v",
+      "repo_path": "reference_sources/RTL/sm_RxFifo.v"
+    },
+    {
+      "upstream_path": "RTL/sm_RxFifoBI.v",
+      "repo_path": "reference_sources/RTL/sm_RxFifoBI.v"
+    },
+    {
+      "upstream_path": "RTL/sm_TxFifo.v",
+      "repo_path": "reference_sources/RTL/sm_TxFifo.v"
+    },
+    {
+      "upstream_path": "RTL/sm_TxFifoBI.v",
+      "repo_path": "reference_sources/RTL/sm_TxFifoBI.v"
+    },
+    {
+      "upstream_path": "RTL/sm_dpMem_dc.v",
+      "repo_path": "reference_sources/RTL/sm_dpMem_dc.v"
+    },
+    {
+      "upstream_path": "RTL/sm_fifoRTL.v",
+      "repo_path": "reference_sources/RTL/sm_fifoRTL.v"
+    },
+    {
+      "upstream_path": "RTL/spiCtrl.v",
+      "repo_path": "reference_sources/RTL/spiCtrl.v"
+    },
+    {
+      "upstream_path": "RTL/spiMasterWishBoneBI.v",
+      "repo_path": "reference_sources/RTL/spiMasterWishBoneBI.v"
+    },
+    {
+      "upstream_path": "RTL/spiTxRxData.v",
+      "repo_path": "reference_sources/RTL/spiTxRxData.v"
+    }
   ]
 }

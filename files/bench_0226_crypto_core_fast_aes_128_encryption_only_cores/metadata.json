@@ -18,26 +18,60 @@
   "loc": 4644,
   "module_count": 4,
   "file_count": 12,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0226_crypto_core_fast_aes_128_encryption_only_cores",
   "design_path": "files/bench_0226_crypto_core_fast_aes_128_encryption_only_cores/design.v",
   "metadata_path": "files/bench_0226_crypto_core_fast_aes_128_encryption_only_cores/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "aes_10cycle_10stage/aes_cipher_top.v",
-    "aes_10cycle_10stage/aes_key_expand_128.v",
-    "aes_10cycle_10stage/aes_rcon.v",
-    "aes_10cycle_10stage/aes_sbox.v",
-    "aes_1cycle_1stage/aes_cipher_top.v",
-    "aes_1cycle_1stage/aes_key_expand_128.v",
-    "aes_1cycle_1stage/aes_rcon.v",
-    "aes_1cycle_1stage/aes_sbox.v",
-    "aes_5cycle_2stage/aes_cipher_top.v",
-    "aes_5cycle_2stage/aes_key_expand_128.v",
-    "aes_5cycle_2stage/aes_rcon.v",
-    "aes_5cycle_2stage/aes_sbox.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "aes_10cycle_10stage/aes_cipher_top.v",
+      "repo_path": "reference_sources/aes_10cycle_10stage/aes_cipher_top.v"
+    },
+    {
+      "upstream_path": "aes_10cycle_10stage/aes_key_expand_128.v",
+      "repo_path": "reference_sources/aes_10cycle_10stage/aes_key_expand_128.v"
+    },
+    {
+      "upstream_path": "aes_10cycle_10stage/aes_rcon.v",
+      "repo_path": "reference_sources/aes_10cycle_10stage/aes_rcon.v"
+    },
+    {
+      "upstream_path": "aes_10cycle_10stage/aes_sbox.v",
+      "repo_path": "reference_sources/aes_10cycle_10stage/aes_sbox.v"
+    },
+    {
+      "upstream_path": "aes_1cycle_1stage/aes_cipher_top.v",
+      "repo_path": "reference_sources/aes_1cycle_1stage/aes_cipher_top.v"
+    },
+    {
+      "upstream_path": "aes_1cycle_1stage/aes_key_expand_128.v",
+      "repo_path": "reference_sources/aes_1cycle_1stage/aes_key_expand_128.v"
+    },
+    {
+      "upstream_path": "aes_1cycle_1stage/aes_rcon.v",
+      "repo_path": "reference_sources/aes_1cycle_1stage/aes_rcon.v"
+    },
+    {
+      "upstream_path": "aes_1cycle_1stage/aes_sbox.v",
+      "repo_path": "reference_sources/aes_1cycle_1stage/aes_sbox.v"
+    },
+    {
+      "upstream_path": "aes_5cycle_2stage/aes_cipher_top.v",
+      "repo_path": "reference_sources/aes_5cycle_2stage/aes_cipher_top.v"
+    },
+    {
+      "upstream_path": "aes_5cycle_2stage/aes_key_expand_128.v",
+      "repo_path": "reference_sources/aes_5cycle_2stage/aes_key_expand_128.v"
+    },
+    {
+      "upstream_path": "aes_5cycle_2stage/aes_rcon.v",
+      "repo_path": "reference_sources/aes_5cycle_2stage/aes_rcon.v"
+    },
+    {
+      "upstream_path": "aes_5cycle_2stage/aes_sbox.v",
+      "repo_path": "reference_sources/aes_5cycle_2stage/aes_sbox.v"
+    }
   ]
 }

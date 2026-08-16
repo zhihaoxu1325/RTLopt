@@ -27,25 +27,56 @@
   "loc": 2634,
   "module_count": 13,
   "file_count": 11,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0202_communication_controller_uart_to_spi",
   "design_path": "files/bench_0202_communication_controller_uart_to_spi/design.v",
   "metadata_path": "files/bench_0202_communication_controller_uart_to_spi/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/top/top.v",
-    "rtl/lib/registers.v",
-    "rtl/msg_hand/uart_msg_handler.v",
-    "rtl/spi/spi_cfg.v",
-    "rtl/spi/spi_core.v",
-    "rtl/spi/spi_ctl.v",
-    "rtl/spi/spi_if.v",
-    "rtl/uart_core/clk_ctl.v",
-    "rtl/uart_core/uart_core.v",
-    "rtl/uart_core/uart_rxfsm.v",
-    "rtl/uart_core/uart_txfsm.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/top/top.v",
+      "repo_path": "reference_sources/rtl/top/top.v"
+    },
+    {
+      "upstream_path": "rtl/lib/registers.v",
+      "repo_path": "reference_sources/rtl/lib/registers.v"
+    },
+    {
+      "upstream_path": "rtl/msg_hand/uart_msg_handler.v",
+      "repo_path": "reference_sources/rtl/msg_hand/uart_msg_handler.v"
+    },
+    {
+      "upstream_path": "rtl/spi/spi_cfg.v",
+      "repo_path": "reference_sources/rtl/spi/spi_cfg.v"
+    },
+    {
+      "upstream_path": "rtl/spi/spi_core.v",
+      "repo_path": "reference_sources/rtl/spi/spi_core.v"
+    },
+    {
+      "upstream_path": "rtl/spi/spi_ctl.v",
+      "repo_path": "reference_sources/rtl/spi/spi_ctl.v"
+    },
+    {
+      "upstream_path": "rtl/spi/spi_if.v",
+      "repo_path": "reference_sources/rtl/spi/spi_if.v"
+    },
+    {
+      "upstream_path": "rtl/uart_core/clk_ctl.v",
+      "repo_path": "reference_sources/rtl/uart_core/clk_ctl.v"
+    },
+    {
+      "upstream_path": "rtl/uart_core/uart_core.v",
+      "repo_path": "reference_sources/rtl/uart_core/uart_core.v"
+    },
+    {
+      "upstream_path": "rtl/uart_core/uart_rxfsm.v",
+      "repo_path": "reference_sources/rtl/uart_core/uart_rxfsm.v"
+    },
+    {
+      "upstream_path": "rtl/uart_core/uart_txfsm.v",
+      "repo_path": "reference_sources/rtl/uart_core/uart_txfsm.v"
+    }
   ]
 }

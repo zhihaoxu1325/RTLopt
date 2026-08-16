@@ -20,20 +20,36 @@
   "loc": 914,
   "module_count": 6,
   "file_count": 6,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0065_memory_core_ddr3_synthesizable_bfm",
   "design_path": "files/bench_0065_memory_core_ddr3_synthesizable_bfm/design.v",
   "metadata_path": "files/bench_0065_memory_core_ddr3_synthesizable_bfm/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/ddr3_simple4.v",
-    "rtl/ddr3_sr36.v",
-    "rtl/ddr3_sr4.v",
-    "rtl/dport_ram.v",
-    "rtl/my_iddrx8.v",
-    "rtl/my_oddrx8.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/ddr3_simple4.v",
+      "repo_path": "reference_sources/rtl/ddr3_simple4.v"
+    },
+    {
+      "upstream_path": "rtl/ddr3_sr36.v",
+      "repo_path": "reference_sources/rtl/ddr3_sr36.v"
+    },
+    {
+      "upstream_path": "rtl/ddr3_sr4.v",
+      "repo_path": "reference_sources/rtl/ddr3_sr4.v"
+    },
+    {
+      "upstream_path": "rtl/dport_ram.v",
+      "repo_path": "reference_sources/rtl/dport_ram.v"
+    },
+    {
+      "upstream_path": "rtl/my_iddrx8.v",
+      "repo_path": "reference_sources/rtl/my_iddrx8.v"
+    },
+    {
+      "upstream_path": "rtl/my_oddrx8.v",
+      "repo_path": "reference_sources/rtl/my_oddrx8.v"
+    }
   ]
 }

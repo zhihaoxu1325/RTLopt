@@ -18,18 +18,28 @@
   "loc": 885,
   "module_count": 4,
   "file_count": 4,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0063_communication_controller_rtfsimpleuart",
   "design_path": "files/bench_0063_communication_controller_rtfsimpleuart/design.v",
   "metadata_path": "files/bench_0063_communication_controller_rtfsimpleuart/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/rtfSimpleUart.v",
-    "rtl/verilog/edge_det.v",
-    "rtl/verilog/rtfSimpleUartRx.v",
-    "rtl/verilog/rtfSimpleUartTx.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/rtfSimpleUart.v",
+      "repo_path": "reference_sources/rtl/verilog/rtfSimpleUart.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/edge_det.v",
+      "repo_path": "reference_sources/rtl/verilog/edge_det.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rtfSimpleUartRx.v",
+      "repo_path": "reference_sources/rtl/verilog/rtfSimpleUartRx.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rtfSimpleUartTx.v",
+      "repo_path": "reference_sources/rtl/verilog/rtfSimpleUartTx.v"
+    }
   ]
 }

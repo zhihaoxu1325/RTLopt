@@ -57,9 +57,10 @@ The `source_files` order is the assembly order used by `design.v`.
 `upstream_included_files` field is removed so that no path-only field can be
 mistaken for a missing repository file.
 
-`repo_local_files` continues to identify the two primary case files,
-`design.v` and `metadata.json`; the reference tree is described separately by
-`reference_source_dir` and `source_files`.
+The old `repo_local_files` field is removed because its short list could be
+misread as an exhaustive inventory. `benchmark_input` identifies the runnable
+input, while `reference_source_dir` and `source_files` describe the complete
+reference tree.
 
 ## Recovery
 

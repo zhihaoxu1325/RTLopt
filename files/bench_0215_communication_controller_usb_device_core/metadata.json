@@ -21,21 +21,40 @@
   "loc": 3348,
   "module_count": 7,
   "file_count": 7,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0215_communication_controller_usb_device_core",
   "design_path": "files/bench_0215_communication_controller_usb_device_core/design.v",
   "metadata_path": "files/bench_0215_communication_controller_usb_device_core/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/usbf_device.v",
-    "rtl/phy/usb_phy.v",
-    "rtl/phy/usb_rx_phy.v",
-    "rtl/phy/usb_tx_phy.v",
-    "rtl/usbf_crc16.v",
-    "rtl/usbf_fifo.v",
-    "rtl/usbf_sie.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/usbf_device.v",
+      "repo_path": "reference_sources/rtl/usbf_device.v"
+    },
+    {
+      "upstream_path": "rtl/phy/usb_phy.v",
+      "repo_path": "reference_sources/rtl/phy/usb_phy.v"
+    },
+    {
+      "upstream_path": "rtl/phy/usb_rx_phy.v",
+      "repo_path": "reference_sources/rtl/phy/usb_rx_phy.v"
+    },
+    {
+      "upstream_path": "rtl/phy/usb_tx_phy.v",
+      "repo_path": "reference_sources/rtl/phy/usb_tx_phy.v"
+    },
+    {
+      "upstream_path": "rtl/usbf_crc16.v",
+      "repo_path": "reference_sources/rtl/usbf_crc16.v"
+    },
+    {
+      "upstream_path": "rtl/usbf_fifo.v",
+      "repo_path": "reference_sources/rtl/usbf_fifo.v"
+    },
+    {
+      "upstream_path": "rtl/usbf_sie.v",
+      "repo_path": "reference_sources/rtl/usbf_sie.v"
+    }
   ]
 }

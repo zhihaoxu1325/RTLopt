@@ -26,7 +26,7 @@
   "loc": 4522,
   "module_count": 12,
   "file_count": 14,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "license_files": [
     "doc/gpl.txt",
     "doc/lgpl.txt"
@@ -34,24 +34,64 @@
   "case_dir": "files/bench_0225_ecc_core_reed_solomon_decoder_204188",
   "design_path": "files/bench_0225_ecc_core_reed_solomon_decoder_204188/design.v",
   "metadata_path": "files/bench_0225_ecc_core_reed_solomon_decoder_204188/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "RTL/verilog/mmc_boot_defines.v",
-    "RTL/verilog/virtex_bitstream_const.v",
-    "RTL/RS_dec.v",
-    "RTL/BM_lamda.v",
-    "RTL/DP_RAM.v",
-    "RTL/GF_matrix_ascending_binary.v",
-    "RTL/GF_matrix_dec.v",
-    "RTL/GF_mult_add_syndromes.v",
-    "RTL/Omega_Phy.v",
-    "RTL/error_correction.v",
-    "RTL/input_syndromes.v",
-    "RTL/lamda_roots.v",
-    "RTL/out_stage.v",
-    "RTL/transport_in2out.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "RTL/verilog/mmc_boot_defines.v",
+      "repo_path": "reference_sources/RTL/verilog/mmc_boot_defines.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/virtex_bitstream_const.v",
+      "repo_path": "reference_sources/RTL/verilog/virtex_bitstream_const.v"
+    },
+    {
+      "upstream_path": "RTL/RS_dec.v",
+      "repo_path": "reference_sources/RTL/RS_dec.v"
+    },
+    {
+      "upstream_path": "RTL/BM_lamda.v",
+      "repo_path": "reference_sources/RTL/BM_lamda.v"
+    },
+    {
+      "upstream_path": "RTL/DP_RAM.v",
+      "repo_path": "reference_sources/RTL/DP_RAM.v"
+    },
+    {
+      "upstream_path": "RTL/GF_matrix_ascending_binary.v",
+      "repo_path": "reference_sources/RTL/GF_matrix_ascending_binary.v"
+    },
+    {
+      "upstream_path": "RTL/GF_matrix_dec.v",
+      "repo_path": "reference_sources/RTL/GF_matrix_dec.v"
+    },
+    {
+      "upstream_path": "RTL/GF_mult_add_syndromes.v",
+      "repo_path": "reference_sources/RTL/GF_mult_add_syndromes.v"
+    },
+    {
+      "upstream_path": "RTL/Omega_Phy.v",
+      "repo_path": "reference_sources/RTL/Omega_Phy.v"
+    },
+    {
+      "upstream_path": "RTL/error_correction.v",
+      "repo_path": "reference_sources/RTL/error_correction.v"
+    },
+    {
+      "upstream_path": "RTL/input_syndromes.v",
+      "repo_path": "reference_sources/RTL/input_syndromes.v"
+    },
+    {
+      "upstream_path": "RTL/lamda_roots.v",
+      "repo_path": "reference_sources/RTL/lamda_roots.v"
+    },
+    {
+      "upstream_path": "RTL/out_stage.v",
+      "repo_path": "reference_sources/RTL/out_stage.v"
+    },
+    {
+      "upstream_path": "RTL/transport_in2out.v",
+      "repo_path": "reference_sources/RTL/transport_in2out.v"
+    }
   ]
 }

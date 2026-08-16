@@ -26,28 +26,68 @@
   "loc": 2445,
   "module_count": 12,
   "file_count": 14,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0196_crypto_core_des_triple_des_ip_cores",
   "design_path": "files/bench_0196_crypto_core_des_triple_des_ip_cores/design.v",
   "metadata_path": "files/bench_0196_crypto_core_des_triple_des_ip_cores/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/perf_opt/des3.v",
-    "rtl/verilog/area_opt/des.v",
-    "rtl/verilog/area_opt/des3.v",
-    "rtl/verilog/common/crp.v",
-    "rtl/verilog/common/sbox1.v",
-    "rtl/verilog/common/sbox2.v",
-    "rtl/verilog/common/sbox3.v",
-    "rtl/verilog/common/sbox4.v",
-    "rtl/verilog/common/sbox5.v",
-    "rtl/verilog/common/sbox6.v",
-    "rtl/verilog/common/sbox7.v",
-    "rtl/verilog/common/sbox8.v",
-    "rtl/verilog/perf_opt/des.v",
-    "rtl/verilog/perf_opt/key_sel.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/perf_opt/des3.v",
+      "repo_path": "reference_sources/rtl/verilog/perf_opt/des3.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/area_opt/des.v",
+      "repo_path": "reference_sources/rtl/verilog/area_opt/des.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/area_opt/des3.v",
+      "repo_path": "reference_sources/rtl/verilog/area_opt/des3.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/crp.v",
+      "repo_path": "reference_sources/rtl/verilog/common/crp.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/sbox1.v",
+      "repo_path": "reference_sources/rtl/verilog/common/sbox1.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/sbox2.v",
+      "repo_path": "reference_sources/rtl/verilog/common/sbox2.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/sbox3.v",
+      "repo_path": "reference_sources/rtl/verilog/common/sbox3.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/sbox4.v",
+      "repo_path": "reference_sources/rtl/verilog/common/sbox4.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/sbox5.v",
+      "repo_path": "reference_sources/rtl/verilog/common/sbox5.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/sbox6.v",
+      "repo_path": "reference_sources/rtl/verilog/common/sbox6.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/sbox7.v",
+      "repo_path": "reference_sources/rtl/verilog/common/sbox7.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/common/sbox8.v",
+      "repo_path": "reference_sources/rtl/verilog/common/sbox8.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/perf_opt/des.v",
+      "repo_path": "reference_sources/rtl/verilog/perf_opt/des.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/perf_opt/key_sel.v",
+      "repo_path": "reference_sources/rtl/verilog/perf_opt/key_sel.v"
+    }
   ]
 }

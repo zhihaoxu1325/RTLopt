@@ -17,20 +17,36 @@
   "loc": 210,
   "module_count": 3,
   "file_count": 6,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0016_memory_core_ram_wb",
   "design_path": "files/bench_0016_memory_core_ram_wb/design.v",
   "metadata_path": "files/bench_0016_memory_core_ram_wb/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/ram_wb_defines.v",
-    "rtl/verilog/ram_wb.v",
-    "rtl/verilog/ram_wb_sc_dw.v",
-    "rtl/verilog/ram_wb_sc_dw_wrapper.v",
-    "rtl/verilog/ram_wb_sc_sw.v",
-    "rtl/verilog/wb_ram_sc_sw.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/ram_wb_defines.v",
+      "repo_path": "reference_sources/rtl/verilog/ram_wb_defines.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ram_wb.v",
+      "repo_path": "reference_sources/rtl/verilog/ram_wb.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ram_wb_sc_dw.v",
+      "repo_path": "reference_sources/rtl/verilog/ram_wb_sc_dw.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ram_wb_sc_dw_wrapper.v",
+      "repo_path": "reference_sources/rtl/verilog/ram_wb_sc_dw_wrapper.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ram_wb_sc_sw.v",
+      "repo_path": "reference_sources/rtl/verilog/ram_wb_sc_sw.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/wb_ram_sc_sw.v",
+      "repo_path": "reference_sources/rtl/verilog/wb_ram_sc_sw.v"
+    }
   ]
 }

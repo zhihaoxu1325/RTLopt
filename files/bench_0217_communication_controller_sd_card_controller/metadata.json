@@ -28,30 +28,76 @@
   "loc": 3621,
   "module_count": 14,
   "file_count": 16,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0217_communication_controller_sd_card_controller",
   "design_path": "files/bench_0217_communication_controller_sd_card_controller/design.v",
   "metadata_path": "files/bench_0217_communication_controller_sd_card_controller/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/sdc_fifo/verilog/sd_defines.v",
-    "rtl/sdc_dma/verilog/sd_defines.v",
-    "rtl/sdc_dma/verilog/sdc_controller.v",
-    "rtl/sdc_dma/verilog/sd_bd.v",
-    "rtl/sdc_dma/verilog/sd_clock_divider.v",
-    "rtl/sdc_dma/verilog/sd_cmd_master.v",
-    "rtl/sdc_dma/verilog/sd_cmd_serial_host.v",
-    "rtl/sdc_dma/verilog/sd_controller_wb.v",
-    "rtl/sdc_dma/verilog/sd_crc_16.v",
-    "rtl/sdc_dma/verilog/sd_crc_7.v",
-    "rtl/sdc_dma/verilog/sd_data_master.v",
-    "rtl/sdc_dma/verilog/sd_data_serial_host.v",
-    "rtl/sdc_dma/verilog/sd_fifo_rx_filler.v",
-    "rtl/sdc_dma/verilog/sd_fifo_tx_filler.v",
-    "rtl/sdc_dma/verilog/sd_rx_fifo.v",
-    "rtl/sdc_dma/verilog/sd_tx_fifo.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/sdc_fifo/verilog/sd_defines.v",
+      "repo_path": "reference_sources/rtl/sdc_fifo/verilog/sd_defines.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_defines.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_defines.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sdc_controller.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sdc_controller.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_bd.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_bd.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_clock_divider.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_clock_divider.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_cmd_master.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_cmd_master.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_cmd_serial_host.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_cmd_serial_host.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_controller_wb.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_controller_wb.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_crc_16.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_crc_16.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_crc_7.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_crc_7.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_data_master.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_data_master.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_data_serial_host.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_data_serial_host.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_fifo_rx_filler.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_fifo_rx_filler.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_fifo_tx_filler.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_fifo_tx_filler.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_rx_fifo.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_rx_fifo.v"
+    },
+    {
+      "upstream_path": "rtl/sdc_dma/verilog/sd_tx_fifo.v",
+      "repo_path": "reference_sources/rtl/sdc_dma/verilog/sd_tx_fifo.v"
+    }
   ]
 }

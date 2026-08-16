@@ -19,19 +19,32 @@
   "loc": 772,
   "module_count": 5,
   "file_count": 5,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0057_communication_controller_i2c_to_wb",
   "design_path": "files/bench_0057_communication_controller_i2c_to_wb/design.v",
   "metadata_path": "files/bench_0057_communication_controller_i2c_to_wb/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "src/i2c_to_wb_top.v",
-    "src/glitch_filter.v",
-    "src/i2c_to_wb_config.v",
-    "src/i2c_to_wb_fsm.v",
-    "src/i2c_to_wb_if.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "src/i2c_to_wb_top.v",
+      "repo_path": "reference_sources/src/i2c_to_wb_top.v"
+    },
+    {
+      "upstream_path": "src/glitch_filter.v",
+      "repo_path": "reference_sources/src/glitch_filter.v"
+    },
+    {
+      "upstream_path": "src/i2c_to_wb_config.v",
+      "repo_path": "reference_sources/src/i2c_to_wb_config.v"
+    },
+    {
+      "upstream_path": "src/i2c_to_wb_fsm.v",
+      "repo_path": "reference_sources/src/i2c_to_wb_fsm.v"
+    },
+    {
+      "upstream_path": "src/i2c_to_wb_if.v",
+      "repo_path": "reference_sources/src/i2c_to_wb_if.v"
+    }
   ]
 }

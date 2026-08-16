@@ -15,17 +15,24 @@
   "loc": 607,
   "module_count": 1,
   "file_count": 3,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0055_crypto_core_md5_pipelined",
   "design_path": "files/bench_0055_crypto_core_md5_pipelined/design.v",
   "metadata_path": "files/bench_0055_crypto_core_md5_pipelined/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "Md5CoreTestMacros.v",
-    "Md5CoreTestCases.v",
-    "Md5Core.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "Md5CoreTestMacros.v",
+      "repo_path": "reference_sources/Md5CoreTestMacros.v"
+    },
+    {
+      "upstream_path": "Md5CoreTestCases.v",
+      "repo_path": "reference_sources/Md5CoreTestCases.v"
+    },
+    {
+      "upstream_path": "Md5Core.v",
+      "repo_path": "reference_sources/Md5Core.v"
+    }
   ]
 }

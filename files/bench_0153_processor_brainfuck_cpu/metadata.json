@@ -25,7 +25,7 @@
   "loc": 2277,
   "module_count": 11,
   "file_count": 14,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "license_files": [
     "doc/gpl.txt",
     "doc/lgpl.txt"
@@ -33,24 +33,64 @@
   "case_dir": "files/bench_0153_processor_brainfuck_cpu",
   "design_path": "files/bench_0153_processor_brainfuck_cpu/design.v",
   "metadata_path": "files/bench_0153_processor_brainfuck_cpu/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "RTL/verilog/mmc_boot_defines.v",
-    "RTL/verilog/virtex_bitstream_const.v",
-    "RTL/verilog/PSG16.v",
-    "RTL/verilog/PSGBusArb.v",
-    "RTL/verilog/PSGChannelSummer.v",
-    "RTL/verilog/PSGEnvGen.v",
-    "RTL/verilog/PSGEnvGenDec.v",
-    "RTL/verilog/PSGFilter.v",
-    "RTL/verilog/PSGMasterVolumeControl.v",
-    "RTL/verilog/PSGNoteGen.v",
-    "RTL/verilog/PSGNoteOutMux.v",
-    "RTL/verilog/PSGOutputSummer.v",
-    "RTL/verilog/PSGShaper.v",
-    "RTL/verilog/mux4to1.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "RTL/verilog/mmc_boot_defines.v",
+      "repo_path": "reference_sources/RTL/verilog/mmc_boot_defines.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/virtex_bitstream_const.v",
+      "repo_path": "reference_sources/RTL/verilog/virtex_bitstream_const.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSG16.v",
+      "repo_path": "reference_sources/RTL/verilog/PSG16.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGBusArb.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGBusArb.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGChannelSummer.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGChannelSummer.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGEnvGen.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGEnvGen.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGEnvGenDec.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGEnvGenDec.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGFilter.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGFilter.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGMasterVolumeControl.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGMasterVolumeControl.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGNoteGen.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGNoteGen.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGNoteOutMux.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGNoteOutMux.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGOutputSummer.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGOutputSummer.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/PSGShaper.v",
+      "repo_path": "reference_sources/RTL/verilog/PSGShaper.v"
+    },
+    {
+      "upstream_path": "RTL/verilog/mux4to1.v",
+      "repo_path": "reference_sources/RTL/verilog/mux4to1.v"
+    }
   ]
 }

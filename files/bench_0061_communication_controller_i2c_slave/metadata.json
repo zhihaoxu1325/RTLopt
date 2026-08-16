@@ -18,19 +18,32 @@
   "loc": 864,
   "module_count": 4,
   "file_count": 5,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0061_communication_controller_i2c_slave",
   "design_path": "files/bench_0061_communication_controller_i2c_slave/design.v",
   "metadata_path": "files/bench_0061_communication_controller_i2c_slave/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/i2cSlave_define.v",
-    "rtl/i2cSlaveTop.v",
-    "rtl/i2cSlave.v",
-    "rtl/registerInterface.v",
-    "rtl/serialInterface.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/i2cSlave_define.v",
+      "repo_path": "reference_sources/rtl/i2cSlave_define.v"
+    },
+    {
+      "upstream_path": "rtl/i2cSlaveTop.v",
+      "repo_path": "reference_sources/rtl/i2cSlaveTop.v"
+    },
+    {
+      "upstream_path": "rtl/i2cSlave.v",
+      "repo_path": "reference_sources/rtl/i2cSlave.v"
+    },
+    {
+      "upstream_path": "rtl/registerInterface.v",
+      "repo_path": "reference_sources/rtl/registerInterface.v"
+    },
+    {
+      "upstream_path": "rtl/serialInterface.v",
+      "repo_path": "reference_sources/rtl/serialInterface.v"
+    }
   ]
 }

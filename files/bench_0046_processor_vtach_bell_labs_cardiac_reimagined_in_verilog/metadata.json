@@ -21,7 +21,7 @@
   "loc": 482,
   "module_count": 7,
   "file_count": 1,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "license_files": [
     "doc/gpl.txt",
     "doc/lgpl.txt"
@@ -29,11 +29,12 @@
   "case_dir": "files/bench_0046_processor_vtach_bell_labs_cardiac_reimagined_in_verilog",
   "design_path": "files/bench_0046_processor_vtach_bell_labs_cardiac_reimagined_in_verilog/design.v",
   "metadata_path": "files/bench_0046_processor_vtach_bell_labs_cardiac_reimagined_in_verilog/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "RTL/device_box.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "RTL/device_box.v",
+      "repo_path": "reference_sources/RTL/device_box.v"
+    }
   ]
 }

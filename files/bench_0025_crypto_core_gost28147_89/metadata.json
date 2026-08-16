@@ -17,20 +17,27 @@
   "loc": 236,
   "module_count": 3,
   "file_count": 3,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "license_files": [
     "LICENSE"
   ],
   "case_dir": "files/bench_0025_crypto_core_gost28147_89",
   "design_path": "files/bench_0025_crypto_core_gost28147_89/design.v",
   "metadata_path": "files/bench_0025_crypto_core_gost28147_89/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/gost89_pipelined_ecb.v",
-    "rtl/gost89_round.v",
-    "rtl/gost89_sbox.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/gost89_pipelined_ecb.v",
+      "repo_path": "reference_sources/rtl/gost89_pipelined_ecb.v"
+    },
+    {
+      "upstream_path": "rtl/gost89_round.v",
+      "repo_path": "reference_sources/rtl/gost89_round.v"
+    },
+    {
+      "upstream_path": "rtl/gost89_sbox.v",
+      "repo_path": "reference_sources/rtl/gost89_sbox.v"
+    }
   ]
 }

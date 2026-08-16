@@ -27,27 +27,64 @@
   "loc": 3269,
   "module_count": 13,
   "file_count": 13,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0212_other_an_alternative_oscilloscope",
   "design_path": "files/bench_0212_other_an_alternative_oscilloscope/design.v",
   "metadata_path": "files/bench_0212_other_an_alternative_oscilloscope/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "d_TopLevel.v",
-    "AdcDriver/d_Driver_ADC.v",
-    "AdcDriver/d_Driver_ADCRamBuffer.v",
-    "AdcDriver/d_Driver_RamBuffer.v",
-    "Mouse/d_DriverMouse.v",
-    "SegDriver/d_HexSeg.v",
-    "SegDriver/d_SegDriver.v",
-    "UserInput/d_MouseInput.v",
-    "UserInput/sub_UserBoxes.v",
-    "UserInput/sub_UserLines.v",
-    "VGA/CharDecode/d_CharDecode.v",
-    "VGA/d_VGAdriver.v",
-    "VGA/d_VgaRamBuffer.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "d_TopLevel.v",
+      "repo_path": "reference_sources/d_TopLevel.v"
+    },
+    {
+      "upstream_path": "AdcDriver/d_Driver_ADC.v",
+      "repo_path": "reference_sources/AdcDriver/d_Driver_ADC.v"
+    },
+    {
+      "upstream_path": "AdcDriver/d_Driver_ADCRamBuffer.v",
+      "repo_path": "reference_sources/AdcDriver/d_Driver_ADCRamBuffer.v"
+    },
+    {
+      "upstream_path": "AdcDriver/d_Driver_RamBuffer.v",
+      "repo_path": "reference_sources/AdcDriver/d_Driver_RamBuffer.v"
+    },
+    {
+      "upstream_path": "Mouse/d_DriverMouse.v",
+      "repo_path": "reference_sources/Mouse/d_DriverMouse.v"
+    },
+    {
+      "upstream_path": "SegDriver/d_HexSeg.v",
+      "repo_path": "reference_sources/SegDriver/d_HexSeg.v"
+    },
+    {
+      "upstream_path": "SegDriver/d_SegDriver.v",
+      "repo_path": "reference_sources/SegDriver/d_SegDriver.v"
+    },
+    {
+      "upstream_path": "UserInput/d_MouseInput.v",
+      "repo_path": "reference_sources/UserInput/d_MouseInput.v"
+    },
+    {
+      "upstream_path": "UserInput/sub_UserBoxes.v",
+      "repo_path": "reference_sources/UserInput/sub_UserBoxes.v"
+    },
+    {
+      "upstream_path": "UserInput/sub_UserLines.v",
+      "repo_path": "reference_sources/UserInput/sub_UserLines.v"
+    },
+    {
+      "upstream_path": "VGA/CharDecode/d_CharDecode.v",
+      "repo_path": "reference_sources/VGA/CharDecode/d_CharDecode.v"
+    },
+    {
+      "upstream_path": "VGA/d_VGAdriver.v",
+      "repo_path": "reference_sources/VGA/d_VGAdriver.v"
+    },
+    {
+      "upstream_path": "VGA/d_VgaRamBuffer.v",
+      "repo_path": "reference_sources/VGA/d_VgaRamBuffer.v"
+    }
   ]
 }

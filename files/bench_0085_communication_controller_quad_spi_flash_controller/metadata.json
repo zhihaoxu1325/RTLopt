@@ -16,7 +16,7 @@
   "loc": 1529,
   "module_count": 2,
   "file_count": 2,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "license_files": [
     "doc/gpl-3.0.pdf",
     "doc/src/gpl-3.0.tex"
@@ -24,12 +24,16 @@
   "case_dir": "files/bench_0085_communication_controller_quad_spi_flash_controller",
   "design_path": "files/bench_0085_communication_controller_quad_spi_flash_controller/design.v",
   "metadata_path": "files/bench_0085_communication_controller_quad_spi_flash_controller/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/wbqspiflash.v",
-    "rtl/llqspi.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/wbqspiflash.v",
+      "repo_path": "reference_sources/rtl/wbqspiflash.v"
+    },
+    {
+      "upstream_path": "rtl/llqspi.v",
+      "repo_path": "reference_sources/rtl/llqspi.v"
+    }
   ]
 }

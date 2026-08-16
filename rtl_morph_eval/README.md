@@ -16,10 +16,12 @@ Benchmark cases live under `../files/bench_*/`. Each case uses one
 `design.v` as the optimization input; adjacent metadata records the selected
 top module and provenance.
 
-In the metadata, `design_path` is the repo-local benchmark input.
-`upstream_included_files` records the original upstream RTL paths that were
-merged into that single `design.v`; those upstream paths are not separate
-benchmark files in this repository.
+In the metadata, `benchmark_input` and `design_path` identify `design.v`
+as the only input passed to the LLM and evaluation flow.
+`reference_source_dir` points to `reference_sources/`, which contains the
+individual upstream RTL files assembled into `design.v` for provenance and
+inspection only. `source_files` maps every original `upstream_path` to its
+existing repo-local `repo_path`.
 
 Run one benchmark case:
 

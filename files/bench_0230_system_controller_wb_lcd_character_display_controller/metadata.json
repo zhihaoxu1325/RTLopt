@@ -19,45 +19,136 @@
   "loc": 5171,
   "module_count": 5,
   "file_count": 31,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0230_system_controller_wb_lcd_character_display_controller",
   "design_path": "files/bench_0230_system_controller_wb_lcd_character_display_controller/design.v",
   "metadata_path": "files/bench_0230_system_controller_wb_lcd_character_display_controller/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "myhdl/wb_lcd_workspace/rtl/lcd_defines.v",
-    "myhdl/wb_lcd_workspace_ramless/rtl/lcd_defines.v",
-    "verilog/wb_lcd_ramless/rtl/lcd_defines.v",
-    "verilog/wb_lcd/rtl/lcd_defines.v",
-    "verilog/wb_lcd/boards/s3esk-wb_lcd/rtl/system.v",
-    "myhdl/wb_lcd_workspace/boards/s3esk-mm_lcd/rtl/rotary.v",
-    "myhdl/wb_lcd_workspace/boards/s3esk-mm_lcd/rtl/system.v",
-    "myhdl/wb_lcd_workspace/boards/s3esk-wb_lcd/rtl/rotary.v",
-    "myhdl/wb_lcd_workspace/boards/s3esk-wb_lcd/rtl/system.v",
-    "myhdl/wb_lcd_workspace/rtl/delay_counter.v",
-    "myhdl/wb_lcd_workspace/rtl/lcd_display.v",
-    "myhdl/wb_lcd_workspace/rtl/wb_lcd.v",
-    "myhdl/wb_lcd_workspace_ramless/boards/s3esk-mm_lcd/rtl/rotary.v",
-    "myhdl/wb_lcd_workspace_ramless/boards/s3esk-mm_lcd/rtl/system.v",
-    "myhdl/wb_lcd_workspace_ramless/boards/s3esk-wb_lcd/rtl/rotary.v",
-    "myhdl/wb_lcd_workspace_ramless/boards/s3esk-wb_lcd/rtl/system.v",
-    "myhdl/wb_lcd_workspace_ramless/rtl/lcd_display.v",
-    "myhdl/wb_lcd_workspace_ramless/rtl/wb_lcd.v",
-    "verilog/wb_lcd/boards/s3esk-mm_lcd/rtl/rotary.v",
-    "verilog/wb_lcd/boards/s3esk-mm_lcd/rtl/system.v",
-    "verilog/wb_lcd/boards/s3esk-wb_lcd/rtl/rotary.v",
-    "verilog/wb_lcd/rtl/delay_counter.v",
-    "verilog/wb_lcd/rtl/lcd_display.v",
-    "verilog/wb_lcd/rtl/wb_lcd.v",
-    "verilog/wb_lcd_ramless/boards/s3esk-mm_lcd/rtl/rotary.v",
-    "verilog/wb_lcd_ramless/boards/s3esk-mm_lcd/rtl/system.v",
-    "verilog/wb_lcd_ramless/boards/s3esk-wb_lcd/rtl/rotary.v",
-    "verilog/wb_lcd_ramless/boards/s3esk-wb_lcd/rtl/system.v",
-    "verilog/wb_lcd_ramless/rtl/delay_counter.v",
-    "verilog/wb_lcd_ramless/rtl/lcd_display.v",
-    "verilog/wb_lcd_ramless/rtl/wb_lcd.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace/rtl/lcd_defines.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace/rtl/lcd_defines.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace_ramless/rtl/lcd_defines.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace_ramless/rtl/lcd_defines.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd_ramless/rtl/lcd_defines.v",
+      "repo_path": "reference_sources/verilog/wb_lcd_ramless/rtl/lcd_defines.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd/rtl/lcd_defines.v",
+      "repo_path": "reference_sources/verilog/wb_lcd/rtl/lcd_defines.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd/boards/s3esk-wb_lcd/rtl/system.v",
+      "repo_path": "reference_sources/verilog/wb_lcd/boards/s3esk-wb_lcd/rtl/system.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace/boards/s3esk-mm_lcd/rtl/rotary.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace/boards/s3esk-mm_lcd/rtl/rotary.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace/boards/s3esk-mm_lcd/rtl/system.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace/boards/s3esk-mm_lcd/rtl/system.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace/boards/s3esk-wb_lcd/rtl/rotary.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace/boards/s3esk-wb_lcd/rtl/rotary.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace/boards/s3esk-wb_lcd/rtl/system.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace/boards/s3esk-wb_lcd/rtl/system.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace/rtl/delay_counter.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace/rtl/delay_counter.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace/rtl/lcd_display.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace/rtl/lcd_display.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace/rtl/wb_lcd.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace/rtl/wb_lcd.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace_ramless/boards/s3esk-mm_lcd/rtl/rotary.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace_ramless/boards/s3esk-mm_lcd/rtl/rotary.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace_ramless/boards/s3esk-mm_lcd/rtl/system.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace_ramless/boards/s3esk-mm_lcd/rtl/system.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace_ramless/boards/s3esk-wb_lcd/rtl/rotary.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace_ramless/boards/s3esk-wb_lcd/rtl/rotary.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace_ramless/boards/s3esk-wb_lcd/rtl/system.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace_ramless/boards/s3esk-wb_lcd/rtl/system.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace_ramless/rtl/lcd_display.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace_ramless/rtl/lcd_display.v"
+    },
+    {
+      "upstream_path": "myhdl/wb_lcd_workspace_ramless/rtl/wb_lcd.v",
+      "repo_path": "reference_sources/myhdl/wb_lcd_workspace_ramless/rtl/wb_lcd.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd/boards/s3esk-mm_lcd/rtl/rotary.v",
+      "repo_path": "reference_sources/verilog/wb_lcd/boards/s3esk-mm_lcd/rtl/rotary.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd/boards/s3esk-mm_lcd/rtl/system.v",
+      "repo_path": "reference_sources/verilog/wb_lcd/boards/s3esk-mm_lcd/rtl/system.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd/boards/s3esk-wb_lcd/rtl/rotary.v",
+      "repo_path": "reference_sources/verilog/wb_lcd/boards/s3esk-wb_lcd/rtl/rotary.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd/rtl/delay_counter.v",
+      "repo_path": "reference_sources/verilog/wb_lcd/rtl/delay_counter.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd/rtl/lcd_display.v",
+      "repo_path": "reference_sources/verilog/wb_lcd/rtl/lcd_display.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd/rtl/wb_lcd.v",
+      "repo_path": "reference_sources/verilog/wb_lcd/rtl/wb_lcd.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd_ramless/boards/s3esk-mm_lcd/rtl/rotary.v",
+      "repo_path": "reference_sources/verilog/wb_lcd_ramless/boards/s3esk-mm_lcd/rtl/rotary.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd_ramless/boards/s3esk-mm_lcd/rtl/system.v",
+      "repo_path": "reference_sources/verilog/wb_lcd_ramless/boards/s3esk-mm_lcd/rtl/system.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd_ramless/boards/s3esk-wb_lcd/rtl/rotary.v",
+      "repo_path": "reference_sources/verilog/wb_lcd_ramless/boards/s3esk-wb_lcd/rtl/rotary.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd_ramless/boards/s3esk-wb_lcd/rtl/system.v",
+      "repo_path": "reference_sources/verilog/wb_lcd_ramless/boards/s3esk-wb_lcd/rtl/system.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd_ramless/rtl/delay_counter.v",
+      "repo_path": "reference_sources/verilog/wb_lcd_ramless/rtl/delay_counter.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd_ramless/rtl/lcd_display.v",
+      "repo_path": "reference_sources/verilog/wb_lcd_ramless/rtl/lcd_display.v"
+    },
+    {
+      "upstream_path": "verilog/wb_lcd_ramless/rtl/wb_lcd.v",
+      "repo_path": "reference_sources/verilog/wb_lcd_ramless/rtl/wb_lcd.v"
+    }
   ]
 }

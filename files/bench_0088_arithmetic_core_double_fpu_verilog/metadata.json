@@ -21,22 +21,44 @@
   "loc": 2018,
   "module_count": 7,
   "file_count": 8,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0088_arithmetic_core_double_fpu_verilog",
   "design_path": "files/bench_0088_arithmetic_core_double_fpu_verilog/design.v",
   "metadata_path": "files/bench_0088_arithmetic_core_double_fpu_verilog/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "fpu_double.v",
-    "fpu_add.v",
-    "fpu_div.v",
-    "fpu_exceptions.v",
-    "fpu_mul.v",
-    "fpu_round.v",
-    "fpu_sub.v",
-    "pipeline/fpu_mul.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "fpu_double.v",
+      "repo_path": "reference_sources/fpu_double.v"
+    },
+    {
+      "upstream_path": "fpu_add.v",
+      "repo_path": "reference_sources/fpu_add.v"
+    },
+    {
+      "upstream_path": "fpu_div.v",
+      "repo_path": "reference_sources/fpu_div.v"
+    },
+    {
+      "upstream_path": "fpu_exceptions.v",
+      "repo_path": "reference_sources/fpu_exceptions.v"
+    },
+    {
+      "upstream_path": "fpu_mul.v",
+      "repo_path": "reference_sources/fpu_mul.v"
+    },
+    {
+      "upstream_path": "fpu_round.v",
+      "repo_path": "reference_sources/fpu_round.v"
+    },
+    {
+      "upstream_path": "fpu_sub.v",
+      "repo_path": "reference_sources/fpu_sub.v"
+    },
+    {
+      "upstream_path": "pipeline/fpu_mul.v",
+      "repo_path": "reference_sources/pipeline/fpu_mul.v"
+    }
   ]
 }

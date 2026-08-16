@@ -24,7 +24,7 @@
   "loc": 1067,
   "module_count": 10,
   "file_count": 10,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "license_files": [
     "LICENSE",
     "lib/LICENSE"
@@ -32,20 +32,48 @@
   "case_dir": "files/bench_0069_system_on_chip_async_sdm_noc",
   "design_path": "files/bench_0069_system_on_chip_async_sdm_noc/design.v",
   "metadata_path": "files/bench_0069_system_on_chip_async_sdm_noc/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "sdm/define.v",
-    "vc/src/inpbuf.v",
-    "common/src/cell_lib.v",
-    "common/src/comp4.v",
-    "common/src/ctree.v",
-    "common/src/pipe4.v",
-    "common/src/pipen.v",
-    "vc/src/ddmux.v",
-    "vc/src/rtu.v",
-    "vc/src/vcdmux.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "sdm/define.v",
+      "repo_path": "reference_sources/sdm/define.v"
+    },
+    {
+      "upstream_path": "vc/src/inpbuf.v",
+      "repo_path": "reference_sources/vc/src/inpbuf.v"
+    },
+    {
+      "upstream_path": "common/src/cell_lib.v",
+      "repo_path": "reference_sources/common/src/cell_lib.v"
+    },
+    {
+      "upstream_path": "common/src/comp4.v",
+      "repo_path": "reference_sources/common/src/comp4.v"
+    },
+    {
+      "upstream_path": "common/src/ctree.v",
+      "repo_path": "reference_sources/common/src/ctree.v"
+    },
+    {
+      "upstream_path": "common/src/pipe4.v",
+      "repo_path": "reference_sources/common/src/pipe4.v"
+    },
+    {
+      "upstream_path": "common/src/pipen.v",
+      "repo_path": "reference_sources/common/src/pipen.v"
+    },
+    {
+      "upstream_path": "vc/src/ddmux.v",
+      "repo_path": "reference_sources/vc/src/ddmux.v"
+    },
+    {
+      "upstream_path": "vc/src/rtu.v",
+      "repo_path": "reference_sources/vc/src/rtu.v"
+    },
+    {
+      "upstream_path": "vc/src/vcdmux.v",
+      "repo_path": "reference_sources/vc/src/vcdmux.v"
+    }
   ]
 }

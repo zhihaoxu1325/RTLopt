@@ -20,21 +20,40 @@
   "loc": 2824,
   "module_count": 6,
   "file_count": 7,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0207_memory_core_8_16_32_bit_sdram_controller",
   "design_path": "files/bench_0207_memory_core_8_16_32_bit_sdram_controller/design.v",
   "metadata_path": "files/bench_0207_memory_core_8_16_32_bit_sdram_controller/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/core/sdrc_define.v",
-    "rtl/core/sdrc_core.v",
-    "rtl/core/sdrc_bank_ctl.v",
-    "rtl/core/sdrc_bank_fsm.v",
-    "rtl/core/sdrc_bs_convert.v",
-    "rtl/core/sdrc_req_gen.v",
-    "rtl/core/sdrc_xfr_ctl.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/core/sdrc_define.v",
+      "repo_path": "reference_sources/rtl/core/sdrc_define.v"
+    },
+    {
+      "upstream_path": "rtl/core/sdrc_core.v",
+      "repo_path": "reference_sources/rtl/core/sdrc_core.v"
+    },
+    {
+      "upstream_path": "rtl/core/sdrc_bank_ctl.v",
+      "repo_path": "reference_sources/rtl/core/sdrc_bank_ctl.v"
+    },
+    {
+      "upstream_path": "rtl/core/sdrc_bank_fsm.v",
+      "repo_path": "reference_sources/rtl/core/sdrc_bank_fsm.v"
+    },
+    {
+      "upstream_path": "rtl/core/sdrc_bs_convert.v",
+      "repo_path": "reference_sources/rtl/core/sdrc_bs_convert.v"
+    },
+    {
+      "upstream_path": "rtl/core/sdrc_req_gen.v",
+      "repo_path": "reference_sources/rtl/core/sdrc_req_gen.v"
+    },
+    {
+      "upstream_path": "rtl/core/sdrc_xfr_ctl.v",
+      "repo_path": "reference_sources/rtl/core/sdrc_xfr_ctl.v"
+    }
   ]
 }

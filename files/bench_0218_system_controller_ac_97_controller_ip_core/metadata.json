@@ -29,30 +29,76 @@
   "loc": 3892,
   "module_count": 15,
   "file_count": 16,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0218_system_controller_ac_97_controller_ip_core",
   "design_path": "files/bench_0218_system_controller_ac_97_controller_ip_core/design.v",
   "metadata_path": "files/bench_0218_system_controller_ac_97_controller_ip_core/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/ac97_defines.v",
-    "rtl/verilog/ac97_top.v",
-    "rtl/verilog/ac97_cra.v",
-    "rtl/verilog/ac97_dma_if.v",
-    "rtl/verilog/ac97_dma_req.v",
-    "rtl/verilog/ac97_fifo_ctrl.v",
-    "rtl/verilog/ac97_in_fifo.v",
-    "rtl/verilog/ac97_int.v",
-    "rtl/verilog/ac97_out_fifo.v",
-    "rtl/verilog/ac97_prc.v",
-    "rtl/verilog/ac97_rf.v",
-    "rtl/verilog/ac97_rst.v",
-    "rtl/verilog/ac97_sin.v",
-    "rtl/verilog/ac97_soc.v",
-    "rtl/verilog/ac97_sout.v",
-    "rtl/verilog/ac97_wb_if.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/ac97_defines.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_defines.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_top.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_top.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_cra.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_cra.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_dma_if.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_dma_if.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_dma_req.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_dma_req.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_fifo_ctrl.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_fifo_ctrl.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_in_fifo.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_in_fifo.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_int.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_int.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_out_fifo.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_out_fifo.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_prc.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_prc.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_rf.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_rf.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_rst.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_rst.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_sin.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_sin.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_soc.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_soc.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_sout.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_sout.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/ac97_wb_if.v",
+      "repo_path": "reference_sources/rtl/verilog/ac97_wb_if.v"
+    }
   ]
 }

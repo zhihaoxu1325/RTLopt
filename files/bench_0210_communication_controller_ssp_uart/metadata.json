@@ -24,24 +24,52 @@
   "loc": 2920,
   "module_count": 10,
   "file_count": 10,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0210_communication_controller_ssp_uart",
   "design_path": "files/bench_0210_communication_controller_ssp_uart/design.v",
   "metadata_path": "files/bench_0210_communication_controller_ssp_uart/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "RTL/SSP_UART.v",
-    "RTL/DPSFnmCE.v",
-    "RTL/UART_BRG.v",
-    "RTL/UART_INT.v",
-    "RTL/UART_RTO.v",
-    "RTL/UART_RXSM.v",
-    "RTL/UART_TXSM.v",
-    "RTL/fedet.v",
-    "RTL/re1ce.v",
-    "RTL/redet.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "RTL/SSP_UART.v",
+      "repo_path": "reference_sources/RTL/SSP_UART.v"
+    },
+    {
+      "upstream_path": "RTL/DPSFnmCE.v",
+      "repo_path": "reference_sources/RTL/DPSFnmCE.v"
+    },
+    {
+      "upstream_path": "RTL/UART_BRG.v",
+      "repo_path": "reference_sources/RTL/UART_BRG.v"
+    },
+    {
+      "upstream_path": "RTL/UART_INT.v",
+      "repo_path": "reference_sources/RTL/UART_INT.v"
+    },
+    {
+      "upstream_path": "RTL/UART_RTO.v",
+      "repo_path": "reference_sources/RTL/UART_RTO.v"
+    },
+    {
+      "upstream_path": "RTL/UART_RXSM.v",
+      "repo_path": "reference_sources/RTL/UART_RXSM.v"
+    },
+    {
+      "upstream_path": "RTL/UART_TXSM.v",
+      "repo_path": "reference_sources/RTL/UART_TXSM.v"
+    },
+    {
+      "upstream_path": "RTL/fedet.v",
+      "repo_path": "reference_sources/RTL/fedet.v"
+    },
+    {
+      "upstream_path": "RTL/re1ce.v",
+      "repo_path": "reference_sources/RTL/re1ce.v"
+    },
+    {
+      "upstream_path": "RTL/redet.v",
+      "repo_path": "reference_sources/RTL/redet.v"
+    }
   ]
 }

@@ -16,19 +16,32 @@
   "loc": 4173,
   "module_count": 2,
   "file_count": 5,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0223_memory_core_versatile_memory_controller",
   "design_path": "files/bench_0223_memory_core_versatile_memory_controller/design.v",
   "metadata_path": "files/bench_0223_memory_core_versatile_memory_controller/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "sdr_sdram_ctrl.v",
-    "versatile_mem_ctrl_top.v",
-    "versatile_mem_ctrl_defines.v",
-    "ddr2_module.v",
-    "ddr2.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "sdr_sdram_ctrl.v",
+      "repo_path": "reference_sources/sdr_sdram_ctrl.v"
+    },
+    {
+      "upstream_path": "versatile_mem_ctrl_top.v",
+      "repo_path": "reference_sources/versatile_mem_ctrl_top.v"
+    },
+    {
+      "upstream_path": "versatile_mem_ctrl_defines.v",
+      "repo_path": "reference_sources/versatile_mem_ctrl_defines.v"
+    },
+    {
+      "upstream_path": "ddr2_module.v",
+      "repo_path": "reference_sources/ddr2_module.v"
+    },
+    {
+      "upstream_path": "ddr2.v",
+      "repo_path": "reference_sources/ddr2.v"
+    }
   ]
 }

@@ -17,18 +17,28 @@
   "loc": 1301,
   "module_count": 3,
   "file_count": 4,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0080_communication_controller_i2c_controller_core",
   "design_path": "files/bench_0080_communication_controller_i2c_controller_core/design.v",
   "metadata_path": "files/bench_0080_communication_controller_i2c_controller_core/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/i2c_master_defines.v",
-    "rtl/verilog/i2c_master_top.v",
-    "rtl/verilog/i2c_master_bit_ctrl.v",
-    "rtl/verilog/i2c_master_byte_ctrl.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/i2c_master_defines.v",
+      "repo_path": "reference_sources/rtl/verilog/i2c_master_defines.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/i2c_master_top.v",
+      "repo_path": "reference_sources/rtl/verilog/i2c_master_top.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/i2c_master_bit_ctrl.v",
+      "repo_path": "reference_sources/rtl/verilog/i2c_master_bit_ctrl.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/i2c_master_byte_ctrl.v",
+      "repo_path": "reference_sources/rtl/verilog/i2c_master_byte_ctrl.v"
+    }
   ]
 }

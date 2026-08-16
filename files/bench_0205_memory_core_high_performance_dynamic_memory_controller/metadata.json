@@ -26,26 +26,60 @@
   "loc": 2733,
   "module_count": 12,
   "file_count": 12,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0205_memory_core_high_performance_dynamic_memory_controller",
   "design_path": "files/bench_0205_memory_core_high_performance_dynamic_memory_controller/design.v",
   "metadata_path": "files/bench_0205_memory_core_high_performance_dynamic_memory_controller/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "hpdmc_ddr32/rtl/hpdmc.v",
-    "hpdmc_ddr32/rtl/hpdmc_banktimer.v",
-    "hpdmc_ddr32/rtl/hpdmc_busif.v",
-    "hpdmc_ddr32/rtl/hpdmc_ctlif.v",
-    "hpdmc_ddr32/rtl/hpdmc_datactl.v",
-    "hpdmc_ddr32/rtl/hpdmc_mgmt.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_ddrio.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_iddr32.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_iobuf32.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_obuft4.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr32.v",
-    "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr4.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/hpdmc.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/hpdmc.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/hpdmc_banktimer.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/hpdmc_banktimer.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/hpdmc_busif.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/hpdmc_busif.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/hpdmc_ctlif.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/hpdmc_ctlif.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/hpdmc_datactl.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/hpdmc_datactl.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/hpdmc_mgmt.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/hpdmc_mgmt.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/spartan6/hpdmc_ddrio.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/spartan6/hpdmc_ddrio.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/spartan6/hpdmc_iddr32.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/spartan6/hpdmc_iddr32.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/spartan6/hpdmc_iobuf32.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/spartan6/hpdmc_iobuf32.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/spartan6/hpdmc_obuft4.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/spartan6/hpdmc_obuft4.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr32.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/spartan6/hpdmc_oddr32.v"
+    },
+    {
+      "upstream_path": "hpdmc_ddr32/rtl/spartan6/hpdmc_oddr4.v",
+      "repo_path": "reference_sources/hpdmc_ddr32/rtl/spartan6/hpdmc_oddr4.v"
+    }
   ]
 }

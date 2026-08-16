@@ -19,19 +19,32 @@
   "loc": 501,
   "module_count": 5,
   "file_count": 5,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0048_other_bubblesortmodule",
   "design_path": "files/bench_0048_other_bubblesortmodule/design.v",
   "metadata_path": "files/bench_0048_other_bubblesortmodule/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/bublesort.v",
-    "rtl/verilog/bitsplit.v",
-    "rtl/verilog/intgenerator.v",
-    "rtl/verilog/rungenerator.v",
-    "rtl/verilog/stageen.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/bublesort.v",
+      "repo_path": "reference_sources/rtl/verilog/bublesort.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/bitsplit.v",
+      "repo_path": "reference_sources/rtl/verilog/bitsplit.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/intgenerator.v",
+      "repo_path": "reference_sources/rtl/verilog/intgenerator.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/rungenerator.v",
+      "repo_path": "reference_sources/rtl/verilog/rungenerator.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/stageen.v",
+      "repo_path": "reference_sources/rtl/verilog/stageen.v"
+    }
   ]
 }

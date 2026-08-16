@@ -26,20 +26,27 @@
   "loc": 882,
   "module_count": 12,
   "file_count": 3,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "license_files": [
     "LICENSE"
   ],
   "case_dir": "files/bench_0064_crypto_core_aes",
   "design_path": "files/bench_0064_crypto_core_aes/design.v",
   "metadata_path": "files/bench_0064_crypto_core_aes/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/aes_192.v",
-    "rtl/round.v",
-    "rtl/table.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/aes_192.v",
+      "repo_path": "reference_sources/rtl/aes_192.v"
+    },
+    {
+      "upstream_path": "rtl/round.v",
+      "repo_path": "reference_sources/rtl/round.v"
+    },
+    {
+      "upstream_path": "rtl/table.v",
+      "repo_path": "reference_sources/rtl/table.v"
+    }
   ]
 }

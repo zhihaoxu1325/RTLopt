@@ -11,9 +11,10 @@ Each case is self-contained:
 ```text
 files/
   bench_0001_.../
-    design.v        # single RTL input used for LLM optimization
-    metadata.json   # case id, category, top module, source, license, and file provenance
-    licenses/       # optional copied license texts for third-party provenance
+    design.v           # only RTL input used for LLM optimization
+    metadata.json      # case id, category, top module, source, license, and provenance
+    reference_sources/ # individual upstream files assembled into design.v
+    licenses/          # optional copied license texts for third-party provenance
 ```
 
 The repository contains 233 curated case directories. `design.v` is the only
@@ -28,10 +29,13 @@ rtl_morph_eval/configs/benchmark_manifest.json
 Metadata fields use repo-local and upstream names deliberately:
 
 - `design_path` points to the benchmark RTL file in this repository.
-- `repo_local_files` lists the files expected to exist in each benchmark case.
-- `upstream_included_files` lists original source-project paths that were
-  merged into `design.v`; these are provenance references only and are not
-  expected to exist as separate files in this repository.
+- `benchmark_input` is `design.v`, the only file passed to the LLM and
+  evaluation flow.
+- `reference_source_dir` points to `reference_sources/`, which is provided
+  only for provenance, inspection, and reproduction.
+- `source_files` maps each original `upstream_path` to an existing
+  repo-local `repo_path` under `reference_sources/`, in the order used to
+  assemble `design.v`.
 
 Some cases are derived from third-party open RTL projects. Their metadata keeps
 source and license provenance so cases can be reviewed before being used in a

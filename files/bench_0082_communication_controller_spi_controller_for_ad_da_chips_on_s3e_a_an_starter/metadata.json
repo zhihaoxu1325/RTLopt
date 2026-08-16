@@ -22,23 +22,48 @@
   "loc": 1386,
   "module_count": 8,
   "file_count": 9,
-  "notes": "Curated single-file RTL benchmark case. The repo-local benchmark input is design.v. upstream_included_files lists original source-project paths that were merged into design.v; those upstream paths are provenance only and are not expected to exist as separate files in this repository.",
+  "notes": "Curated single-file RTL benchmark case. Use design.v as the only benchmark and LLM input. reference_sources contains the individual upstream files merged into design.v for provenance and review only.",
   "case_dir": "files/bench_0082_communication_controller_spi_controller_for_ad_da_chips_on_s3e_a_an_starter",
   "design_path": "files/bench_0082_communication_controller_spi_controller_for_ad_da_chips_on_s3e_a_an_starter/design.v",
   "metadata_path": "files/bench_0082_communication_controller_spi_controller_for_ad_da_chips_on_s3e_a_an_starter/metadata.json",
-  "repo_local_files": [
-    "design.v",
-    "metadata.json"
-  ],
-  "upstream_included_files": [
-    "rtl/verilog/spi_defines.v",
-    "rtl/verilog/spi_top_tb2.v",
-    "rtl/verilog/adc.v",
-    "rtl/verilog/amp.v",
-    "rtl/verilog/dac.v",
-    "rtl/verilog/spi_clgen.v",
-    "rtl/verilog/spi_shift_in.v",
-    "rtl/verilog/spi_shift_out.v",
-    "rtl/verilog/spi_top.v"
+  "benchmark_input": "design.v",
+  "reference_source_dir": "reference_sources",
+  "source_files": [
+    {
+      "upstream_path": "rtl/verilog/spi_defines.v",
+      "repo_path": "reference_sources/rtl/verilog/spi_defines.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/spi_top_tb2.v",
+      "repo_path": "reference_sources/rtl/verilog/spi_top_tb2.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/adc.v",
+      "repo_path": "reference_sources/rtl/verilog/adc.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/amp.v",
+      "repo_path": "reference_sources/rtl/verilog/amp.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/dac.v",
+      "repo_path": "reference_sources/rtl/verilog/dac.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/spi_clgen.v",
+      "repo_path": "reference_sources/rtl/verilog/spi_clgen.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/spi_shift_in.v",
+      "repo_path": "reference_sources/rtl/verilog/spi_shift_in.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/spi_shift_out.v",
+      "repo_path": "reference_sources/rtl/verilog/spi_shift_out.v"
+    },
+    {
+      "upstream_path": "rtl/verilog/spi_top.v",
+      "repo_path": "reference_sources/rtl/verilog/spi_top.v"
+    }
   ]
 }
